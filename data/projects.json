@@ -90,6 +90,71 @@
       "updated_at": "2026-03-10T07:47:54.871Z",
       "highlights": "Self-hosted AI agent gateway in Go, single binary, low memory, fast startup.",
       "tags": ["Lightweight", "Fast"]
+    },
+    {
+      "repo": "ysz/nanoClaw",
+      "language": "Python",
+      "stars": 46,
+      "forks": 11,
+      "issues": 0,
+      "prs": 0,
+      "commits": 23,
+      "loc": 5831,
+      "updated_at": "2026-03-10T08:00:22.316Z",
+      "highlights": "Ultra-lightweight secure AI assistant, ~3K lines, 2-min setup, inspired by OpenClaw 🦀",
+      "tags": ["Lightweight", "Secure", "Isolated"]
+    },
+    {
+      "repo": "AbuZar-Ansarii/NanoBot-Android",
+      "language": "Unknown",
+      "stars": 25,
+      "forks": 6,
+      "issues": 0,
+      "prs": 0,
+      "commits": 2,
+      "loc": 0,
+      "updated_at": "2026-03-10T08:00:33.127Z",
+      "highlights": "🐈 Nanobot: Ultra-lightweight AI agent (~4K LOC) for Android/Termux with Telegram support",
+      "tags": ["Lightweight", "Isolated"]
+    },
+    {
+      "repo": "rayclaw/rayclaw",
+      "language": "Rust",
+      "stars": 18,
+      "forks": 2,
+      "issues": 0,
+      "prs": 0,
+      "commits": 63,
+      "loc": 43725,
+      "updated_at": "2026-03-10T08:00:42.273Z",
+      "highlights": "🦀 Rust AI agent connecting Telegram, Discord, Slack, Feishu and web UI.",
+      "tags": ["Office Assistant"]
+    },
+    {
+      "repo": "preset-io/agor-assistant",
+      "language": "Unknown",
+      "stars": 12,
+      "forks": 6,
+      "issues": 0,
+      "prs": 0,
+      "commits": 10,
+      "loc": 0,
+      "updated_at": "2026-03-10T08:01:00.544Z",
+      "highlights": "🦀 AI agent workspace with file-based identity for Agor multiplayer canvas",
+      "tags": ["Auditable", "Lightweight"]
+    },
+    {
+      "repo": "Kxrbx/Clawlet",
+      "language": "Python",
+      "stars": 10,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 137,
+      "loc": 47088,
+      "updated_at": "2026-03-10T08:01:17.913Z",
+      "highlights": "🌸 Lightweight AI agent framework with identity awareness, 2-minute local setup",
+      "tags": ["Lightweight", "Secure", "Isolated"]
     }
   ]
 }
