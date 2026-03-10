@@ -1,0 +1,32 @@
+{
+  "name": "clawclaw",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.4.3",
+    "@commitlint/config-conventional": "^20.4.3",
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^22.0.0",
+    "eslint": "^10.0.3",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.3.2",
+    "prettier": "^3.8.1",
+    "tsx": "^4.0.0",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.57.0"
+  },
+  "lint-staged": {
+    "*.{ts,js}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md,yml,yaml}": [
+      "prettier --write"
+    ]
+  }
+}

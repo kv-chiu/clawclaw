@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "repo": "openclaw/openclaw",
+      "language": "TypeScript",
+      "stars": 288719,
+      "forks": 54766,
+      "issues": 6219,
+      "prs": 5376,
+      "commits": 17845,
+      "loc": 1281992,
+      "highlights": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "tags": ["Original Claw"],
+      "updated_at": "2026-03-10T00:00:00Z"
+    },
+    {
+      "repo": "HKUDS/nanobot",
+      "language": "Python",
+      "stars": 31229,
+      "forks": 5123,
+      "issues": 415,
+      "prs": 566,
+      "commits": 1094,
+      "loc": 15408,
+      "highlights": "🐈 nanobot: The Ultra-Lightweight OpenClaw",
+      "tags": ["Lightweight", "Fast"],
+      "updated_at": "2026-03-10T00:00:00Z"
+    }
+  ]
+}

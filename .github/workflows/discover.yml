@@ -1,0 +1,62 @@
+name: Discover New Projects
+
+on:
+  schedule:
+    - cron: "0 8 * * 1" # Weekly on Monday at 08:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Install tokei
+        run: |
+          curl -fsSL https://github.com/XAMPPRocky/tokei/releases/latest/download/tokei-x86_64-unknown-linux-gnu.tar.gz | tar xz
+          sudo mv tokei /usr/local/bin/
+
+      - name: Discover new projects
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AI_API_BASE: ${{ secrets.AI_API_BASE }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_MODEL: ${{ vars.AI_MODEL }}
+          AI_EXTRA_PARAMS: ${{ vars.AI_EXTRA_PARAMS }}
+        run: |
+          pnpm start discover
+          pnpm start render
+
+      - name: Create PR if changed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet && exit 0
+          BRANCH="auto/discover-$(date +%Y%m%d)"
+          git checkout -b "$BRANCH"
+          git add data/projects.json README.md
+          git commit -m "feat: discover new projects $(date +%Y-%m-%d)"
+          git push -u origin "$BRANCH"
+          gh pr create \
+            --title "feat: discover new projects $(date +%Y-%m-%d)" \
+            --body "Automated weekly discovery of new OpenClaw-inspired projects." \
+            --base main || true
