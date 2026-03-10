@@ -63,26 +63,70 @@ function getAdapter(): ProviderAdapter {
   return adapters[AI_CONFIG.provider]();
 }
 
-// --- Core chat completion ---
+// --- Core chat completion with retry ---
+
+const MAX_RETRIES = 3;
+const RETRYABLE_STATUS = new Set([429, 500, 502, 503, 504]);
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
 async function chatCompletion(messages: ChatMessage[]): Promise<string> {
   const adapter = getAdapter();
 
-  const res = await fetch(adapter.buildUrl(), {
-    method: "POST",
-    headers: adapter.buildHeaders(),
-    body: JSON.stringify(adapter.buildBody(messages)),
-  });
+  for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
+    const res = await fetch(adapter.buildUrl(), {
+      method: "POST",
+      headers: adapter.buildHeaders(),
+      body: JSON.stringify(adapter.buildBody(messages)),
+    });
 
-  if (!res.ok) {
+    if (res.ok) {
+      const data = await res.json();
+      return adapter.extractContent(data);
+    }
+
     const text = await res.text();
-    throw new Error(
-      `AI API error (${AI_CONFIG.provider}): ${res.status} ${text}`,
-    );
+
+    // Rate limit: retry with exponential backoff
+    if (res.status === 429 && attempt < MAX_RETRIES) {
+      const retryAfter = res.headers.get("retry-after");
+      const waitMs = retryAfter
+        ? parseInt(retryAfter, 10) * 1000
+        : 2 ** attempt * 5000;
+      console.warn(
+        `  ⏳ Rate limited, retrying in ${Math.round(waitMs / 1000)}s (attempt ${attempt + 1}/${MAX_RETRIES})...`,
+      );
+      await sleep(waitMs);
+      continue;
+    }
+
+    // Retryable server errors
+    if (RETRYABLE_STATUS.has(res.status) && attempt < MAX_RETRIES) {
+      const waitMs = 2 ** attempt * 3000;
+      console.warn(
+        `  ⏳ Server error ${res.status}, retrying in ${Math.round(waitMs / 1000)}s (attempt ${attempt + 1}/${MAX_RETRIES})...`,
+      );
+      await sleep(waitMs);
+      continue;
+    }
+
+    // Non-retryable (401, 402, 403, etc.)
+    throw new AIError(res.status, text);
   }
 
-  const data = await res.json();
-  return adapter.extractContent(data);
+  throw new AIError(429, "Max retries exceeded");
+}
+
+export class AIError extends Error {
+  constructor(
+    public status: number,
+    public body: string,
+  ) {
+    super(`AI API error (${AI_CONFIG.provider}): ${status} ${body}`);
+    this.name = "AIError";
+  }
 }
 
 // --- Public API ---
