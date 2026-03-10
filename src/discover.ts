@@ -35,15 +35,28 @@ export async function discoverProjects(): Promise<string[]> {
 
   if (allCandidates.size === 0) return [];
 
-  // AI filter — abort discovery if AI is unavailable
-  const candidates = Array.from(allCandidates.entries()).map(
-    ([repo, description]) => ({ repo, description }),
-  );
+  // Fetch READMEs for all candidates
+  console.log("Fetching READMEs for candidates...");
+  const candidatesWithReadme: Array<{
+    repo: string;
+    description: string;
+    readme: string;
+  }> = [];
 
+  for (const [repo, description] of allCandidates) {
+    try {
+      const readme = await getRepoReadme(repo);
+      candidatesWithReadme.push({ repo, description, readme });
+    } catch {
+      candidatesWithReadme.push({ repo, description, readme: "" });
+    }
+  }
+
+  // AI filter in batches — abort discovery if AI is unavailable
   console.log("Filtering with AI...");
   let relevant: string[];
   try {
-    relevant = await filterRelevantProjects(candidates);
+    relevant = await filterRelevantProjects(candidatesWithReadme);
   } catch (err) {
     if (err instanceof AIError) {
       console.error(
@@ -88,7 +101,6 @@ export async function discoverProjects(): Promise<string[]> {
           }
         }
       } else {
-        // AI already failed, use description as fallback
         const repoInfo = await getRepoInfo(repo);
         highlights = repoInfo.description;
       }

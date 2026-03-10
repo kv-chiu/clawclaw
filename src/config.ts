@@ -31,12 +31,28 @@ export const RESERVED_TAGS: Record<string, string[]> = {
 };
 
 export const SEARCH_QUERIES = [
+  // Direct OpenClaw ecosystem
   "openclaw inspired",
   "openclaw alternative",
   "openclaw fork",
   "openclaw compatible",
-  "AI coding agent CLI",
-  "openclaw like terminal assistant",
+  "openclaw plugin skill extension",
+  "clawdbot moltbot",
+  // Known similar projects
+  "OpenHands OpenDevin coding agent",
+  "Cline AI coding VS Code agent",
+  "aider AI pair programming CLI",
+  "SWE-agent autonomous coding",
+  "OpenInterpreter local code execution",
+  // Core characteristics
+  "autonomous AI coding agent open source",
+  "agentic AI software engineer tool",
+  "AI agent file edit shell execute",
+  "self-hosted AI agent BYO model",
+  // Messaging / social platform adapters
+  "AI agent telegram discord bot coding",
+  "AI coding assistant messaging platform",
+  "openclaw adapter feishu wechat",
 ];
 
 export function getEnv(key: string, fallback?: string): string {

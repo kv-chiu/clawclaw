@@ -51,7 +51,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git diff --quiet && exit 0
+          git diff --quiet data/projects.json README.md && exit 0
           BRANCH="auto/discover-$(date +%Y%m%d)"
           git checkout -b "$BRANCH"
           git add data/projects.json README.md

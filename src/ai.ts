@@ -151,7 +151,7 @@ export async function generateHighlights(
     },
     {
       role: "user",
-      content: `Repository: ${repo}\nDescription: ${description}\n\nREADME (first 2000 chars):\n${readme.slice(0, 2000)}`,
+      content: `Repository: ${repo}\nDescription: ${description}\n\nREADME:\n${cleanReadme(readme)}`,
     },
   ]);
 
@@ -178,7 +178,7 @@ export async function generateTags(
     },
     {
       role: "user",
-      content: `Repository: ${repo}\nDescription: ${description}\n\nREADME (truncated):\n${readme}`,
+      content: `Repository: ${repo}\nDescription: ${description}\n\nREADME:\n${cleanReadme(readme)}`,
     },
   ]);
 
@@ -190,34 +190,91 @@ export async function generateTags(
   }
 }
 
+const FILTER_SYSTEM_PROMPT = `You are evaluating whether GitHub projects qualify as autonomous AI agents in the style of OpenClaw (formerly Clawdbot/Moltbot, created by Peter Steinberger in late 2025).
+
+A project qualifies if it matches ANY of these criteria:
+- Autonomous AI agent that can read/write/edit files and execute shell commands
+- AI coding assistant (CLI, IDE extension, or messaging bot) that directly modifies code
+- AI agent with adapters for messaging platforms (Telegram, Discord, Slack, Feishu, WeChat, etc.) that executes real tasks
+- Self-hosted / local-first AI agent with bring-your-own-model support
+- AI agent with persistent memory, scheduling, or self-extension capabilities
+- AI-powered tool that automates software engineering workflows (PR creation, testing, debugging)
+
+A project does NOT qualify if it is:
+- A library/SDK/framework only (no standalone agent functionality)
+- A passive chatbot that only generates text without executing actions
+- A model training, fine-tuning, or benchmarking tool
+- A prompt engineering or prompt management tool
+- A wrapper that only forwards API calls without agentic behavior
+
+For each project, respond with its number ONLY if it qualifies. Output a JSON array of qualifying project numbers, e.g. [1, 3, 5]. If none qualify, output [].`;
+
+const FILTER_BATCH_SIZE = 5;
+
+export function cleanReadme(raw: string): string {
+  return (
+    raw
+      // Remove image tags: ![alt](url) and <img .../>
+      .replace(/!\[[^\]]*\]\([^)]*\)/g, "")
+      .replace(/<img[^>]*\/?>/gi, "")
+      // Remove HTML tags (badges, links, media embeds)
+      .replace(/<\/?[^>]+>/g, "")
+      // Remove markdown links but keep text: [text](url) → text
+      .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
+      // Remove bare URLs
+      .replace(/https?:\/\/[^\s)>\]]+/g, "")
+      // Remove badge-style references: [![...](...)(...)]
+      .replace(/\[!\[[^\]]*\]\([^)]*\)\]\([^)]*\)/g, "")
+      // Collapse multiple blank lines
+      .replace(/\n{3,}/g, "\n\n")
+      .trim()
+      .slice(0, 2000)
+  );
+}
+
 export async function filterRelevantProjects(
-  candidates: Array<{ repo: string; description: string }>,
+  candidates: Array<{ repo: string; description: string; readme: string }>,
 ): Promise<string[]> {
   if (candidates.length === 0) return [];
 
-  const list = candidates
-    .map((c, i) => `${i + 1}. ${c.repo}: ${c.description}`)
-    .join("\n");
+  const approved: string[] = [];
 
-  const response = await chatCompletion([
-    {
-      role: "system",
-      content: `You are evaluating whether GitHub projects are "OpenClaw-inspired AI agents" — tools that function as AI-powered coding assistants, terminal-based AI agents, or CLI tools similar to OpenClaw.
+  // Process in batches
+  for (let i = 0; i < candidates.length; i += FILTER_BATCH_SIZE) {
+    const batch = candidates.slice(i, i + FILTER_BATCH_SIZE);
+    const batchNum = Math.floor(i / FILTER_BATCH_SIZE) + 1;
+    const totalBatches = Math.ceil(candidates.length / FILTER_BATCH_SIZE);
+    console.log(
+      `  Batch ${batchNum}/${totalBatches} (${batch.length} projects)...`,
+    );
 
-For each project, respond with its number ONLY if it qualifies. Output a JSON array of qualifying project numbers, e.g. [1, 3, 5]. If none qualify, output [].`,
-    },
-    {
-      role: "user",
-      content: `Projects to evaluate:\n${list}`,
-    },
-  ]);
+    const list = batch
+      .map((c, j) => {
+        const readme = cleanReadme(c.readme);
+        const readmeSection = readme
+          ? `\n   README:\n   ${readme.slice(0, 800)}`
+          : "";
+        return `${j + 1}. ${c.repo}: ${c.description}${readmeSection}`;
+      })
+      .join("\n\n");
 
-  try {
-    const indices = JSON.parse(response.trim()) as number[];
-    return indices
-      .filter((i) => i >= 1 && i <= candidates.length)
-      .map((i) => candidates[i - 1].repo);
-  } catch {
-    return [];
+    try {
+      const response = await chatCompletion([
+        { role: "system", content: FILTER_SYSTEM_PROMPT },
+        { role: "user", content: `Projects to evaluate:\n\n${list}` },
+      ]);
+
+      const indices = JSON.parse(response.trim()) as number[];
+      for (const idx of indices) {
+        if (idx >= 1 && idx <= batch.length) {
+          approved.push(batch[idx - 1].repo);
+        }
+      }
+    } catch (err) {
+      if (err instanceof AIError) throw err;
+      console.warn(`  ⚠ Failed to parse batch ${batchNum}, skipping.`);
+    }
   }
+
+  return approved;
 }
