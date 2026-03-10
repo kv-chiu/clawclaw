@@ -25,6 +25,71 @@
       "highlights": "🐈 nanobot: The Ultra-Lightweight OpenClaw",
       "tags": ["Lightweight", "Fast"],
       "updated_at": "2026-03-10T00:00:00Z"
+    },
+    {
+      "repo": "nearai/ironclaw",
+      "language": "Rust",
+      "stars": 8798,
+      "forks": 925,
+      "issues": 115,
+      "prs": 115,
+      "commits": 408,
+      "loc": 185554,
+      "updated_at": "2026-03-10T07:46:40.659Z",
+      "highlights": "🔒 Privacy-first Rust AI assistant with WASM sandbox and local encrypted storage",
+      "tags": ["Secure", "Auditable", "Isolated"]
+    },
+    {
+      "repo": "microclaw/microclaw",
+      "language": "Rust",
+      "stars": 524,
+      "forks": 92,
+      "issues": 2,
+      "prs": 2,
+      "commits": 828,
+      "loc": 85813,
+      "updated_at": "2026-03-10T07:47:00.871Z",
+      "highlights": "🦀An agentic AI chat assistant built with Rust for multiple platforms",
+      "tags": ["Secure", "Isolated", "Office Assistant"]
+    },
+    {
+      "repo": "MegaSuperKitty/LittleAngelBot",
+      "language": "Python",
+      "stars": 239,
+      "forks": 26,
+      "issues": 0,
+      "prs": 0,
+      "commits": 19,
+      "loc": 20358,
+      "updated_at": "2026-03-10T07:47:19.207Z",
+      "highlights": "✨ Cross-platform personal assistant linking mobile QQ and Windows PC",
+      "tags": ["Office Assistant", "Auditable", "Secure"]
+    },
+    {
+      "repo": "freddy-schuetz/n8n-claw",
+      "language": "Shell",
+      "stars": 165,
+      "forks": 32,
+      "issues": 0,
+      "prs": 0,
+      "commits": 133,
+      "loc": 4467,
+      "updated_at": "2026-03-10T07:47:31.617Z",
+      "highlights": "🤖 Self-hosted n8n AI agent with Telegram, memory, tasks, and MCP builder",
+      "tags": ["Secure", "Isolated", "Office Assistant"]
+    },
+    {
+      "repo": "sausheong/goclaw",
+      "language": "Go",
+      "stars": 67,
+      "forks": 10,
+      "issues": 0,
+      "prs": 0,
+      "commits": 47,
+      "loc": 12703,
+      "updated_at": "2026-03-10T07:47:54.871Z",
+      "highlights": "Self-hosted AI agent gateway in Go, single binary, low memory, fast startup.",
+      "tags": ["Lightweight", "Fast"]
     }
   ]
 }
