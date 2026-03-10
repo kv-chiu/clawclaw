@@ -68,10 +68,15 @@ export async function updateAllProjects(): Promise<void> {
 
     try {
       const stats = await fetchProjectData(project.repo);
-      const repoInfo = await getRepoInfo(project.repo);
-      const ai = await fetchAIContent(project.repo, repoInfo.description);
-
-      Object.assign(project, stats, ai);
+      // Only update numeric fields, preserve AI-generated highlights and tags
+      project.language = stats.language;
+      project.stars = stats.stars;
+      project.forks = stats.forks;
+      project.issues = stats.issues;
+      project.prs = stats.prs;
+      project.commits = stats.commits;
+      project.loc = stats.loc;
+      project.updated_at = stats.updated_at;
       console.log(`  ✓ ${project.repo} updated`);
     } catch (err) {
       console.error(`  ✗ Failed to update ${project.repo}:`, err);
