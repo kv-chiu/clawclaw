@@ -46,15 +46,29 @@ export function getEnv(key: string, fallback?: string): string {
   throw new Error(`Missing required environment variable: ${key}`);
 }
 
+export type AIProvider = "openai" | "ollama";
+
 export const AI_CONFIG = {
+  get provider(): AIProvider {
+    const val = getEnv("AI_PROVIDER", "openai");
+    if (val !== "openai" && val !== "ollama") {
+      throw new Error(
+        `Invalid AI_PROVIDER: ${val}. Must be "openai" or "ollama".`,
+      );
+    }
+    return val;
+  },
   get baseUrl() {
-    return getEnv("AI_API_BASE");
+    return getEnv(
+      "AI_API_BASE",
+      this.provider === "ollama" ? "http://localhost:11434" : "",
+    );
   },
   get apiKey() {
-    return getEnv("AI_API_KEY");
+    return getEnv("AI_API_KEY", this.provider === "ollama" ? "ollama" : "");
   },
   get model() {
-    return getEnv("AI_MODEL", "gpt-4o");
+    return getEnv("AI_MODEL", this.provider === "ollama" ? "llama3" : "gpt-4o");
   },
   get extraParams(): Record<string, unknown> {
     const raw = process.env.AI_EXTRA_PARAMS;

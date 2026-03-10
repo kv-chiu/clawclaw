@@ -1,43 +1,91 @@
 import { AI_CONFIG, AVAILABLE_TAGS, RESERVED_TAGS } from "./config.js";
+import type { AIProvider } from "./config.js";
 
 interface ChatMessage {
   role: "system" | "user" | "assistant";
   content: string;
 }
 
-interface ChatChoice {
-  message: { content: string };
+// --- Provider abstraction ---
+
+interface ProviderAdapter {
+  buildUrl(): string;
+  buildHeaders(): Record<string, string>;
+  buildBody(messages: ChatMessage[]): Record<string, unknown>;
+  extractContent(data: unknown): string;
 }
 
-interface ChatResponse {
-  choices: ChatChoice[];
-}
-
-async function chatCompletion(messages: ChatMessage[]): Promise<string> {
-  const body = {
-    model: AI_CONFIG.model,
-    messages,
-    stream: false,
-    ...AI_CONFIG.extraParams,
-  };
-
-  const res = await fetch(`${AI_CONFIG.baseUrl}/chat/completions`, {
-    method: "POST",
-    headers: {
+function openaiAdapter(): ProviderAdapter {
+  return {
+    buildUrl: () => `${AI_CONFIG.baseUrl}/chat/completions`,
+    buildHeaders: () => ({
       "Content-Type": "application/json",
       Authorization: `Bearer ${AI_CONFIG.apiKey}`,
+    }),
+    buildBody: (messages) => ({
+      model: AI_CONFIG.model,
+      messages,
+      stream: false,
+      ...AI_CONFIG.extraParams,
+    }),
+    extractContent: (data) => {
+      const res = data as { choices: [{ message: { content: string } }] };
+      return res.choices[0].message.content;
     },
-    body: JSON.stringify(body),
+  };
+}
+
+function ollamaAdapter(): ProviderAdapter {
+  return {
+    buildUrl: () => `${AI_CONFIG.baseUrl}/api/chat`,
+    buildHeaders: () => ({
+      "Content-Type": "application/json",
+    }),
+    buildBody: (messages) => ({
+      model: AI_CONFIG.model,
+      messages,
+      stream: false,
+      ...AI_CONFIG.extraParams,
+    }),
+    extractContent: (data) => {
+      const res = data as { message: { content: string } };
+      return res.message.content;
+    },
+  };
+}
+
+const adapters: Record<AIProvider, () => ProviderAdapter> = {
+  openai: openaiAdapter,
+  ollama: ollamaAdapter,
+};
+
+function getAdapter(): ProviderAdapter {
+  return adapters[AI_CONFIG.provider]();
+}
+
+// --- Core chat completion ---
+
+async function chatCompletion(messages: ChatMessage[]): Promise<string> {
+  const adapter = getAdapter();
+
+  const res = await fetch(adapter.buildUrl(), {
+    method: "POST",
+    headers: adapter.buildHeaders(),
+    body: JSON.stringify(adapter.buildBody(messages)),
   });
 
   if (!res.ok) {
     const text = await res.text();
-    throw new Error(`AI API error: ${res.status} ${text}`);
+    throw new Error(
+      `AI API error (${AI_CONFIG.provider}): ${res.status} ${text}`,
+    );
   }
 
-  const data = (await res.json()) as ChatResponse;
-  return data.choices[0].message.content;
+  const data = await res.json();
+  return adapter.extractContent(data);
 }
+
+// --- Public API ---
 
 export async function generateHighlights(
   repo: string,
@@ -64,7 +112,6 @@ export async function generateTags(
   description: string,
   readme: string,
 ): Promise<string[]> {
-  // Determine which tags are allowed for this repo
   const allowedTags = AVAILABLE_TAGS.filter((tag) => {
     const reserved = RESERVED_TAGS[tag];
     if (!reserved) return true;
@@ -84,10 +131,8 @@ export async function generateTags(
 
   try {
     const tags = JSON.parse(response.trim()) as string[];
-    // Validate tags
     return tags.filter((t) => (allowedTags as readonly string[]).includes(t));
   } catch {
-    // Try to extract from text if JSON parse fails
     return allowedTags.filter((t) => response.includes(t));
   }
 }
