@@ -140,15 +140,17 @@ export async function generateHighlights(
     {
       role: "system",
       content:
-        "You summarize open-source projects in one concise sentence (under 100 chars). Include the project's emoji if it has one. Output ONLY the summary, nothing else.",
+        "Summarize this project in ONE short sentence (max 80 characters). If the project has a signature emoji, start with it. Output ONLY the sentence. No explanation, no markdown, no quotes.",
     },
     {
       role: "user",
-      content: `Repository: ${repo}\nDescription: ${description}\n\nREADME (truncated):\n${readme}`,
+      content: `Repository: ${repo}\nDescription: ${description}\n\nREADME (first 2000 chars):\n${readme.slice(0, 2000)}`,
     },
   ]);
 
-  return response.trim();
+  // Hard truncate: take first line only, cap at 100 chars
+  const firstLine = response.trim().split("\n")[0];
+  return firstLine.length > 100 ? firstLine.slice(0, 97) + "..." : firstLine;
 }
 
 export async function generateTags(
