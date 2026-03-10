@@ -38,9 +38,16 @@ function openaiAdapter(): ProviderAdapter {
 function ollamaAdapter(): ProviderAdapter {
   return {
     buildUrl: () => `${AI_CONFIG.baseUrl}/api/chat`,
-    buildHeaders: () => ({
-      "Content-Type": "application/json",
-    }),
+    buildHeaders: () => {
+      const headers: Record<string, string> = {
+        "Content-Type": "application/json",
+      };
+      const key = AI_CONFIG.apiKey;
+      if (key && key !== "ollama") {
+        headers.Authorization = `Bearer ${key}`;
+      }
+      return headers;
+    },
     buildBody: (messages) => ({
       model: AI_CONFIG.model,
       messages,
