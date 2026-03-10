@@ -1,4 +1,6 @@
-import { SEARCH_QUERIES } from "./config.js";
+import { readFile, writeFile } from "node:fs/promises";
+import { fileURLToPath } from "node:url";
+import { SEARCH_QUERIES, QUEUE_PATH, MAX_COLLECT_PER_RUN } from "./config.js";
 import { searchRepositories, getRepoInfo, getRepoReadme } from "./github.js";
 import {
   AIError,
@@ -8,12 +10,47 @@ import {
 } from "./ai.js";
 import { fetchProjectData, loadProjects, saveProjects } from "./update.js";
 
-export async function discoverProjects(): Promise<string[]> {
+interface QueueData {
+  pending: string[]; // repos approved by AI, waiting to be collected
+  updated_at: string;
+}
+
+async function loadQueue(): Promise<QueueData> {
+  try {
+    const raw = await readFile(fileURLToPath(QUEUE_PATH), "utf-8");
+    return JSON.parse(raw) as QueueData;
+  } catch {
+    return { pending: [], updated_at: "" };
+  }
+}
+
+async function saveQueue(queue: QueueData): Promise<void> {
+  queue.updated_at = new Date().toISOString();
+  await writeFile(
+    fileURLToPath(QUEUE_PATH),
+    JSON.stringify(queue, null, 2) + "\n",
+  );
+}
+
+/**
+ * Phase 1: Search + AI filter → save approved repos to queue.
+ * Skips if queue already has pending items.
+ */
+async function refreshQueue(): Promise<QueueData> {
+  const queue = await loadQueue();
+
+  // If there are pending items, skip search — process existing queue first
+  if (queue.pending.length > 0) {
+    console.log(
+      `Queue has ${queue.pending.length} pending projects, skipping search.`,
+    );
+    return queue;
+  }
+
   const data = await loadProjects();
   const existingRepos = new Set(data.projects.map((p) => p.repo));
   const allCandidates = new Map<string, string>();
 
-  // Search with each query
   for (const query of SEARCH_QUERIES) {
     console.log(`Searching: "${query}"...`);
     try {
@@ -33,9 +70,9 @@ export async function discoverProjects(): Promise<string[]> {
 
   console.log(`Found ${allCandidates.size} new candidates.`);
 
-  if (allCandidates.size === 0) return [];
+  if (allCandidates.size === 0) return queue;
 
-  // Fetch READMEs for all candidates
+  // Fetch READMEs
   console.log("Fetching READMEs for candidates...");
   const candidatesWithReadme: Array<{
     repo: string;
@@ -52,7 +89,7 @@ export async function discoverProjects(): Promise<string[]> {
     }
   }
 
-  // AI filter in batches — abort discovery if AI is unavailable
+  // AI filter
   console.log("Filtering with AI...");
   let relevant: string[];
   try {
@@ -62,17 +99,49 @@ export async function discoverProjects(): Promise<string[]> {
       console.error(
         `  ✗ AI unavailable (${err.status}), skipping discovery. Will retry next run.`,
       );
-      return [];
+      return queue;
     }
     throw err;
   }
+
   console.log(`AI approved ${relevant.length} projects.`);
 
-  // Fetch data for new projects — skip AI content on failure, save partial
-  const newProjects = [];
+  // Save to queue
+  queue.pending = relevant;
+  await saveQueue(queue);
+
+  return queue;
+}
+
+/**
+ * Phase 2: Process up to MAX_COLLECT_PER_RUN projects from the queue.
+ */
+async function processQueue(queue: QueueData): Promise<string[]> {
+  if (queue.pending.length === 0) {
+    console.log("Queue is empty, nothing to process.");
+    return [];
+  }
+
+  const data = await loadProjects();
+  const batch = queue.pending.slice(0, MAX_COLLECT_PER_RUN);
+  const remaining = queue.pending.slice(MAX_COLLECT_PER_RUN);
+
+  console.log(
+    `Processing ${batch.length} projects (${remaining.length} remaining in queue)...`,
+  );
+
+  const added: string[] = [];
   let aiFailed = false;
 
-  for (const repo of relevant) {
+  for (const repo of batch) {
+    if (data.projects.some((p) => p.repo === repo)) {
+      console.log(`  Skipping ${repo} (already exists).`);
+      // Remove from queue
+      queue.pending = queue.pending.filter((r) => r !== repo);
+      await saveQueue(queue);
+      continue;
+    }
+
     console.log(`Collecting data for ${repo}...`);
     try {
       const stats = await fetchProjectData(repo);
@@ -92,7 +161,7 @@ export async function discoverProjects(): Promise<string[]> {
           if (err instanceof AIError) {
             aiFailed = true;
             console.warn(
-              `  ⚠ AI failed (${err.status}), using repo description as fallback for remaining projects.`,
+              `  ⚠ AI failed (${err.status}), using repo description as fallback.`,
             );
             const repoInfo = await getRepoInfo(repo);
             highlights = repoInfo.description;
@@ -105,19 +174,29 @@ export async function discoverProjects(): Promise<string[]> {
         highlights = repoInfo.description;
       }
 
-      newProjects.push({ ...stats, highlights, tags });
-      console.log(`  ✓ ${repo} added${aiFailed ? " (AI fallback)" : ""}`);
+      // Add to projects and save immediately
+      data.projects.push({ ...stats, highlights, tags });
+      data.projects.sort((a, b) => b.stars - a.stars);
+      await saveProjects(data);
+
+      // Remove from queue and save
+      queue.pending = queue.pending.filter((r) => r !== repo);
+      await saveQueue(queue);
+
+      added.push(repo);
+      console.log(`  ✓ ${repo} saved${aiFailed ? " (AI fallback)" : ""}`);
     } catch (err) {
       console.error(`  ✗ Failed to collect ${repo}:`, err);
     }
   }
 
-  if (newProjects.length > 0) {
-    data.projects.push(...newProjects);
-    data.projects.sort((a, b) => b.stars - a.stars);
-    await saveProjects(data);
-    console.log(`Added ${newProjects.length} new projects.`);
-  }
+  console.log(
+    `Added ${added.length} projects. Queue: ${queue.pending.length} remaining.`,
+  );
+  return added;
+}
 
-  return relevant;
+export async function discoverProjects(): Promise<string[]> {
+  const queue = await refreshQueue();
+  return processQueue(queue);
 }

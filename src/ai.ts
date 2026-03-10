@@ -232,6 +232,45 @@ export function cleanReadme(raw: string): string {
   );
 }
 
+function parseIndices(response: string, maxIndex: number): number[] {
+  const trimmed = response.trim();
+
+  // Try direct JSON parse first
+  try {
+    const parsed = JSON.parse(trimmed) as number[];
+    if (Array.isArray(parsed)) {
+      return parsed.filter(
+        (n) => typeof n === "number" && n >= 1 && n <= maxIndex,
+      );
+    }
+  } catch {
+    // Fall through to fuzzy extraction
+  }
+
+  // Try to find a JSON array anywhere in the response
+  const arrayMatch = trimmed.match(/\[[\d\s,]*\]/);
+  if (arrayMatch) {
+    try {
+      const parsed = JSON.parse(arrayMatch[0]) as number[];
+      return parsed.filter(
+        (n) => typeof n === "number" && n >= 1 && n <= maxIndex,
+      );
+    } catch {
+      // Fall through
+    }
+  }
+
+  // Last resort: extract all standalone numbers
+  const numbers = trimmed.match(/\b(\d+)\b/g);
+  if (numbers) {
+    return numbers.map(Number).filter((n) => n >= 1 && n <= maxIndex);
+  }
+
+  return [];
+}
+
+const BATCH_RETRY = 1;
+
 export async function filterRelevantProjects(
   candidates: Array<{ repo: string; description: string; readme: string }>,
 ): Promise<string[]> {
@@ -239,7 +278,6 @@ export async function filterRelevantProjects(
 
   const approved: string[] = [];
 
-  // Process in batches
   for (let i = 0; i < candidates.length; i += FILTER_BATCH_SIZE) {
     const batch = candidates.slice(i, i + FILTER_BATCH_SIZE);
     const batchNum = Math.floor(i / FILTER_BATCH_SIZE) + 1;
@@ -258,21 +296,40 @@ export async function filterRelevantProjects(
       })
       .join("\n\n");
 
-    try {
-      const response = await chatCompletion([
-        { role: "system", content: FILTER_SYSTEM_PROMPT },
-        { role: "user", content: `Projects to evaluate:\n\n${list}` },
-      ]);
+    let indices: number[] = [];
 
-      const indices = JSON.parse(response.trim()) as number[];
-      for (const idx of indices) {
-        if (idx >= 1 && idx <= batch.length) {
-          approved.push(batch[idx - 1].repo);
+    for (let attempt = 0; attempt <= BATCH_RETRY; attempt++) {
+      try {
+        const response = await chatCompletion([
+          { role: "system", content: FILTER_SYSTEM_PROMPT },
+          { role: "user", content: `Projects to evaluate:\n\n${list}` },
+        ]);
+
+        indices = parseIndices(response, batch.length);
+
+        if (indices.length > 0 || response.includes("[]")) {
+          break; // Valid result (including explicit empty)
+        }
+
+        if (attempt < BATCH_RETRY) {
+          console.warn(
+            `  ⚠ Unparseable response, retrying batch ${batchNum}...`,
+          );
+        }
+      } catch (err) {
+        if (err instanceof AIError) throw err;
+        if (attempt < BATCH_RETRY) {
+          console.warn(`  ⚠ Batch ${batchNum} error, retrying...`);
+        } else {
+          console.warn(
+            `  ⚠ Failed to parse batch ${batchNum} after retries, skipping.`,
+          );
         }
       }
-    } catch (err) {
-      if (err instanceof AIError) throw err;
-      console.warn(`  ⚠ Failed to parse batch ${batchNum}, skipping.`);
+    }
+
+    for (const idx of indices) {
+      approved.push(batch[idx - 1].repo);
     }
   }
 

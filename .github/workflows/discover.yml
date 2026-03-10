@@ -12,7 +12,7 @@ permissions:
 jobs:
   discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
 
     steps:
       - uses: actions/checkout@v4
@@ -42,7 +42,7 @@ jobs:
           AI_MODEL: ${{ vars.AI_MODEL }}
           AI_EXTRA_PARAMS: ${{ vars.AI_EXTRA_PARAMS }}
         run: |
-          pnpm start discover
+          pnpm start discover || true
           pnpm start render
 
       - name: Create PR if changed
@@ -51,10 +51,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git diff --quiet data/projects.json README.md && exit 0
+          git diff --quiet data/ README.md && exit 0
           BRANCH="auto/discover-$(date +%Y%m%d)"
           git checkout -b "$BRANCH"
-          git add data/projects.json README.md
+          git add data/projects.json data/queue.json README.md
           git commit -m "feat: discover new projects $(date +%Y-%m-%d)"
           git push -u origin "$BRANCH"
           gh pr create \
