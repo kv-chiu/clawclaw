@@ -99,4 +99,7 @@ export const DATA_PATH = new URL("../data/projects.json", import.meta.url);
 export const QUEUE_PATH = new URL("../data/queue.json", import.meta.url);
 export const README_PATH = new URL("../README.md", import.meta.url);
 
-export const MAX_COLLECT_PER_RUN = 50;
+export const MAX_COLLECT_PER_RUN = parseInt(
+  getEnv("MAX_COLLECT_PER_RUN", "50"),
+  10,
+);
