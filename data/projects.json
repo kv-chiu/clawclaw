@@ -79,6 +79,19 @@
       "tags": ["Isolated", "Secure", "Office Assistant"]
     },
     {
+      "repo": "chenhg5/cc-connect",
+      "language": "Go",
+      "stars": 750,
+      "forks": 70,
+      "issues": 3,
+      "prs": 3,
+      "commits": 226,
+      "loc": 25397,
+      "updated_at": "2026-03-10T09:28:33.337Z",
+      "highlights": "Bridge AI coding agents (Claude, Cursor, Gemini) to chat apps (Slack, Telegram, Discord)",
+      "tags": ["Office Assistant", "Lightweight"]
+    },
+    {
       "repo": "195440/nof1.ai",
       "language": "TypeScript",
       "stars": 569,
@@ -155,6 +168,19 @@
       "updated_at": "2026-03-10T08:12:36.814Z",
       "highlights": "🤖 Android app to run AI agents 24/7 with Rust core, 25+ providers",
       "tags": ["Secure", "Fast", "Lightweight"]
+    },
+    {
+      "repo": "aws-samples/remote-swe-agents",
+      "language": "TypeScript",
+      "stars": 228,
+      "forks": 48,
+      "issues": 5,
+      "prs": 5,
+      "commits": 294,
+      "loc": 43844,
+      "updated_at": "2026-03-10T09:20:51.632Z",
+      "highlights": "Autonomous SWE agent running on AWS with web UI and Slack integration",
+      "tags": ["Isolated"]
     },
     {
       "repo": "oujingzhou/openmozi",
@@ -261,6 +287,19 @@
       "tags": ["Secure", "Isolated", "Auditable"]
     },
     {
+      "repo": "zachblume/autospec",
+      "language": "TypeScript",
+      "stars": 59,
+      "forks": 7,
+      "issues": 8,
+      "prs": 8,
+      "commits": 199,
+      "loc": 25972,
+      "updated_at": "2026-03-10T09:22:42.142Z",
+      "highlights": "🧪 AI agent that autonomously tests web apps and saves specs as E2E test code",
+      "tags": ["Lightweight", "Fast", "Auditable"]
+    },
+    {
       "repo": "ysz/nanoClaw",
       "language": "Python",
       "stars": 46,
@@ -339,6 +378,19 @@
       "tags": ["Office Assistant"]
     },
     {
+      "repo": "bejranonda/LLM-Autonomous-Agent-Plugin-for-Claude",
+      "language": "Python",
+      "stars": 18,
+      "forks": 11,
+      "issues": 0,
+      "prs": 0,
+      "commits": 326,
+      "loc": 91193,
+      "updated_at": "2026-03-10T09:23:09.752Z",
+      "highlights": "Claude Code autonomous agent plugin with auto learning, 40+ linters, OWASP security",
+      "tags": ["Secure", "Auditable", "Fast"]
+    },
+    {
       "repo": "pinpox/opencrow",
       "language": "Go",
       "stars": 17,
@@ -391,6 +443,19 @@
       "tags": ["Auditable", "Lightweight"]
     },
     {
+      "repo": "Amin-moniry-pr7/n8n_ExecutiveBot_Platform",
+      "language": "Unknown",
+      "stars": 12,
+      "forks": 2,
+      "issues": 0,
+      "prs": 0,
+      "commits": 4,
+      "loc": 725,
+      "updated_at": "2026-03-10T09:28:55.707Z",
+      "highlights": "🤖 AI Telegram bot with Gmail, Drive, Sheets & Python execution via Docker & n8n",
+      "tags": ["Office Assistant", "Isolated"]
+    },
+    {
       "repo": "ComposioHQ/openclaw-composio",
       "language": "TypeScript",
       "stars": 11,
@@ -428,6 +493,19 @@
       "updated_at": "2026-03-10T08:14:55.628Z",
       "highlights": "🤖 Claude Code on VPS controlled from Telegram with voice & files",
       "tags": ["Lightweight", "Office Assistant"]
+    },
+    {
+      "repo": "Sherin-SEF-AI/code-genie",
+      "language": "Python",
+      "stars": 10,
+      "forks": 3,
+      "issues": 0,
+      "prs": 0,
+      "commits": 13,
+      "loc": 95382,
+      "updated_at": "2026-03-10T09:23:38.236Z",
+      "highlights": "🧞 AI coding agent with multi-agent system, runs locally with Ollama",
+      "tags": ["Isolated", "Fast", "Secure"]
     },
     {
       "repo": "Aisht669/NetClaw",
@@ -495,6 +573,19 @@
       "tags": ["Secure", "Isolated", "Office Assistant"]
     },
     {
+      "repo": "Foxemsx/Artemis",
+      "language": "TypeScript",
+      "stars": 8,
+      "forks": 1,
+      "issues": 0,
+      "prs": 0,
+      "commits": 25,
+      "loc": 38282,
+      "updated_at": "2026-03-10T09:23:52.257Z",
+      "highlights": "Free AI IDE with autonomous agents, Monaco editor, terminal, and 16 themes.",
+      "tags": ["Secure", "Fast"]
+    },
+    {
       "repo": "clawd-meme/clawdbot",
       "language": "TypeScript",
       "stars": 7,
@@ -506,6 +597,19 @@
       "updated_at": "2026-03-10T08:19:58.183Z",
       "highlights": "🦞 Personal AI assistant for WhatsApp, Telegram, Discord, and messaging apps",
       "tags": ["Office Assistant", "Fast", "Secure"]
+    },
+    {
+      "repo": "qodo-ai/aware-swe-agent",
+      "language": "Python",
+      "stars": 7,
+      "forks": 4,
+      "issues": 0,
+      "prs": 0,
+      "commits": 11,
+      "loc": 1376,
+      "updated_at": "2026-03-10T09:21:05.088Z",
+      "highlights": "🧠 Autonomous SWE agent with Qodo Aware for code analysis and issue solving",
+      "tags": []
     },
     {
       "repo": "tashfeenahmed/scallopbot",
@@ -558,6 +662,19 @@
       "updated_at": "2026-03-10T08:16:42.676Z",
       "highlights": "🐙 Multi-agent AI system in tmux with CLI orchestration and self-healing",
       "tags": ["Isolated"]
+    },
+    {
+      "repo": "wirelessr/SpecForge-Agent",
+      "language": "Python",
+      "stars": 4,
+      "forks": 5,
+      "issues": 0,
+      "prs": 0,
+      "commits": 116,
+      "loc": 41689,
+      "updated_at": "2026-03-10T09:21:23.571Z",
+      "highlights": "Autonomous multi-agent framework for full software development lifecycle automation.",
+      "tags": ["Auditable"]
     },
     {
       "repo": "dmuso/direclaw",
@@ -755,6 +872,19 @@
       "tags": ["Secure", "Auditable"]
     },
     {
+      "repo": "Spaghetto-AI-Agent/spaghetto",
+      "language": "TypeScript",
+      "stars": 2,
+      "forks": 1,
+      "issues": 0,
+      "prs": 0,
+      "commits": 1,
+      "loc": 6960,
+      "updated_at": "2026-03-10T09:24:26.796Z",
+      "highlights": "🍝 AI-powered code review bot for GitHub PRs using GPT-4o with agentic tool-use",
+      "tags": ["Fast", "Auditable"]
+    },
+    {
       "repo": "moshehbenavraham/crocbot",
       "language": "TypeScript",
       "stars": 1,
@@ -781,6 +911,71 @@
       "tags": ["Lightweight", "Auditable"]
     },
     {
+      "repo": "ChildWerapol/LLM-Autonomous-Agent-Plugin",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 311,
+      "loc": 89431,
+      "updated_at": "2026-03-10T09:24:48.296Z",
+      "highlights": "Four-tier AI agent architecture for Claude Code with 27 specialized agents",
+      "tags": ["Secure", "Auditable"]
+    },
+    {
+      "repo": "jack3079/EvoAgent",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 2,
+      "loc": 8183,
+      "updated_at": "2026-03-10T09:25:10.688Z",
+      "highlights": "AI agent that writes, tests, and integrates its own code, evolving autonomously",
+      "tags": ["Isolated", "Fast", "Auditable"]
+    },
+    {
+      "repo": "xupeiwust/protoforge",
+      "language": "Unknown",
+      "stars": 1,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 6,
+      "loc": 0,
+      "updated_at": "2026-03-10T09:25:31.135Z",
+      "highlights": "AI-agent framework for code generation, prototyping, and IP protection.",
+      "tags": ["Secure", "Auditable", "Isolated"]
+    },
+    {
+      "repo": "turtacn/protoforge",
+      "language": "Unknown",
+      "stars": 1,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 6,
+      "loc": 0,
+      "updated_at": "2026-03-10T09:25:43.648Z",
+      "highlights": "🤖 AI-agent framework for autonomous code generation and IP protection",
+      "tags": ["Secure", "Auditable"]
+    },
+    {
+      "repo": "Toglefritz/Dwellware",
+      "language": "Dart",
+      "stars": 1,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 105,
+      "loc": 76156,
+      "updated_at": "2026-03-10T09:26:32.079Z",
+      "highlights": "AI agent creates custom household apps from natural language conversations",
+      "tags": ["Isolated", "Office Assistant", "Secure"]
+    },
+    {
       "repo": "CohleM/TinyOpenHands",
       "language": "Python",
       "stars": 0,
@@ -792,6 +987,123 @@
       "updated_at": "2026-03-10T08:27:08.955Z",
       "highlights": "A tiny open-source reproduction of OpenDevin's CodeActAgent for autonomous coding",
       "tags": ["Lightweight"]
+    },
+    {
+      "repo": "Josh-Archer/local-swe-agent",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 8,
+      "loc": 2954,
+      "updated_at": "2026-03-10T09:21:45.261Z",
+      "highlights": "🤖 AI SWE agent with vLLM, RAG & autonomous coding for K3s",
+      "tags": ["Fast", "Lightweight", "Isolated"]
+    },
+    {
+      "repo": "wmikuriy/remote-swe-agents",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 230,
+      "loc": 42211,
+      "updated_at": "2026-03-10T09:22:04.722Z",
+      "highlights": "🤖 Self-hosted autonomous SWE agent on AWS with web UI and Slack integration",
+      "tags": ["Lightweight", "Isolated"]
+    },
+    {
+      "repo": "sandeepkumarsuresh/DMAS",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 2,
+      "loc": 182,
+      "updated_at": "2026-03-10T09:22:17.366Z",
+      "highlights": "🤖 Multi-agent framework using OpenInterpreter with MCP for local execution.",
+      "tags": ["Lightweight", "Secure", "Isolated"]
+    },
+    {
+      "repo": "MustafaKocamann/AgentCoder",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 3,
+      "loc": 129,
+      "updated_at": "2026-03-10T09:25:59.652Z",
+      "highlights": "🤖 AI code assistant using RAG + ReAct with local Mistral & CodeLlama for API PDF parsing and gen...",
+      "tags": ["Secure", "Isolated"]
+    },
+    {
+      "repo": "Sreenith18/Python-Software-Engineer-Assignment-LLM-Agentic-Thinking",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 1,
+      "loc": 549,
+      "updated_at": "2026-03-10T09:26:53.470Z",
+      "highlights": "Agentic AI assistant handling multi-step queries with calculator and translation tools",
+      "tags": ["Office Assistant"]
+    },
+    {
+      "repo": "DComasBaz/AI-Software-Engineer",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 19,
+      "loc": 5434,
+      "updated_at": "2026-03-10T09:27:05.082Z",
+      "highlights": "🤖 AI agent that builds web apps from prompts using LangGraph",
+      "tags": []
+    },
+    {
+      "repo": "manjunathsept11/Lovely_Coder",
+      "language": "CSS",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 5,
+      "loc": 2669,
+      "updated_at": "2026-03-10T09:27:26.268Z",
+      "highlights": "🤖 AI software engineer that builds projects from natural language",
+      "tags": ["Auditable"]
+    },
+    {
+      "repo": "vventirozos/GhostAgent-v2",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 6,
+      "loc": 12290,
+      "updated_at": "2026-03-10T09:27:56.737Z",
+      "highlights": "👻 Autonomous AI agent for coding, reasoning, and self-correction with memory systems",
+      "tags": ["Isolated"]
+    },
+    {
+      "repo": "Devam510/Jarvis",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 2,
+      "loc": 17220,
+      "updated_at": "2026-03-10T09:29:10.271Z",
+      "highlights": "🤖 Voice AI assistant with autonomous tasks and safe code execution",
+      "tags": ["Office Assistant", "Secure", "Auditable"]
     }
   ]
 }

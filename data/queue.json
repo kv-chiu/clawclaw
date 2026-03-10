@@ -1,29 +1,4 @@
 {
-  "pending": [
-    "aws-samples/remote-swe-agents",
-    "qodo-ai/aware-swe-agent",
-    "wirelessr/SpecForge-Agent",
-    "Josh-Archer/local-swe-agent",
-    "wmikuriy/remote-swe-agents",
-    "sandeepkumarsuresh/DMAS",
-    "zachblume/autospec",
-    "bejranonda/LLM-Autonomous-Agent-Plugin-for-Claude",
-    "Sherin-SEF-AI/code-genie",
-    "Foxemsx/Artemis",
-    "Spaghetto-AI-Agent/spaghetto",
-    "ChildWerapol/LLM-Autonomous-Agent-Plugin",
-    "jack3079/EvoAgent",
-    "xupeiwust/protoforge",
-    "turtacn/protoforge",
-    "MustafaKocamann/AgentCoder",
-    "Toglefritz/Dwellware",
-    "Sreenith18/Python-Software-Engineer-Assignment-LLM-Agentic-Thinking",
-    "DComasBaz/AI-Software-Engineer",
-    "manjunathsept11/Lovely_Coder",
-    "vventirozos/GhostAgent-v2",
-    "chenhg5/cc-connect",
-    "Amin-moniry-pr7/n8n_ExecutiveBot_Platform",
-    "Devam510/Jarvis"
-  ],
-  "updated_at": "2026-03-10T08:28:28.215Z"
+  "pending": [],
+  "updated_at": "2026-03-10T09:29:23.788Z"
 }
