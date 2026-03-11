@@ -13,8 +13,14 @@ interface SearchResult {
   items: GitHubRepo[];
 }
 
-interface SearchIssuesResult {
-  total_count: number;
+interface GraphQLIssuesAndPRsResult {
+  data: {
+    repository?: {
+      issues: { totalCount: number };
+      pullRequests: { totalCount: number };
+    };
+  };
+  errors?: Array<{ message: string }>;
 }
 
 async function githubFetch<T>(path: string): Promise<T> {
@@ -53,18 +59,61 @@ export async function getRepoInfo(repo: string): Promise<RepoInfo> {
   };
 }
 
-export async function getOpenIssueCount(repo: string): Promise<number> {
-  const data = await githubFetch<SearchIssuesResult>(
-    `/search/issues?q=repo:${repo}+type:issue+state:open&per_page=1`,
-  );
-  return data.total_count;
-}
+export async function getOpenIssueAndPRCount(
+  repoFullName: string,
+): Promise<{ issues: number; prs: number }> {
+  const [owner, name] = repoFullName.split("/");
+  const query = `
+    query {
+      repository(owner: "${owner}", name: "${name}") {
+        issues(states: [OPEN]) {
+          totalCount
+        }
+        pullRequests(states: [OPEN]) {
+          totalCount
+        }
+      }
+    }
+  `;
 
-export async function getOpenPRCount(repo: string): Promise<number> {
-  const data = await githubFetch<SearchIssuesResult>(
-    `/search/issues?q=repo:${repo}+type:pr+state:open&per_page=1`,
-  );
-  return data.total_count;
+  const token = GITHUB_TOKEN();
+  const headers: Record<string, string> = {
+    "Content-Type": "application/json",
+  };
+  if (token) {
+    headers.Authorization = `Bearer ${token}`;
+  }
+
+  const res = await fetch("https://api.github.com/graphql", {
+    method: "POST",
+    headers,
+    body: JSON.stringify({ query }),
+  });
+
+  if (!res.ok) {
+    throw new Error(
+      `GitHub GraphQL error: ${res.status} ${res.statusText} for ${repoFullName}`,
+    );
+  }
+
+  const json = (await res.json()) as GraphQLIssuesAndPRsResult;
+
+  if (json.errors && json.errors.length > 0) {
+    throw new Error(
+      `GitHub GraphQL API error: ${json.errors[0]?.message} for ${repoFullName}`,
+    );
+  }
+
+  if (!json.data.repository) {
+    throw new Error(
+      `GitHub GraphQL API error: Repository not found for ${repoFullName}`,
+    );
+  }
+
+  return {
+    issues: json.data.repository.issues.totalCount,
+    prs: json.data.repository.pullRequests.totalCount,
+  };
 }
 
 export async function getCommitCount(repo: string): Promise<number> {

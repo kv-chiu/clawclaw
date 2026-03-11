@@ -3,8 +3,7 @@ import { fileURLToPath } from "node:url";
 import { DATA_PATH, type Project, type ProjectsData } from "./config.js";
 import {
   getRepoInfo,
-  getOpenIssueCount,
-  getOpenPRCount,
+  getOpenIssueAndPRCount,
   getCommitCount,
   getRepoReadme,
 } from "./github.js";
@@ -27,10 +26,9 @@ function saveProjects(data: ProjectsData): Promise<void> {
 async function fetchProjectData(
   repo: string,
 ): Promise<Omit<Project, "tags" | "highlights">> {
-  const [repoInfo, issues, prs, commits, loc] = await Promise.all([
+  const [repoInfo, issuesAndPrs, commits, loc] = await Promise.all([
     getRepoInfo(repo),
-    getOpenIssueCount(repo),
-    getOpenPRCount(repo),
+    getOpenIssueAndPRCount(repo),
     getCommitCount(repo),
     countLoc(repo),
   ]);
@@ -40,8 +38,8 @@ async function fetchProjectData(
     language: repoInfo.language,
     stars: repoInfo.stars,
     forks: repoInfo.forks,
-    issues,
-    prs,
+    issues: issuesAndPrs.issues,
+    prs: issuesAndPrs.prs,
     commits,
     loc,
     updated_at: new Date().toISOString(),
