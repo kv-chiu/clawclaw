@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "README.md"
+      - "index.html"
       - "feed.xml"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
@@ -27,19 +27,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Prepare site source
+      - name: Prepare site
         run: |
-          cp README.md index.md
-          cat > _config.yml << 'YAML'
-          theme: jekyll-theme-minimal
-          title: clawclaw
-          description: Awesome list of OpenClaw-inspired AI agents
-          include:
-            - feed.xml
-          YAML
-
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
+          mkdir -p _site
+          cp index.html _site/
+          cp feed.xml _site/ 2>/dev/null || true
 
       - uses: actions/upload-pages-artifact@v3
 
