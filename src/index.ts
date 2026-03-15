@@ -1,6 +1,7 @@
 import { updateAllProjects } from "./update.js";
 import { discoverProjects } from "./discover.js";
 import { renderReadme } from "./render.js";
+import { generateFeed } from "./feed.js";
 
 const command = process.argv[2];
 
@@ -14,6 +15,7 @@ async function main() {
       break;
     case "render":
       await renderReadme();
+      await generateFeed();
       break;
     default:
       console.log("Usage: pnpm start <update|discover|render>");
