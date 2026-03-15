@@ -9,6 +9,7 @@ import {
   generateTags,
 } from "./ai.js";
 import { fetchProjectData, loadProjects, saveProjects } from "./update.js";
+import { saveDailyReport } from "./report.js";
 
 interface QueueData {
   pending: string[]; // repos approved by AI, waiting to be collected
@@ -197,6 +198,15 @@ async function processQueue(queue: QueueData): Promise<string[]> {
 }
 
 export async function discoverProjects(): Promise<string[]> {
+  const dataBefore = await loadProjects();
+  const snapshot = dataBefore.projects.map((p) => ({ ...p }));
+
   const queue = await refreshQueue();
-  return processQueue(queue);
+  const added = await processQueue(queue);
+
+  const dataAfter = await loadProjects();
+  const today = new Date().toISOString().slice(0, 10);
+  await saveDailyReport(today, "discover", snapshot, dataAfter.projects, added);
+
+  return added;
 }

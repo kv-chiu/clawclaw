@@ -56,6 +56,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git diff --quiet data/ README.md feed.xml index.html && exit 0
-          git add data/projects.json data/queue.json README.md feed.xml index.html
+          git add data/projects.json data/queue.json data/reports/ README.md feed.xml index.html
           git commit -m "feat: discover new projects $(date +%Y-%m-%d)"
           git push

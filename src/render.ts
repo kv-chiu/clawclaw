@@ -1,6 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { DATA_PATH, README_PATH, type ProjectsData } from "./config.js";
+import { loadReports } from "./report.js";
 
 function formatNumber(n: number): string {
   return n.toLocaleString("en-US");
@@ -10,9 +11,14 @@ export async function renderReadme(): Promise<void> {
   const raw = await readFile(fileURLToPath(DATA_PATH), "utf-8");
   const data = JSON.parse(raw) as ProjectsData;
 
+  const reports = await loadReports(1);
+  const date = reports[0]?.date ?? new Date().toISOString().slice(0, 10);
+
   const header = `# clawclaw
 
 Awesome list of OpenClaw-inspired AI agents. Discovered by agents, for humans.
+
+> Last updated: ${date}
 
 `;
 

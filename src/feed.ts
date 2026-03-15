@@ -1,6 +1,7 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
-import { DATA_PATH, type Project, type ProjectsData } from "./config.js";
+import type { DailyReport, StatsChange } from "./config.js";
+import { loadReports } from "./report.js";
 
 const SITE_URL = "https://kv-chiu.github.io/clawclaw";
 const REPO_URL = "https://github.com/kv-chiu/clawclaw";
@@ -14,45 +15,76 @@ function escapeXml(s: string): string {
     .replace(/'/g, "&apos;");
 }
 
-function toDateKey(iso: string): string {
-  return iso.slice(0, 10);
+function buildNewProjectsSection(repos: string[]): string {
+  if (repos.length === 0) return "";
+  const items = repos
+    .map(
+      (r) =>
+        `&lt;li&gt;&lt;a href="https://github.com/${escapeXml(r)}"&gt;${escapeXml(r)}&lt;/a&gt;&lt;/li&gt;`,
+    )
+    .join("\n");
+  return `&lt;h3&gt;New Projects (${repos.length})&lt;/h3&gt;\n&lt;ul&gt;\n${items}\n&lt;/ul&gt;`;
 }
 
-function buildProjectRow(p: Project): string {
-  return `&lt;li&gt;&lt;a href="https://github.com/${escapeXml(p.repo)}"&gt;${escapeXml(p.repo)}&lt;/a&gt; — ${escapeXml(p.highlights)} (⭐ ${p.stars}, ${escapeXml(p.language)})&lt;/li&gt;`;
+function buildStatsSection(changes: StatsChange[]): string {
+  if (changes.length === 0) return "";
+  const items = changes
+    .map((s) => {
+      const details = s.changes
+        .map((c) => `${c.field}: ${c.old} → ${c.new}`)
+        .join(", ");
+      return `&lt;li&gt;${escapeXml(s.repo)}: ${escapeXml(details)}&lt;/li&gt;`;
+    })
+    .join("\n");
+  return `&lt;h3&gt;Stats Changes&lt;/h3&gt;\n&lt;ul&gt;\n${items}\n&lt;/ul&gt;`;
+}
+
+function buildEntryContent(report: DailyReport): string {
+  const parts: string[] = [];
+  parts.push(
+    `&lt;p&gt;Total projects: ${report.summary.total_projects}&lt;/p&gt;`,
+  );
+
+  const newSection = buildNewProjectsSection(report.summary.new_projects);
+  if (newSection) parts.push(newSection);
+
+  const statsSection = buildStatsSection(report.summary.stats_changes);
+  if (statsSection) parts.push(statsSection);
+
+  return parts.join("\n");
+}
+
+function buildEntrySummary(report: DailyReport): string {
+  const parts: string[] = [];
+  if (report.summary.new_projects.length > 0) {
+    parts.push(`${report.summary.new_projects.length} new project(s)`);
+  }
+  if (report.summary.stats_changes.length > 0) {
+    parts.push(
+      `${report.summary.stats_changes.length} project(s) with stats changes`,
+    );
+  }
+  if (parts.length === 0) parts.push("No changes");
+  return parts.join(", ");
 }
 
 export async function generateFeed(): Promise<void> {
-  const raw = await readFile(fileURLToPath(DATA_PATH), "utf-8");
-  const data = JSON.parse(raw) as ProjectsData;
+  const reports = await loadReports(30);
 
-  // Group projects by update date
-  const byDate = new Map<string, Project[]>();
-  for (const p of data.projects) {
-    const key = toDateKey(p.updated_at);
-    const list = byDate.get(key) ?? [];
-    list.push(p);
-    byDate.set(key, list);
-  }
+  const latestDate = reports[0]?.date ?? new Date().toISOString().slice(0, 10);
 
-  // Sort dates descending
-  const dates = [...byDate.keys()].sort((a, b) => b.localeCompare(a));
-
-  const latestDate = dates[0] ?? new Date().toISOString().slice(0, 10);
-
-  const entries = dates
-    .map((date) => {
-      const projects = byDate.get(date)!;
-      const projectList = projects.map(buildProjectRow).join("\n");
-      const summary = `${projects.length} project(s) updated`;
+  const entries = reports
+    .map((report) => {
+      const summary = buildEntrySummary(report);
+      const content = buildEntryContent(report);
 
       return `  <entry>
-    <title>clawclaw report ${date} — ${projects.length} project(s)</title>
+    <title>clawclaw ${report.type} report ${report.date} — ${escapeXml(summary)}</title>
     <link href="${SITE_URL}" />
-    <id>${REPO_URL}/report/${date}</id>
-    <updated>${date}T00:00:00Z</updated>
+    <id>${REPO_URL}/report/${report.date}</id>
+    <updated>${report.date}T00:00:00Z</updated>
     <summary>${escapeXml(summary)}</summary>
-    <content type="html">&lt;ul&gt;\n${projectList}\n&lt;/ul&gt;</content>
+    <content type="html">${content}</content>
   </entry>`;
     })
     .join("\n");

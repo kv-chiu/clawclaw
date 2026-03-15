@@ -95,8 +95,25 @@ export const AI_CONFIG = {
 
 export const GITHUB_TOKEN = () => getEnv("GITHUB_TOKEN", "");
 
+export interface StatsChange {
+  repo: string;
+  changes: { field: string; old: number; new: number }[];
+}
+
+export interface DailyReport {
+  date: string;
+  type: "update" | "discover";
+  summary: {
+    total_projects: number;
+    new_projects: string[];
+    stats_changes: StatsChange[];
+  };
+  projects: Project[];
+}
+
 export const DATA_PATH = new URL("../data/projects.json", import.meta.url);
 export const QUEUE_PATH = new URL("../data/queue.json", import.meta.url);
+export const REPORTS_DIR = new URL("../data/reports/", import.meta.url);
 export const README_PATH = new URL("../README.md", import.meta.url);
 
 export const MAX_COLLECT_PER_RUN = parseInt(

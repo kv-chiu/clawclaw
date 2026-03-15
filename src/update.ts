@@ -9,6 +9,7 @@ import {
 } from "./github.js";
 import { countLoc } from "./loc.js";
 import { generateHighlights, generateTags } from "./ai.js";
+import { saveDailyReport } from "./report.js";
 
 function loadProjects(): Promise<ProjectsData> {
   return readFile(fileURLToPath(DATA_PATH), "utf-8").then(
@@ -60,6 +61,7 @@ async function fetchAIContent(
 
 export async function updateAllProjects(): Promise<void> {
   const data = await loadProjects();
+  const snapshot = data.projects.map((p) => ({ ...p }));
 
   for (const project of data.projects) {
     console.log(`Updating ${project.repo}...`);
@@ -83,6 +85,9 @@ export async function updateAllProjects(): Promise<void> {
 
   await saveProjects(data);
   console.log("projects.json saved.");
+
+  const today = new Date().toISOString().slice(0, 10);
+  await saveDailyReport(today, "update", snapshot, data.projects, []);
 }
 
 export { loadProjects, saveProjects, fetchProjectData, fetchAIContent };
