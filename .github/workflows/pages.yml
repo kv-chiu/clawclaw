@@ -6,6 +6,7 @@ on:
     paths:
       - "README.md"
       - "feed.xml"
+      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:
