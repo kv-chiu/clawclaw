@@ -5,99 +5,44 @@
   <link href="https://kv-chiu.github.io/clawclaw/feed.xml" rel="self" />
   <link href="https://github.com/kv-chiu/clawclaw" />
   <id>https://github.com/kv-chiu/clawclaw</id>
-  <updated>2026-03-14T00:00:00Z</updated>
+  <updated>2026-03-15T00:00:00Z</updated>
   <entry>
-    <title>clawclaw report 2026-03-14 — 85 project(s)</title>
+    <title>clawclaw update report 2026-03-15 — 28 project(s) with stats changes</title>
     <link href="https://kv-chiu.github.io/clawclaw" />
-    <id>https://github.com/kv-chiu/clawclaw/report/2026-03-14</id>
-    <updated>2026-03-14T00:00:00Z</updated>
-    <summary>85 project(s) updated</summary>
-    <content type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/openclaw/openclaw"&gt;openclaw/openclaw&lt;/a&gt; — Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 (⭐ 311364, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/moeru-ai/airi"&gt;moeru-ai/airi&lt;/a&gt; — 💖🧸 Self-hosted AI waifu companion with voice chat, Minecraft &amp; Factorio support (⭐ 33371, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/HKUDS/nanobot"&gt;HKUDS/nanobot&lt;/a&gt; — 🐈 nanobot: The Ultra-Lightweight OpenClaw (⭐ 33303, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/qwibitai/nanoclaw"&gt;qwibitai/nanoclaw&lt;/a&gt; — 🔒 AI assistant running secure agents in containers for WhatsApp, Telegram, Discord (⭐ 22583, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/nearai/ironclaw"&gt;nearai/ironclaw&lt;/a&gt; — 🔒 Privacy-first Rust AI assistant with WASM sandbox and local encrypted storage (⭐ 9934, Rust)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/poco-ai/poco-claw"&gt;poco-ai/poco-claw&lt;/a&gt; — A safer, more beautiful OpenClaw alternative with Claude Code agent, sandbox, and IM support (⭐ 1151, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/chenhg5/cc-connect"&gt;chenhg5/cc-connect&lt;/a&gt; — Bridge AI coding agents (Claude, Cursor, Gemini) to chat apps (Slack, Telegram, Discord) (⭐ 1218, Go)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/195440/nof1.ai"&gt;195440/nof1.ai&lt;/a&gt; — ⚡ Autonomous AI trading agent for cryptocurrency markets using LLMs (⭐ 572, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/microclaw/microclaw"&gt;microclaw/microclaw&lt;/a&gt; — 🦀An agentic AI chat assistant built with Rust for multiple platforms (⭐ 553, Rust)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/QuantaAlpha/RepoMaster"&gt;QuantaAlpha/RepoMaster&lt;/a&gt; — ⭐ AI agent that turns GitHub repositories into autonomous task-solving tools (⭐ 508, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/lekt9/openclaw-foundry"&gt;lekt9/openclaw-foundry&lt;/a&gt; — Self-writing meta-extension for OpenClaw that learns patterns and writes new capabilities into it... (⭐ 259, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/MegaSuperKitty/LittleAngelBot"&gt;MegaSuperKitty/LittleAngelBot&lt;/a&gt; — ✨ Cross-platform personal assistant linking mobile QQ and Windows PC (⭐ 273, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Natfii/ZeroClaw-Android"&gt;Natfii/ZeroClaw-Android&lt;/a&gt; — 🤖 Android app to run AI agents 24/7 with Rust core, 25+ providers (⭐ 250, Unknown)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/aws-samples/remote-swe-agents"&gt;aws-samples/remote-swe-agents&lt;/a&gt; — Autonomous SWE agent running on AWS with web UI and Slack integration (⭐ 229, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/oujingzhou/openmozi"&gt;oujingzhou/openmozi&lt;/a&gt; — 轻量级国产AI助手框架，支持DeepSeek/豆包/Qwen等模型和QQ/飞书/钉钉/企微 (⭐ 176, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/freddy-schuetz/n8n-claw"&gt;freddy-schuetz/n8n-claw&lt;/a&gt; — 🤖 Self-hosted n8n AI agent with Telegram, memory, tasks, and MCP builder (⭐ 198, Shell)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/OpenAnalystInc/OpenAnalyst"&gt;OpenAnalystInc/OpenAnalyst&lt;/a&gt; — Open-source VS Code AI agent for data analytics and coding with multi-model support (⭐ 156, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/aspasskiy/GoGogot"&gt;aspasskiy/GoGogot&lt;/a&gt; — 🤖 Self-hosted AI agent in Go (~15MB), runs shell commands and web browser. (⭐ 136, Go)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/FoundDream/miniclawd"&gt;FoundDream/miniclawd&lt;/a&gt; — 🦞 Lightweight AI assistant with Telegram/Feishu support, built with TypeScript (⭐ 102, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/swarmclawai/swarmclaw"&gt;swarmclawai/swarmclaw&lt;/a&gt; — Self-hosted AI agent orchestration dashboard with OpenClaw (⭐ 122, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/sausheong/goclaw"&gt;sausheong/goclaw&lt;/a&gt; — Self-hosted AI agent gateway in Go, single binary, low memory, fast startup. (⭐ 70, Go)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/openlegion-ai/openlegion"&gt;openlegion-ai/openlegion&lt;/a&gt; — A Docker-isolated AI agent fleet platform with multi-LLM support and built-in cost controls. (⭐ 69, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/zachblume/autospec"&gt;zachblume/autospec&lt;/a&gt; — 🧪 AI agent that autonomously tests web apps and saves specs as E2E test code (⭐ 59, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/ysz/nanoClaw"&gt;ysz/nanoClaw&lt;/a&gt; — Ultra-lightweight secure AI assistant, ~3K lines, 2-min setup, inspired by OpenClaw 🦀 (⭐ 54, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/puremachinery/carapace"&gt;puremachinery/carapace&lt;/a&gt; — 🔒 Secure Rust AI assistant with multi-channel support and signed WASM plugins (⭐ 41, Rust)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/ApeCodeAI/nanoclaw-py"&gt;ApeCodeAI/nanoclaw-py&lt;/a&gt; — Minimal AI agent in ~500 Python lines powered by Claude Code via Telegram with file/command/web/s... (⭐ 40, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/AbuZar-Ansarii/NanoBot-Android"&gt;AbuZar-Ansarii/NanoBot-Android&lt;/a&gt; — 🐈 Nanobot: Ultra-lightweight AI agent (~4K LOC) for Android/Termux with Telegram support (⭐ 25, Unknown)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/adolfousier/socialcrabs"&gt;adolfousier/socialcrabs&lt;/a&gt; — 🦀 Web automation tool for Instagram, Twitter/X &amp; LinkedIn with human-like behavior simulation (⭐ 21, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/rayclaw/rayclaw"&gt;rayclaw/rayclaw&lt;/a&gt; — 🦀 Rust AI agent connecting Telegram, Discord, Slack, Feishu and web UI. (⭐ 21, Rust)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/bejranonda/LLM-Autonomous-Agent-Plugin-for-Claude"&gt;bejranonda/LLM-Autonomous-Agent-Plugin-for-Claude&lt;/a&gt; — Claude Code autonomous agent plugin with auto learning, 40+ linters, OWASP security (⭐ 19, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/pinpox/opencrow"&gt;pinpox/opencrow&lt;/a&gt; — 🦅 Chat bot bridging Matrix/Nostr to pi coding agent via RPC (⭐ 18, Go)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/OthmaneBlial/lightclaw"&gt;OthmaneBlial/lightclaw&lt;/a&gt; — 🦞 Lightweight Telegram AI agent with memory and multi-provider LLM routing (⭐ 15, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/neul-labs/openclawMU"&gt;neul-labs/openclawMU&lt;/a&gt; — 🦞 Multi-tenant fork of OpenClaw AI assistant (⭐ 15, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/preset-io/agor-assistant"&gt;preset-io/agor-assistant&lt;/a&gt; — 🦀 AI agent workspace with file-based identity for Agor multiplayer canvas (⭐ 12, Unknown)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Amin-moniry-pr7/n8n_ExecutiveBot_Platform"&gt;Amin-moniry-pr7/n8n_ExecutiveBot_Platform&lt;/a&gt; — 🤖 AI Telegram bot with Gmail, Drive, Sheets &amp; Python execution via Docker &amp; n8n (⭐ 12, Unknown)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/ComposioHQ/openclaw-composio"&gt;ComposioHQ/openclaw-composio&lt;/a&gt; — OpenClaw fork with integrated Composio plugin for easy tool authentication (⭐ 11, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Kxrbx/Clawlet"&gt;Kxrbx/Clawlet&lt;/a&gt; — 🌸 Lightweight AI agent framework with identity awareness, 2-minute local setup (⭐ 13, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/yogesharc/babyclaw"&gt;yogesharc/babyclaw&lt;/a&gt; — 🤖 Claude Code on VPS controlled from Telegram with voice &amp; files (⭐ 11, JavaScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Sherin-SEF-AI/code-genie"&gt;Sherin-SEF-AI/code-genie&lt;/a&gt; — 🧞 AI coding agent with multi-agent system, runs locally with Ollama (⭐ 10, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Aisht669/NetClaw"&gt;Aisht669/NetClaw&lt;/a&gt; — .NET AI assistant with multi-LLM support, built-in tools, and messaging integrations (⭐ 10, C#)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Array-Ventures/coworker"&gt;Array-Ventures/coworker&lt;/a&gt; — Open-source AI agent with MCP UI, app builder, A2A, multi-provider chat (⭐ 13, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/lupin4/wintermolt"&gt;lupin4/wintermolt&lt;/a&gt; — AI agent CLI in Zig: 3MB binary, no runtime, Claude/Ollama/OpenAI backends. (⭐ 11, Zig)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/crypdick/pynchy"&gt;crypdick/pynchy&lt;/a&gt; — 🐙 Modular containerized AI assistant for WhatsApp with memory and scheduled tasks. (⭐ 8, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/san-techie21/gulama-bot"&gt;san-techie21/gulama-bot&lt;/a&gt; — 🔒 Security-first personal AI agent with 19 skills, 10 channels, 100+ LLM providers (⭐ 8, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Foxemsx/Artemis"&gt;Foxemsx/Artemis&lt;/a&gt; — Free AI IDE with autonomous agents, Monaco editor, terminal, and 16 themes. (⭐ 8, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/clawd-meme/clawdbot"&gt;clawd-meme/clawdbot&lt;/a&gt; — 🦞 Personal AI assistant for WhatsApp, Telegram, Discord, and messaging apps (⭐ 7, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/qodo-ai/aware-swe-agent"&gt;qodo-ai/aware-swe-agent&lt;/a&gt; — 🧠 Autonomous SWE agent with Qodo Aware for code analysis and issue solving (⭐ 7, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/tashfeenahmed/scallopbot"&gt;tashfeenahmed/scallopbot&lt;/a&gt; — Bio-inspired AI agent with memory, dreams, self-reflection, 7 providers, 9 channels (⭐ 5, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/5unnykum4r/grip-ai"&gt;5unnykum4r/grip-ai&lt;/a&gt; — 🤖 Self-hostable AI agent platform with Claude SDK + LiteLLM for 15+ providers (⭐ 5, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/uraimo/bashobot"&gt;uraimo/bashobot&lt;/a&gt; — 🦞 Personal AI assistant built entirely in Bash with Telegram/CLI support (⭐ 4, Shell)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/meso4444/chat-agent-matrix"&gt;meso4444/chat-agent-matrix&lt;/a&gt; — 🐙 Multi-agent AI system in tmux with CLI orchestration and self-healing (⭐ 4, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/wirelessr/SpecForge-Agent"&gt;wirelessr/SpecForge-Agent&lt;/a&gt; — Autonomous multi-agent framework for full software development lifecycle automation. (⭐ 4, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/dmuso/direclaw"&gt;dmuso/direclaw&lt;/a&gt; — Rust-based agentic AI platform for reliable multi-agent task execution (⭐ 3, Rust)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/aliveclaw/aliveclaw"&gt;aliveclaw/aliveclaw&lt;/a&gt; — 🤖 Bio-inspired AI assistant with memory, reflection and adaptive instincts (⭐ 3, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/VTSTech/LocalClaw"&gt;VTSTech/LocalClaw&lt;/a&gt; — 🦞 LocalClaw: Minimal agentic framework for local AI with Ollama (⭐ 3, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/shimaenaga1123/rustclaw"&gt;shimaenaga1123/rustclaw&lt;/a&gt; — Rust Discord AI with vector memory, multi-LLM support, and sandboxed tools (⭐ 3, Rust)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/D-Sketon/tinybot"&gt;D-Sketon/tinybot&lt;/a&gt; — A lightweight Bun/TS agent framework for learning and prototyping (⭐ 3, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/chrischongyj/dumbclaw"&gt;chrischongyj/dumbclaw&lt;/a&gt; — Simple AI assistant bot with skills system, WhatsApp/Telegram support (⭐ 3, Go)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/24kchengYe/DigitalMe"&gt;24kchengYe/DigitalMe&lt;/a&gt; — 🤖 Control Claude Code from your phone via chat apps with live dashboard &amp; monitoring (⭐ 3, Go)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/RustClawBot/rustclaw"&gt;RustClawBot/rustclaw&lt;/a&gt; — 🦀 Rust remake of OpenClaw for autonomous safety AI on $10 hardware (⭐ 3, Unknown)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Idan707/openclaw-lite"&gt;Idan707/openclaw-lite&lt;/a&gt; — 🤖 Telegram AI assistant with memory, skills &amp; agent-browser by Steel Labs (⭐ 3, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/asafelobotomy/ClosedClaw"&gt;asafelobotomy/ClosedClaw&lt;/a&gt; — Personal AI assistant gateway with GTK GUI and Ollama integration (⭐ 3, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/AdityaSinha2911/OpenPaw"&gt;AdityaSinha2911/OpenPaw&lt;/a&gt; — Telegram-controlled desktop AI agent powered by local Ollama LLM (⭐ 2, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/arosstale/openclaw-contributor-skill"&gt;arosstale/openclaw-contributor-skill&lt;/a&gt; — 🤖 Automated issue analysis, fixing, testing &amp; PR submission for OpenClaw (⭐ 2, Shell)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/lubluniky/ubot"&gt;lubluniky/ubot&lt;/a&gt; — 🤖 Lightweight self-hosted AI assistant in Go with Telegram/CLI support (⭐ 2, Go)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Shiva-destroyer/OpenClaw-Hardened"&gt;Shiva-destroyer/OpenClaw-Hardened&lt;/a&gt; — Hardened OpenClaw fork blocking prompt injection, steganography, and RCE. (⭐ 2, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/jddunn/wunderland"&gt;jddunn/wunderland&lt;/a&gt; — AI agent framework with HEXACO personalities, RAG, and prompt injection defenses. (⭐ 2, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Spaghetto-AI-Agent/spaghetto"&gt;Spaghetto-AI-Agent/spaghetto&lt;/a&gt; — 🍝 AI-powered code review bot for GitHub PRs using GPT-4o with agentic tool-use (⭐ 2, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/moshehbenavraham/crocbot"&gt;moshehbenavraham/crocbot&lt;/a&gt; — 🐊 Telegram-first personal AI assistant with Gateway control for self-hosted VPS (⭐ 2, TypeScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Quinnod345/oneiro-oca"&gt;Quinnod345/oneiro-oca&lt;/a&gt; — 🌑 AI cognitive architecture with perception, memory and learning on consumer hardware (⭐ 1, JavaScript)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/ChildWerapol/LLM-Autonomous-Agent-Plugin"&gt;ChildWerapol/LLM-Autonomous-Agent-Plugin&lt;/a&gt; — Four-tier AI agent architecture for Claude Code with 27 specialized agents (⭐ 1, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/jack3079/EvoAgent"&gt;jack3079/EvoAgent&lt;/a&gt; — AI agent that writes, tests, and integrates its own code, evolving autonomously (⭐ 1, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/xupeiwust/protoforge"&gt;xupeiwust/protoforge&lt;/a&gt; — AI-agent framework for code generation, prototyping, and IP protection. (⭐ 1, Unknown)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/turtacn/protoforge"&gt;turtacn/protoforge&lt;/a&gt; — 🤖 AI-agent framework for autonomous code generation and IP protection (⭐ 1, Unknown)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Toglefritz/Dwellware"&gt;Toglefritz/Dwellware&lt;/a&gt; — AI agent creates custom household apps from natural language conversations (⭐ 1, Dart)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/CohleM/TinyOpenHands"&gt;CohleM/TinyOpenHands&lt;/a&gt; — A tiny open-source reproduction of OpenDevin&apos;s CodeActAgent for autonomous coding (⭐ 0, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Josh-Archer/local-swe-agent"&gt;Josh-Archer/local-swe-agent&lt;/a&gt; — 🤖 AI SWE agent with vLLM, RAG &amp; autonomous coding for K3s (⭐ 0, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/wmikuriy/remote-swe-agents"&gt;wmikuriy/remote-swe-agents&lt;/a&gt; — 🤖 Self-hosted autonomous SWE agent on AWS with web UI and Slack integration (⭐ 0, Unknown)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/sandeepkumarsuresh/DMAS"&gt;sandeepkumarsuresh/DMAS&lt;/a&gt; — 🤖 Multi-agent framework using OpenInterpreter with MCP for local execution. (⭐ 0, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/MustafaKocamann/AgentCoder"&gt;MustafaKocamann/AgentCoder&lt;/a&gt; — 🤖 AI code assistant using RAG + ReAct with local Mistral &amp; CodeLlama for API PDF parsing and gen... (⭐ 0, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Sreenith18/Python-Software-Engineer-Assignment-LLM-Agentic-Thinking"&gt;Sreenith18/Python-Software-Engineer-Assignment-LLM-Agentic-Thinking&lt;/a&gt; — Agentic AI assistant handling multi-step queries with calculator and translation tools (⭐ 0, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/DComasBaz/AI-Software-Engineer"&gt;DComasBaz/AI-Software-Engineer&lt;/a&gt; — 🤖 AI agent that builds web apps from prompts using LangGraph (⭐ 0, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/manjunathsept11/Lovely_Coder"&gt;manjunathsept11/Lovely_Coder&lt;/a&gt; — 🤖 AI software engineer that builds projects from natural language (⭐ 0, CSS)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/vventirozos/GhostAgent-v2"&gt;vventirozos/GhostAgent-v2&lt;/a&gt; — 👻 Autonomous AI agent for coding, reasoning, and self-correction with memory systems (⭐ 0, Python)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/Devam510/Jarvis"&gt;Devam510/Jarvis&lt;/a&gt; — 🤖 Voice AI assistant with autonomous tasks and safe code execution (⭐ 0, Python)&lt;/li&gt;
+    <id>https://github.com/kv-chiu/clawclaw/report/2026-03-15</id>
+    <updated>2026-03-15T00:00:00Z</updated>
+    <summary>28 project(s) with stats changes</summary>
+    <content type="html">&lt;p&gt;Total projects: 85&lt;/p&gt;
+&lt;h3&gt;Stats Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;openclaw/openclaw: stars: 311364 → 313577, forks: 59235 → 59831, issues: 7453 → 7741, prs: 5652 → 6025, commits: 19030 → 19110, loc: 1210657 → 1220162&lt;/li&gt;
+&lt;li&gt;moeru-ai/airi: stars: 33371 → 33639, forks: 3289 → 3335, prs: 62 → 52, commits: 2992 → 3007, loc: 141910 → 142119&lt;/li&gt;
+&lt;li&gt;HKUDS/nanobot: stars: 33303 → 33560, forks: 5527 → 5592, issues: 417 → 418, prs: 486 → 491, commits: 1244 → 1278, loc: 17951 → 19459&lt;/li&gt;
+&lt;li&gt;qwibitai/nanoclaw: stars: 22583 → 22965, forks: 5102 → 5513, issues: 108 → 115, prs: 280 → 283, commits: 297 → 303, loc: 13189 → 13701&lt;/li&gt;
+&lt;li&gt;nearai/ironclaw: stars: 9934 → 10032, forks: 1087 → 1097, issues: 234 → 224, prs: 95 → 92, commits: 530 → 558, loc: 208441 → 214639&lt;/li&gt;
+&lt;li&gt;poco-ai/poco-claw: stars: 1151 → 1152, forks: 107 → 108, issues: 2 → 1&lt;/li&gt;
+&lt;li&gt;chenhg5/cc-connect: stars: 1218 → 1345, forks: 116 → 129, issues: 24 → 31, prs: 10 → 22, commits: 321 → 350, loc: 37312 → 44010&lt;/li&gt;
+&lt;li&gt;195440/nof1.ai: stars: 572 → 573&lt;/li&gt;
+&lt;li&gt;microclaw/microclaw: stars: 553 → 547, forks: 99 → 97, issues: 3 → 4, prs: 1 → 2, commits: 873 → 897, loc: 93229 → 96339&lt;/li&gt;
+&lt;li&gt;lekt9/openclaw-foundry: stars: 259 → 260, forks: 25 → 24&lt;/li&gt;
+&lt;li&gt;MegaSuperKitty/LittleAngelBot: stars: 273 → 283, forks: 28 → 29&lt;/li&gt;
+&lt;li&gt;Natfii/ZeroClaw-Android: stars: 250 → 253&lt;/li&gt;
+&lt;li&gt;freddy-schuetz/n8n-claw: stars: 198 → 205, forks: 43 → 45, issues: 1 → 0, commits: 183 → 191, loc: 5142 → 5178&lt;/li&gt;
+&lt;li&gt;FoundDream/miniclawd: stars: 102 → 103&lt;/li&gt;
+&lt;li&gt;swarmclawai/swarmclaw: stars: 122 → 127, forks: 19 → 20, issues: 0 → 2, commits: 205 → 208, loc: 227047 → 228165&lt;/li&gt;
+&lt;li&gt;openlegion-ai/openlegion: commits: 834 → 851, loc: 60404 → 61965&lt;/li&gt;
+&lt;li&gt;puremachinery/carapace: commits: 406 → 408, loc: 127994 → 128672&lt;/li&gt;
+&lt;li&gt;ApeCodeAI/nanoclaw-py: stars: 40 → 42&lt;/li&gt;
+&lt;li&gt;adolfousier/socialcrabs: commits: 53 → 54, loc: 12444 → 12505&lt;/li&gt;
+&lt;li&gt;rayclaw/rayclaw: stars: 21 → 22&lt;/li&gt;
+&lt;li&gt;pinpox/opencrow: stars: 18 → 19, commits: 208 → 213, loc: 6627 → 6746&lt;/li&gt;
+&lt;li&gt;Aisht669/NetClaw: stars: 10 → 11&lt;/li&gt;
+&lt;li&gt;Array-Ventures/coworker: stars: 13 → 14&lt;/li&gt;
+&lt;li&gt;lupin4/wintermolt: stars: 11 → 12&lt;/li&gt;
+&lt;li&gt;VTSTech/LocalClaw: commits: 182 → 191, loc: 8960 → 12869&lt;/li&gt;
+&lt;li&gt;shimaenaga1123/rustclaw: prs: 1 → 0, commits: 169 → 170&lt;/li&gt;
+&lt;li&gt;24kchengYe/DigitalMe: commits: 154 → 156, loc: 19282 → 19316&lt;/li&gt;
+&lt;li&gt;jddunn/wunderland: commits: 235 → 255, loc: 79628 → 81698&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
 </feed>
