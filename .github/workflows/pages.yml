@@ -26,16 +26,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build site
+      - name: Prepare site source
         run: |
-          mkdir -p _site
-          cp README.md _site/
-          cp feed.xml _site/ 2>/dev/null || true
-          cat > _site/_config.yml << 'YAML'
+          cp README.md index.md
+          cat > _config.yml << 'YAML'
           theme: jekyll-theme-minimal
           title: clawclaw
           description: Awesome list of OpenClaw-inspired AI agents
+          include:
+            - feed.xml
           YAML
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
 
       - uses: actions/upload-pages-artifact@v3
 
