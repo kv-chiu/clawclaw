@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   discover:
@@ -52,19 +51,11 @@ jobs:
           pnpm start discover || true
           pnpm start render
 
-      - name: Create PR if changed
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git diff --quiet data/ README.md && exit 0
-          BRANCH="auto/discover-$(date +%Y%m%d)"
-          git checkout -b "$BRANCH"
           git add data/projects.json data/queue.json README.md
           git commit -m "feat: discover new projects $(date +%Y-%m-%d)"
-          git push -u origin "$BRANCH"
-          gh pr create \
-            --title "feat: discover new projects $(date +%Y-%m-%d)" \
-            --body "Automated weekly discovery of new OpenClaw-inspired projects." \
-            --base main || true
+          git push

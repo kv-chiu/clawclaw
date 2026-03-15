@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   update:
@@ -51,19 +50,11 @@ jobs:
           pnpm start update
           pnpm start render
 
-      - name: Create PR if changed
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git diff --quiet data/projects.json README.md && exit 0
-          BRANCH="auto/update-data-$(date +%Y%m%d)"
-          git checkout -b "$BRANCH"
           git add data/projects.json README.md
           git commit -m "chore: update project data $(date +%Y-%m-%d)"
-          git push -u origin "$BRANCH"
-          gh pr create \
-            --title "chore: update project data $(date +%Y-%m-%d)" \
-            --body "Automated daily update of project statistics." \
-            --base main || true
+          git push
