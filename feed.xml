@@ -7,12 +7,37 @@
   <id>https://github.com/kv-chiu/clawclaw</id>
   <updated>2026-03-16T00:00:00Z</updated>
   <entry>
-    <title>clawclaw update report 2026-03-16 — 29 project(s) with stats changes</title>
+    <title>clawclaw discover report 2026-03-16 — 22 new project(s), 29 project(s) with stats changes</title>
     <link href="https://kv-chiu.github.io/clawclaw" />
     <id>https://github.com/kv-chiu/clawclaw/report/2026-03-16</id>
     <updated>2026-03-16T00:00:00Z</updated>
-    <summary>29 project(s) with stats changes</summary>
-    <content type="html">&lt;p&gt;Total projects: 85&lt;/p&gt;
+    <summary>22 new project(s), 29 project(s) with stats changes</summary>
+    <content type="html">&lt;p&gt;Total projects: 107&lt;/p&gt;
+&lt;h3&gt;New Projects (22)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/YASSERRMD/clawforge"&gt;YASSERRMD/clawforge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/AstrBotDevs/AstrBot"&gt;AstrBotDevs/AstrBot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/SimonSchubert/Kai"&gt;SimonSchubert/Kai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/princezuda/safeclaw"&gt;princezuda/safeclaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/htlin222/mini-claw"&gt;htlin222/mini-claw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Miosa-osa/OSA"&gt;Miosa-osa/OSA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Dr-Lv/clawdboz"&gt;Dr-Lv/clawdboz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/IPADS-SAI/MobiClaw"&gt;IPADS-SAI/MobiClaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/JustCod101/hiveforge"&gt;JustCod101/hiveforge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/quentintou/openclaw-skill-browser-use"&gt;quentintou/openclaw-skill-browser-use&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/0xD-Fabio/openclaw-claude-code-adapter"&gt;0xD-Fabio/openclaw-claude-code-adapter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/NousResearch/hermes-agent"&gt;NousResearch/hermes-agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Wharpheus/OpenAnalyst"&gt;Wharpheus/OpenAnalyst&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Aider-AI/aider"&gt;Aider-AI/aider&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/bgoldmann/Raise-The-OpenClaw"&gt;bgoldmann/Raise-The-OpenClaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/adarsh-dev001/self-healing-demo"&gt;adarsh-dev001/self-healing-demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Anxs-11/autonomous-engineering-agent"&gt;Anxs-11/autonomous-engineering-agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/breverdbidder/qa-agentic-pipeline"&gt;breverdbidder/qa-agentic-pipeline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/BBHUVANESHWARAN/turing-agentic-ai-chatbot"&gt;BBHUVANESHWARAN/turing-agentic-ai-chatbot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/NoctuaCoder/ArbiterAI"&gt;NoctuaCoder/ArbiterAI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/mejba13/ai-auto-executor"&gt;mejba13/ai-auto-executor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/arshad98333/Open-Source-Contribution-Engine"&gt;arshad98333/Open-Source-Contribution-Engine&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Stats Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;openclaw/openclaw: stars: 313577 → 315795, forks: 59831 → 60451, issues: 7741 → 7926, prs: 6025 → 6163, commits: 19110 → 19467, loc: 1220162 → 1263788&lt;/li&gt;
