@@ -7,12 +7,37 @@
   <id>https://github.com/kv-chiu/clawclaw</id>
   <updated>2026-03-23T00:00:00Z</updated>
   <entry>
-    <title>clawclaw update report 2026-03-23 — 39 project(s) with stats changes</title>
+    <title>clawclaw discover report 2026-03-23 — 22 new project(s), 39 project(s) with stats changes</title>
     <link href="https://kv-chiu.github.io/clawclaw" />
     <id>https://github.com/kv-chiu/clawclaw/report/2026-03-23</id>
     <updated>2026-03-23T00:00:00Z</updated>
-    <summary>39 project(s) with stats changes</summary>
-    <content type="html">&lt;p&gt;Total projects: 107&lt;/p&gt;
+    <summary>22 new project(s), 39 project(s) with stats changes</summary>
+    <content type="html">&lt;p&gt;Total projects: 129&lt;/p&gt;
+&lt;h3&gt;New Projects (22)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/GodModeAI2025/skill-forge"&gt;GodModeAI2025/skill-forge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/grinev/opencode-telegram-bot"&gt;grinev/opencode-telegram-bot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/fastclaw-ai/fastclaw"&gt;fastclaw-ai/fastclaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/mutonby/viraloop"&gt;mutonby/viraloop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/robertohluna/jido_claw"&gt;robertohluna/jido_claw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/HenryZ838978/pocketclaw"&gt;HenryZ838978/pocketclaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/win4r/ClawTeam-OpenClaw"&gt;win4r/ClawTeam-OpenClaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Agusx1211/miclaw"&gt;Agusx1211/miclaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/xeroxdeveloper/xclaw"&gt;xeroxdeveloper/xclaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/yunze7373/openclaw-termux"&gt;yunze7373/openclaw-termux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/acastango/AndrOS"&gt;acastango/AndrOS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/429776833/openclaw-chrome-extension"&gt;429776833/openclaw-chrome-extension&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ToadAid/mirror-runtime"&gt;ToadAid/mirror-runtime&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ComposioHQ/secure-openclaw"&gt;ComposioHQ/secure-openclaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/essamamdani/openclaw-coolify"&gt;essamamdani/openclaw-coolify&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ZenAgent6743/zen-"&gt;ZenAgent6743/zen-&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/yunsuf/VectorCode"&gt;yunsuf/VectorCode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ArtemisAI/SWE-Squad"&gt;ArtemisAI/SWE-Squad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/codespar/codespar"&gt;codespar/codespar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/tang-vu/ContribAI"&gt;tang-vu/ContribAI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/bedda-tech/familiar"&gt;bedda-tech/familiar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/automatedreturns/avery-autodev"&gt;automatedreturns/avery-autodev&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Stats Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;openclaw/openclaw: stars: 329022 → 330866, forks: 63881 → 64390, issues: 8749 → 8873, prs: 6039 → 6019, commits: 20909 → 21469, loc: 1403592 → 1454858&lt;/li&gt;
