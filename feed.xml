@@ -7,12 +7,25 @@
   <id>https://github.com/kv-chiu/clawclaw</id>
   <updated>2026-03-30T00:00:00Z</updated>
   <entry>
-    <title>clawclaw update report 2026-03-30 — 44 project(s) with stats changes</title>
+    <title>clawclaw discover report 2026-03-30 — 10 new project(s), 44 project(s) with stats changes</title>
     <link href="https://kv-chiu.github.io/clawclaw" />
     <id>https://github.com/kv-chiu/clawclaw/report/2026-03-30</id>
     <updated>2026-03-30T00:00:00Z</updated>
-    <summary>44 project(s) with stats changes</summary>
-    <content type="html">&lt;p&gt;Total projects: 129&lt;/p&gt;
+    <summary>10 new project(s), 44 project(s) with stats changes</summary>
+    <content type="html">&lt;p&gt;Total projects: 139&lt;/p&gt;
+&lt;h3&gt;New Projects (10)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/MegaSuperKitty/WeClaw"&gt;MegaSuperKitty/WeClaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ge4sis/cl0w"&gt;ge4sis/cl0w&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/draguris/dragonclaw"&gt;draguris/dragonclaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/elophanto/EloPhanto"&gt;elophanto/EloPhanto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/avery-tools/avery-autodev"&gt;avery-tools/avery-autodev&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Agnuxo1/OpenCLAW-Autonomous-Multi-Agent-Scientific-Research-Platform"&gt;Agnuxo1/OpenCLAW-Autonomous-Multi-Agent-Scientific-Research-Platform&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/peaktwilight/pwnkit"&gt;peaktwilight/pwnkit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/mohamed-elkholy95/Pythinker"&gt;mohamed-elkholy95/Pythinker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ParthivPandya/multi-agent-orchestrator"&gt;ParthivPandya/multi-agent-orchestrator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/thitami/claude-engineer-toolkit"&gt;thitami/claude-engineer-toolkit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Stats Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;openclaw/openclaw: stars: 339749 → 340915, forks: 66954 → 67270, issues: 9759 → 9943, prs: 6485 → 6547, commits: 23431 → 23782, loc: 1625219 → 1642645&lt;/li&gt;
