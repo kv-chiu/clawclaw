@@ -66,19 +66,6 @@
       "tags": ["Office Assistant"]
     },
     {
-      "repo": "qwibitai/nanoclaw",
-      "language": "TypeScript",
-      "stars": 26603,
-      "forks": 10830,
-      "issues": 180,
-      "prs": 423,
-      "commits": 682,
-      "loc": 15748,
-      "updated_at": "2026-04-06T07:15:02.184Z",
-      "highlights": "🔒 AI assistant running secure agents in containers for WhatsApp, Telegram, Discord",
-      "tags": ["Lightweight", "Secure", "Isolated"]
-    },
-    {
       "repo": "NousResearch/hermes-agent",
       "language": "Python",
       "stars": 26794,
@@ -90,6 +77,19 @@
       "updated_at": "2026-04-06T07:15:03.712Z",
       "highlights": "⚕ Self-improving AI agent that learns and grows with you",
       "tags": ["Lightweight", "Isolated"]
+    },
+    {
+      "repo": "qwibitai/nanoclaw",
+      "language": "TypeScript",
+      "stars": 26603,
+      "forks": 10830,
+      "issues": 180,
+      "prs": 423,
+      "commits": 682,
+      "loc": 15748,
+      "updated_at": "2026-04-06T07:15:02.184Z",
+      "highlights": "🔒 AI assistant running secure agents in containers for WhatsApp, Telegram, Discord",
+      "tags": ["Lightweight", "Secure", "Isolated"]
     },
     {
       "repo": "nearai/ironclaw",
@@ -118,19 +118,6 @@
       "tags": ["Office Assistant", "Lightweight"]
     },
     {
-      "repo": "ComposioHQ/secure-openclaw",
-      "language": "JavaScript",
-      "stars": 1213,
-      "forks": 173,
-      "issues": 2,
-      "prs": 2,
-      "commits": 22,
-      "loc": 9752,
-      "updated_at": "2026-04-06T07:15:06.800Z",
-      "highlights": "🤖 24/7 AI assistant for messaging platforms using Claude with tool access",
-      "tags": ["Secure", "Office Assistant"]
-    },
-    {
       "repo": "poco-ai/poco-claw",
       "language": "TypeScript",
       "stars": 1258,
@@ -142,6 +129,19 @@
       "updated_at": "2026-04-06T07:15:07.811Z",
       "highlights": "A safer, more beautiful OpenClaw alternative with Claude Code agent, sandbox, and IM support",
       "tags": ["Isolated", "Secure", "Office Assistant"]
+    },
+    {
+      "repo": "ComposioHQ/secure-openclaw",
+      "language": "JavaScript",
+      "stars": 1213,
+      "forks": 173,
+      "issues": 2,
+      "prs": 2,
+      "commits": 22,
+      "loc": 9752,
+      "updated_at": "2026-04-06T07:15:06.800Z",
+      "highlights": "🤖 24/7 AI assistant for messaging platforms using Claude with tool access",
+      "tags": ["Secure", "Office Assistant"]
     },
     {
       "repo": "win4r/ClawTeam-OpenClaw",
@@ -209,6 +209,45 @@
       "tags": ["Lightweight", "Fast"]
     },
     {
+      "repo": "SimonSchubert/Kai",
+      "language": "Kotlin",
+      "stars": 377,
+      "forks": 42,
+      "issues": 42,
+      "prs": 0,
+      "commits": 715,
+      "loc": 0,
+      "updated_at": "2026-04-06T07:15:15.501Z",
+      "highlights": "Open-source AI assistant with persistent memory on mobile & desktop",
+      "tags": ["Secure"]
+    },
+    {
+      "repo": "grinev/opencode-telegram-bot",
+      "language": "TypeScript",
+      "stars": 361,
+      "forks": 70,
+      "issues": 7,
+      "prs": 2,
+      "commits": 167,
+      "loc": 34292,
+      "updated_at": "2026-04-06T07:15:15.322Z",
+      "highlights": "🤖 Control OpenCode AI coding from Telegram, run scheduled tasks locally",
+      "tags": ["Lightweight", "Secure", "Isolated"]
+    },
+    {
+      "repo": "freddy-schuetz/n8n-claw",
+      "language": "Shell",
+      "stars": 357,
+      "forks": 67,
+      "issues": 0,
+      "prs": 1,
+      "commits": 398,
+      "loc": 8917,
+      "updated_at": "2026-04-06T07:15:14.624Z",
+      "highlights": "🤖 Self-hosted n8n AI agent with Telegram, memory, tasks, and MCP builder",
+      "tags": ["Secure", "Isolated", "Office Assistant"]
+    },
+    {
       "repo": "MegaSuperKitty/LittleAngelBot",
       "language": "Python",
       "stars": 351,
@@ -246,45 +285,6 @@
       "updated_at": "2026-04-04T06:44:25.530Z",
       "highlights": "Self-writing meta-extension for OpenClaw that learns patterns and writes new capabilities into it...",
       "tags": ["Auditable"]
-    },
-    {
-      "repo": "freddy-schuetz/n8n-claw",
-      "language": "Shell",
-      "stars": 357,
-      "forks": 67,
-      "issues": 0,
-      "prs": 1,
-      "commits": 398,
-      "loc": 8917,
-      "updated_at": "2026-04-06T07:15:14.624Z",
-      "highlights": "🤖 Self-hosted n8n AI agent with Telegram, memory, tasks, and MCP builder",
-      "tags": ["Secure", "Isolated", "Office Assistant"]
-    },
-    {
-      "repo": "grinev/opencode-telegram-bot",
-      "language": "TypeScript",
-      "stars": 361,
-      "forks": 70,
-      "issues": 7,
-      "prs": 2,
-      "commits": 167,
-      "loc": 34292,
-      "updated_at": "2026-04-06T07:15:15.322Z",
-      "highlights": "🤖 Control OpenCode AI coding from Telegram, run scheduled tasks locally",
-      "tags": ["Lightweight", "Secure", "Isolated"]
-    },
-    {
-      "repo": "SimonSchubert/Kai",
-      "language": "Kotlin",
-      "stars": 377,
-      "forks": 42,
-      "issues": 42,
-      "prs": 0,
-      "commits": 715,
-      "loc": 0,
-      "updated_at": "2026-04-06T07:15:15.501Z",
-      "highlights": "Open-source AI assistant with persistent memory on mobile & desktop",
-      "tags": ["Secure"]
     },
     {
       "repo": "Natfii/ZeroClaw-Android",
@@ -378,19 +378,6 @@
       "tags": ["Isolated", "Office Assistant"]
     },
     {
-      "repo": "aspasskiy/GoGogot",
-      "language": "Go",
-      "stars": 115,
-      "forks": 6,
-      "issues": 0,
-      "prs": 2,
-      "commits": 50,
-      "loc": 7614,
-      "updated_at": "2026-04-06T07:15:21.437Z",
-      "highlights": "🤖 Self-hosted AI agent in Go (~15MB), runs shell commands and web browser.",
-      "tags": ["Lightweight", "Secure", "Isolated"]
-    },
-    {
       "repo": "princezuda/safeclaw",
       "language": "Python",
       "stars": 124,
@@ -417,6 +404,19 @@
       "tags": ["Lightweight"]
     },
     {
+      "repo": "aspasskiy/GoGogot",
+      "language": "Go",
+      "stars": 115,
+      "forks": 6,
+      "issues": 0,
+      "prs": 2,
+      "commits": 50,
+      "loc": 7614,
+      "updated_at": "2026-04-06T07:15:21.437Z",
+      "highlights": "🤖 Self-hosted AI agent in Go (~15MB), runs shell commands and web browser.",
+      "tags": ["Lightweight", "Secure", "Isolated"]
+    },
+    {
       "repo": "sausheong/goclaw",
       "language": "Go",
       "stars": 83,
@@ -428,6 +428,19 @@
       "updated_at": "2026-04-06T07:15:24.749Z",
       "highlights": "Self-hosted AI agent gateway in Go, single binary, low memory, fast startup.",
       "tags": ["Lightweight", "Fast"]
+    },
+    {
+      "repo": "ApeCodeAI/nanoclaw-py",
+      "language": "Python",
+      "stars": 82,
+      "forks": 20,
+      "issues": 1,
+      "prs": 0,
+      "commits": 2,
+      "loc": 684,
+      "updated_at": "2026-04-06T07:15:26.116Z",
+      "highlights": "Minimal AI agent in ~500 Python lines powered by Claude Code via Telegram with file/command/web/s...",
+      "tags": ["Lightweight", "Office Assistant"]
     },
     {
       "repo": "openlegion-ai/openlegion",
@@ -456,19 +469,6 @@
       "tags": ["Lightweight", "Secure"]
     },
     {
-      "repo": "ApeCodeAI/nanoclaw-py",
-      "language": "Python",
-      "stars": 82,
-      "forks": 20,
-      "issues": 1,
-      "prs": 0,
-      "commits": 2,
-      "loc": 684,
-      "updated_at": "2026-04-06T07:15:26.116Z",
-      "highlights": "Minimal AI agent in ~500 Python lines powered by Claude Code via Telegram with file/command/web/s...",
-      "tags": ["Lightweight", "Office Assistant"]
-    },
-    {
       "repo": "zachblume/autospec",
       "language": "TypeScript",
       "stars": 59,
@@ -495,17 +495,17 @@
       "tags": ["Lightweight", "Secure", "Isolated"]
     },
     {
-      "repo": "puremachinery/carapace",
-      "language": "Rust",
-      "stars": 43,
-      "forks": 5,
-      "issues": 12,
-      "prs": 2,
-      "commits": 756,
-      "loc": 160088,
-      "updated_at": "2026-04-06T07:15:27.700Z",
-      "highlights": "🔒 Secure Rust AI assistant with multi-channel support and signed WASM plugins",
-      "tags": ["Secure", "Isolated"]
+      "repo": "Lyt060814/nanocode",
+      "language": "TypeScript",
+      "stars": 59,
+      "forks": 29,
+      "issues": 0,
+      "prs": 0,
+      "commits": 5,
+      "loc": 15300,
+      "updated_at": "2026-04-06T09:16:47.075Z",
+      "highlights": "⚡ Nanocode: 9K LOC Claude Code clone retaining ~90% capability",
+      "tags": ["Lightweight"]
     },
     {
       "repo": "adolfousier/socialcrabs",
@@ -534,16 +534,16 @@
       "tags": ["Auditable"]
     },
     {
-      "repo": "elophanto/EloPhanto",
-      "language": "Python",
-      "stars": 37,
+      "repo": "puremachinery/carapace",
+      "language": "Rust",
+      "stars": 43,
       "forks": 5,
-      "issues": 0,
-      "prs": 0,
-      "commits": 328,
-      "loc": 117113,
-      "updated_at": "2026-04-06T07:15:31.262Z",
-      "highlights": "AI agent that builds zero-human businesses, ships code, and grows audiences locally.",
+      "issues": 12,
+      "prs": 2,
+      "commits": 756,
+      "loc": 160088,
+      "updated_at": "2026-04-06T07:15:27.700Z",
+      "highlights": "🔒 Secure Rust AI assistant with multi-channel support and signed WASM plugins",
       "tags": ["Secure", "Isolated"]
     },
     {
@@ -558,6 +558,19 @@
       "updated_at": "2026-04-06T07:15:31.974Z",
       "highlights": "🦀 Rust AI agent connecting Telegram, Discord, Slack, Feishu and web UI.",
       "tags": ["Office Assistant"]
+    },
+    {
+      "repo": "elophanto/EloPhanto",
+      "language": "Python",
+      "stars": 37,
+      "forks": 5,
+      "issues": 0,
+      "prs": 0,
+      "commits": 328,
+      "loc": 117113,
+      "updated_at": "2026-04-06T07:15:31.262Z",
+      "highlights": "AI agent that builds zero-human businesses, ships code, and grows audiences locally.",
+      "tags": ["Secure", "Isolated"]
     },
     {
       "repo": "pinpox/opencrow",
@@ -690,19 +703,6 @@
       "tags": ["Secure", "Isolated"]
     },
     {
-      "repo": "OthmaneBlial/lightclaw",
-      "language": "Python",
-      "stars": 17,
-      "forks": 3,
-      "issues": 0,
-      "prs": 0,
-      "commits": 69,
-      "loc": 10762,
-      "updated_at": "2026-04-06T07:15:41.548Z",
-      "highlights": "🦞 Lightweight Telegram AI agent with memory and multi-provider LLM routing",
-      "tags": ["Lightweight"]
-    },
-    {
       "repo": "lupin4/wintermolt",
       "language": "Zig",
       "stars": 19,
@@ -729,6 +729,19 @@
       "tags": ["Secure", "Auditable", "Isolated"]
     },
     {
+      "repo": "OthmaneBlial/lightclaw",
+      "language": "Python",
+      "stars": 17,
+      "forks": 3,
+      "issues": 0,
+      "prs": 0,
+      "commits": 69,
+      "loc": 10762,
+      "updated_at": "2026-04-06T07:15:41.548Z",
+      "highlights": "🦞 Lightweight Telegram AI agent with memory and multi-provider LLM routing",
+      "tags": ["Lightweight"]
+    },
+    {
       "repo": "yogesharc/babyclaw",
       "language": "JavaScript",
       "stars": 15,
@@ -740,6 +753,19 @@
       "updated_at": "2026-04-06T07:15:42.920Z",
       "highlights": "🤖 Claude Code on VPS controlled from Telegram with voice & files",
       "tags": ["Lightweight", "Office Assistant"]
+    },
+    {
+      "repo": "nj19257/FastSkills",
+      "language": "Python",
+      "stars": 15,
+      "forks": 3,
+      "issues": 0,
+      "prs": 0,
+      "commits": 13,
+      "loc": 68631,
+      "updated_at": "2026-04-06T09:17:45.253Z",
+      "highlights": "⚡ MCP server bringing Claude's skill engine to any agent",
+      "tags": ["Lightweight", "Fast", "Isolated"]
     },
     {
       "repo": "Kxrbx/Clawlet",
@@ -768,6 +794,19 @@
       "tags": ["Auditable", "Lightweight"]
     },
     {
+      "repo": "HenryZ838978/pocketclaw",
+      "language": "Kotlin",
+      "stars": 14,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 7,
+      "loc": 427,
+      "updated_at": "2026-04-06T07:15:45.079Z",
+      "highlights": "🦀 Mobile AI agent framework. Runs on phone, no server needed.",
+      "tags": ["Lightweight", "Isolated"]
+    },
+    {
       "repo": "draguris/dragonclaw",
       "language": "JavaScript",
       "stars": 13,
@@ -794,19 +833,6 @@
       "tags": ["Office Assistant", "Isolated"]
     },
     {
-      "repo": "HenryZ838978/pocketclaw",
-      "language": "Kotlin",
-      "stars": 14,
-      "forks": 0,
-      "issues": 0,
-      "prs": 0,
-      "commits": 7,
-      "loc": 427,
-      "updated_at": "2026-04-06T07:15:45.079Z",
-      "highlights": "🦀 Mobile AI agent framework. Runs on phone, no server needed.",
-      "tags": ["Lightweight", "Isolated"]
-    },
-    {
       "repo": "ArtemisAI/SWE-Squad",
       "language": "Python",
       "stars": 11,
@@ -831,6 +857,32 @@
       "updated_at": "2026-04-06T07:15:45.918Z",
       "highlights": "🤖 cl0w: Local AI agent via Telegram with MCP tools & persona system",
       "tags": ["Lightweight", "Secure"]
+    },
+    {
+      "repo": "karayakar/MantisClaw",
+      "language": "Go",
+      "stars": 11,
+      "forks": 3,
+      "issues": 0,
+      "prs": 0,
+      "commits": 3504,
+      "loc": 2706,
+      "updated_at": "2026-04-06T09:16:53.772Z",
+      "highlights": "🦗 Multi-platform desktop agent controllable via WhatsApp, Telegram & Slack",
+      "tags": ["Secure", "Isolated"]
+    },
+    {
+      "repo": "dream-syz/openclaw-zero-token",
+      "language": "TypeScript",
+      "stars": 11,
+      "forks": 2,
+      "issues": 0,
+      "prs": 0,
+      "commits": 4,
+      "loc": 666673,
+      "updated_at": "2026-04-06T09:17:03.774Z",
+      "highlights": "Browser automation tool for free AI platform access via session capture",
+      "tags": ["Isolated"]
     },
     {
       "repo": "Sherin-SEF-AI/code-genie",
@@ -898,19 +950,6 @@
       "tags": ["Fast", "Auditable"]
     },
     {
-      "repo": "san-techie21/gulama-bot",
-      "language": "Python",
-      "stars": 8,
-      "forks": 2,
-      "issues": 1,
-      "prs": 0,
-      "commits": 31,
-      "loc": 21162,
-      "updated_at": "2026-04-06T07:15:49.294Z",
-      "highlights": "🔒 Security-first personal AI agent with 19 skills, 10 channels, 100+ LLM providers",
-      "tags": ["Secure", "Isolated", "Office Assistant"]
-    },
-    {
       "repo": "Foxemsx/Artemis",
       "language": "TypeScript",
       "stars": 9,
@@ -922,6 +961,19 @@
       "updated_at": "2026-04-06T07:15:49.769Z",
       "highlights": "Free AI IDE with autonomous agents, Monaco editor, terminal, and 16 themes.",
       "tags": ["Secure", "Fast"]
+    },
+    {
+      "repo": "san-techie21/gulama-bot",
+      "language": "Python",
+      "stars": 8,
+      "forks": 2,
+      "issues": 1,
+      "prs": 0,
+      "commits": 31,
+      "loc": 21162,
+      "updated_at": "2026-04-06T07:15:49.294Z",
+      "highlights": "🔒 Security-first personal AI agent with 19 skills, 10 channels, 100+ LLM providers",
+      "tags": ["Secure", "Isolated", "Office Assistant"]
     },
     {
       "repo": "qodo-ai/aware-swe-agent",
@@ -950,19 +1002,6 @@
       "tags": ["Auditable", "Isolated"]
     },
     {
-      "repo": "clawd-meme/clawdbot",
-      "language": "TypeScript",
-      "stars": 7,
-      "forks": 2,
-      "issues": 0,
-      "prs": 0,
-      "commits": 7,
-      "loc": 568005,
-      "updated_at": "2026-04-06T07:15:51.459Z",
-      "highlights": "🦞 Personal AI assistant for WhatsApp, Telegram, Discord, and messaging apps",
-      "tags": ["Office Assistant", "Fast", "Secure"]
-    },
-    {
       "repo": "peaktwilight/pwnkit",
       "language": "TypeScript",
       "stars": 8,
@@ -976,17 +1015,17 @@
       "tags": ["Fast", "Auditable"]
     },
     {
-      "repo": "5unnykum4r/grip-ai",
-      "language": "Python",
-      "stars": 6,
-      "forks": 1,
+      "repo": "clawd-meme/clawdbot",
+      "language": "TypeScript",
+      "stars": 7,
+      "forks": 2,
       "issues": 0,
       "prs": 0,
-      "commits": 59,
-      "loc": 28205,
-      "updated_at": "2026-04-06T07:15:52.684Z",
-      "highlights": "🤖 Self-hostable AI agent platform with Claude SDK + LiteLLM for 15+ providers",
-      "tags": ["Lightweight", "Secure"]
+      "commits": 7,
+      "loc": 568005,
+      "updated_at": "2026-04-06T07:15:51.459Z",
+      "highlights": "🦞 Personal AI assistant for WhatsApp, Telegram, Discord, and messaging apps",
+      "tags": ["Office Assistant", "Fast", "Secure"]
     },
     {
       "repo": "tashfeenahmed/scallopbot",
@@ -1002,17 +1041,17 @@
       "tags": ["Lightweight", "Fast"]
     },
     {
-      "repo": "0xD-Fabio/openclaw-claude-code-adapter",
+      "repo": "5unnykum4r/grip-ai",
       "language": "Python",
-      "stars": 5,
-      "forks": 0,
+      "stars": 6,
+      "forks": 1,
       "issues": 0,
       "prs": 0,
-      "commits": 3,
-      "loc": 2144,
-      "updated_at": "2026-04-06T07:15:53.589Z",
-      "highlights": "🔌 Routes OpenClaw agents through Claude Code via OpenAI-compatible HTTP server",
-      "tags": ["Auditable", "Lightweight"]
+      "commits": 59,
+      "loc": 28205,
+      "updated_at": "2026-04-06T07:15:52.684Z",
+      "highlights": "🤖 Self-hostable AI agent platform with Claude SDK + LiteLLM for 15+ providers",
+      "tags": ["Lightweight", "Secure"]
     },
     {
       "repo": "uraimo/bashobot",
@@ -1026,6 +1065,71 @@
       "updated_at": "2026-04-06T07:15:53.927Z",
       "highlights": "🦞 Personal AI assistant built entirely in Bash with Telegram/CLI support",
       "tags": ["Lightweight", "Isolated"]
+    },
+    {
+      "repo": "codespar/codespar",
+      "language": "TypeScript",
+      "stars": 6,
+      "forks": 2,
+      "issues": 0,
+      "prs": 1,
+      "commits": 284,
+      "loc": 37186,
+      "updated_at": "2026-04-06T07:16:24.369Z",
+      "highlights": "Multi-agent AI coding platform deployed to Slack, WhatsApp, Telegram and Discord.",
+      "tags": ["Auditable"]
+    },
+    {
+      "repo": "wade56754/openclaw-strategist",
+      "language": "Unknown",
+      "stars": 6,
+      "forks": 2,
+      "issues": 0,
+      "prs": 0,
+      "commits": 4,
+      "loc": 0,
+      "updated_at": "2026-04-06T09:17:13.980Z",
+      "highlights": "🧠 AI contrarian advisor that debates your decisions using mental models",
+      "tags": ["Auditable"]
+    },
+    {
+      "repo": "0xD-Fabio/openclaw-claude-code-adapter",
+      "language": "Python",
+      "stars": 5,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 3,
+      "loc": 2144,
+      "updated_at": "2026-04-06T07:15:53.589Z",
+      "highlights": "🔌 Routes OpenClaw agents through Claude Code via OpenAI-compatible HTTP server",
+      "tags": ["Auditable", "Lightweight"]
+    },
+    {
+      "repo": "meso4444/chat-agent-matrix",
+      "language": "Python",
+      "stars": 5,
+      "forks": 1,
+      "issues": 0,
+      "prs": 0,
+      "commits": 71,
+      "loc": 6647,
+      "updated_at": "2026-04-06T07:15:55.093Z",
+      "highlights": "🐙 Multi-agent AI system in tmux with CLI orchestration and self-healing",
+      "tags": ["Isolated"]
+    },
+    {
+      "repo": "MurbotLabs/Forked",
+      "language": "TypeScript",
+      "stars": 5,
+      "forks": 0,
+      "issues": 1,
+      "prs": 0,
+      "commits": 25,
+      "loc": 11595,
+      "updated_at": "2026-04-06T09:17:26.047Z",
+      "highlights": "🍴 Time-travel debugger for AI agents that records calls and lets you rewind/fork with different ...",
+      "tags": ["Auditable"]
     },
     {
       "repo": "wirelessr/SpecForge-Agent",
@@ -1054,19 +1158,6 @@
       "tags": ["Isolated"]
     },
     {
-      "repo": "meso4444/chat-agent-matrix",
-      "language": "Python",
-      "stars": 5,
-      "forks": 1,
-      "issues": 0,
-      "prs": 0,
-      "commits": 71,
-      "loc": 6647,
-      "updated_at": "2026-04-06T07:15:55.093Z",
-      "highlights": "🐙 Multi-agent AI system in tmux with CLI orchestration and self-healing",
-      "tags": ["Isolated"]
-    },
-    {
       "repo": "shimaenaga1123/rustclaw",
       "language": "Rust",
       "stars": 4,
@@ -1091,6 +1182,32 @@
       "updated_at": "2026-04-06T07:15:55.808Z",
       "highlights": "🤖 Control Claude Code from your phone via chat apps with live dashboard & monitoring",
       "tags": ["Fast"]
+    },
+    {
+      "repo": "RustClawBot/rustclaw",
+      "language": "Unknown",
+      "stars": 4,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 1,
+      "loc": 0,
+      "updated_at": "2026-04-06T07:15:59.418Z",
+      "highlights": "🦀 Rust remake of OpenClaw for autonomous safety AI on $10 hardware",
+      "tags": ["Lightweight", "Fast", "Secure"]
+    },
+    {
+      "repo": "thitami/claude-engineer-toolkit",
+      "language": "Python",
+      "stars": 4,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 10,
+      "loc": 1660,
+      "updated_at": "2026-04-06T07:16:03.540Z",
+      "highlights": "🛠️ AI CLI toolkit to explain code, review PRs, and generate specs",
+      "tags": ["Lightweight"]
     },
     {
       "repo": "dmuso/direclaw",
@@ -1156,19 +1273,6 @@
       "updated_at": "2026-04-06T07:15:59.162Z",
       "highlights": "Simple AI assistant bot with skills system, WhatsApp/Telegram support",
       "tags": ["Lightweight"]
-    },
-    {
-      "repo": "RustClawBot/rustclaw",
-      "language": "Unknown",
-      "stars": 4,
-      "forks": 0,
-      "issues": 0,
-      "prs": 0,
-      "commits": 1,
-      "loc": 0,
-      "updated_at": "2026-04-06T07:15:59.418Z",
-      "highlights": "🦀 Rust remake of OpenClaw for autonomous safety AI on $10 hardware",
-      "tags": ["Lightweight", "Fast", "Secure"]
     },
     {
       "repo": "Idan707/openclaw-lite",
@@ -1249,17 +1353,30 @@
       "tags": ["Lightweight", "Isolated", "Secure"]
     },
     {
-      "repo": "thitami/claude-engineer-toolkit",
+      "repo": "mohamed-elkholy95/Pythinker",
       "language": "Python",
-      "stars": 4,
-      "forks": 0,
+      "stars": 3,
+      "forks": 3,
       "issues": 0,
-      "prs": 0,
-      "commits": 10,
-      "loc": 1660,
-      "updated_at": "2026-04-06T07:16:03.540Z",
-      "highlights": "🛠️ AI CLI toolkit to explain code, review PRs, and generate specs",
-      "tags": ["Lightweight"]
+      "prs": 9,
+      "commits": 1779,
+      "loc": 486134,
+      "updated_at": "2026-04-06T07:16:17.644Z",
+      "highlights": "🤖 AI agent with 43+ tools for web browsing, coding, and autonomous research.",
+      "tags": ["Isolated"]
+    },
+    {
+      "repo": "HarshChoudhary2003/Real-world-AI-agents-hub",
+      "language": "Python",
+      "stars": 3,
+      "forks": 1,
+      "issues": 0,
+      "prs": 1,
+      "commits": 174,
+      "loc": 43675,
+      "updated_at": "2026-04-06T09:17:59.912Z",
+      "highlights": "🧬 Hub of 128+ autonomous AI agents for research, coding, data analysis, and automation.",
+      "tags": []
     },
     {
       "repo": "AdityaSinha2911/OpenPaw",
@@ -1405,19 +1522,6 @@
       "tags": ["Fast", "Isolated", "Office Assistant"]
     },
     {
-      "repo": "mohamed-elkholy95/Pythinker",
-      "language": "Python",
-      "stars": 3,
-      "forks": 3,
-      "issues": 0,
-      "prs": 9,
-      "commits": 1779,
-      "loc": 486134,
-      "updated_at": "2026-04-06T07:16:17.644Z",
-      "highlights": "🤖 AI agent with 43+ tools for web browsing, coding, and autonomous research.",
-      "tags": ["Isolated"]
-    },
-    {
       "repo": "Quinnod345/oneiro-oca",
       "language": "JavaScript",
       "stars": 1,
@@ -1442,19 +1546,6 @@
       "updated_at": "2026-04-06T07:16:19.779Z",
       "highlights": "Four-tier AI agent architecture for Claude Code with 27 specialized agents",
       "tags": ["Secure", "Auditable"]
-    },
-    {
-      "repo": "jack3079/EvoAgent",
-      "language": "Python",
-      "stars": 0,
-      "forks": 0,
-      "issues": 0,
-      "prs": 0,
-      "commits": 2,
-      "loc": 8183,
-      "updated_at": "2026-04-06T07:16:20.074Z",
-      "highlights": "AI agent that writes, tests, and integrates its own code, evolving autonomously",
-      "tags": ["Isolated", "Fast", "Auditable"]
     },
     {
       "repo": "xupeiwust/protoforge",
@@ -1509,19 +1600,6 @@
       "tags": ["Auditable"]
     },
     {
-      "repo": "codespar/codespar",
-      "language": "TypeScript",
-      "stars": 6,
-      "forks": 2,
-      "issues": 0,
-      "prs": 1,
-      "commits": 284,
-      "loc": 37186,
-      "updated_at": "2026-04-06T07:16:24.369Z",
-      "highlights": "Multi-agent AI coding platform deployed to Slack, WhatsApp, Telegram and Discord.",
-      "tags": ["Auditable"]
-    },
-    {
       "repo": "bedda-tech/familiar",
       "language": "TypeScript",
       "stars": 1,
@@ -1546,6 +1624,32 @@
       "updated_at": "2026-04-06T07:16:25.391Z",
       "highlights": "🚀 Open-source AI orchestrator: 8 agents, Vision-to-Code, 100% free on Groq",
       "tags": ["Fast", "Secure", "Auditable"]
+    },
+    {
+      "repo": "Happysingh1062003/Nebula-Code",
+      "language": "Rust",
+      "stars": 1,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 413,
+      "loc": 39433,
+      "updated_at": "2026-04-06T09:18:09.494Z",
+      "highlights": "Rust CLI for running autonomous AI coding agents locally with file/shell access",
+      "tags": ["Lightweight", "Fast", "Isolated"]
+    },
+    {
+      "repo": "jack3079/EvoAgent",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 2,
+      "loc": 8183,
+      "updated_at": "2026-04-06T07:16:20.074Z",
+      "highlights": "AI agent that writes, tests, and integrates its own code, evolving autonomously",
+      "tags": ["Isolated", "Fast", "Auditable"]
     },
     {
       "repo": "adarsh-dev001/self-healing-demo",
@@ -1806,6 +1910,32 @@
       "updated_at": "2026-04-06T07:16:34.712Z",
       "highlights": "VS Code extension for Kimi K2 AI coding assistance",
       "tags": ["Lightweight", "Fast"]
+    },
+    {
+      "repo": "Hrithikapal/Autonomous-AI-Software-Engineer-Manus-Groq-Multi-Agent-System-",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 3,
+      "loc": 2984,
+      "updated_at": "2026-04-06T09:18:18.731Z",
+      "highlights": "🤖 Multi-agent AI system that autonomously builds, tests, debugs & improves code",
+      "tags": ["Isolated", "Auditable"]
+    },
+    {
+      "repo": "ayushraj746/AgentForge",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 11,
+      "loc": 589,
+      "updated_at": "2026-04-06T09:18:27.947Z",
+      "highlights": "AI sandbox where autonomous agents act as software engineers with tools to build, debug, test, an...",
+      "tags": ["Isolated", "Auditable"]
     }
   ]
 }

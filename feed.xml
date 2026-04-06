@@ -7,12 +7,25 @@
   <id>https://github.com/kv-chiu/clawclaw</id>
   <updated>2026-04-06T00:00:00Z</updated>
   <entry>
-    <title>clawclaw update report 2026-04-06 — 33 project(s) with stats changes</title>
+    <title>clawclaw discover report 2026-04-06 — 10 new project(s), 33 project(s) with stats changes</title>
     <link href="https://kv-chiu.github.io/clawclaw" />
     <id>https://github.com/kv-chiu/clawclaw/report/2026-04-06</id>
     <updated>2026-04-06T00:00:00Z</updated>
-    <summary>33 project(s) with stats changes</summary>
-    <content type="html">&lt;p&gt;Total projects: 139&lt;/p&gt;
+    <summary>10 new project(s), 33 project(s) with stats changes</summary>
+    <content type="html">&lt;p&gt;Total projects: 149&lt;/p&gt;
+&lt;h3&gt;New Projects (10)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/Lyt060814/nanocode"&gt;Lyt060814/nanocode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/karayakar/MantisClaw"&gt;karayakar/MantisClaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/dream-syz/openclaw-zero-token"&gt;dream-syz/openclaw-zero-token&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/wade56754/openclaw-strategist"&gt;wade56754/openclaw-strategist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MurbotLabs/Forked"&gt;MurbotLabs/Forked&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nj19257/FastSkills"&gt;nj19257/FastSkills&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/HarshChoudhary2003/Real-world-AI-agents-hub"&gt;HarshChoudhary2003/Real-world-AI-agents-hub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Happysingh1062003/Nebula-Code"&gt;Happysingh1062003/Nebula-Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Hrithikapal/Autonomous-AI-Software-Engineer-Manus-Groq-Multi-Agent-System-"&gt;Hrithikapal/Autonomous-AI-Software-Engineer-Manus-Groq-Multi-Agent-System-&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ayushraj746/AgentForge"&gt;ayushraj746/AgentForge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Stats Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;openclaw/openclaw: stars: 348318 → 349316, forks: 69648 → 69989, issues: 10527 → 10615, prs: 6475 → 6395, commits: 26706 → 27455, loc: 1848878 → 1929577&lt;/li&gt;
