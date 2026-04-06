@@ -5,7 +5,51 @@
   <link href="https://kv-chiu.github.io/clawclaw/feed.xml" rel="self" />
   <link href="https://github.com/kv-chiu/clawclaw" />
   <id>https://github.com/kv-chiu/clawclaw</id>
-  <updated>2026-04-05T00:00:00Z</updated>
+  <updated>2026-04-06T00:00:00Z</updated>
+  <entry>
+    <title>clawclaw update report 2026-04-06 — 33 project(s) with stats changes</title>
+    <link href="https://kv-chiu.github.io/clawclaw" />
+    <id>https://github.com/kv-chiu/clawclaw/report/2026-04-06</id>
+    <updated>2026-04-06T00:00:00Z</updated>
+    <summary>33 project(s) with stats changes</summary>
+    <content type="html">&lt;p&gt;Total projects: 139&lt;/p&gt;
+&lt;h3&gt;Stats Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;openclaw/openclaw: stars: 348318 → 349316, forks: 69648 → 69989, issues: 10527 → 10615, prs: 6475 → 6395, commits: 26706 → 27455, loc: 1848878 → 1929577&lt;/li&gt;
+&lt;li&gt;Aider-AI/aider: stars: 42830 → 42882, forks: 4129 → 4142, prs: 276 → 278&lt;/li&gt;
+&lt;li&gt;HKUDS/nanobot: stars: 37963 → 38091, forks: 6599 → 6614, issues: 374 → 376, prs: 560 → 526, commits: 1641 → 1708, loc: 37672 → 39562&lt;/li&gt;
+&lt;li&gt;moeru-ai/airi: stars: 37070 → 37137, forks: 3668 → 3673, prs: 61 → 64, commits: 3421 → 3428, loc: 198991 → 199725&lt;/li&gt;
+&lt;li&gt;AstrBotDevs/AstrBot: stars: 28973 → 29083, forks: 1951 → 1960, issues: 804 → 810, prs: 180 → 183, commits: 4433 → 4436, loc: 145956 → 146392&lt;/li&gt;
+&lt;li&gt;qwibitai/nanoclaw: stars: 26509 → 26603, forks: 10634 → 10830, issues: 178 → 180, prs: 427 → 423, commits: 659 → 682, loc: 15742 → 15748&lt;/li&gt;
+&lt;li&gt;NousResearch/hermes-agent: stars: 25295 → 26794, forks: 3293 → 3507, issues: 598 → 647, prs: 997 → 1057, commits: 3216 → 3316, loc: 282135 → 293705&lt;/li&gt;
+&lt;li&gt;nearai/ironclaw: stars: 11413 → 11465, forks: 1312 → 1313, issues: 355 → 353, prs: 147 → 153, commits: 934 → 940, loc: 327604 → 328908&lt;/li&gt;
+&lt;li&gt;chenhg5/cc-connect: stars: 4220 → 4314, forks: 360 → 375, issues: 86 → 90, prs: 83 → 85&lt;/li&gt;
+&lt;li&gt;poco-ai/poco-claw: stars: 1257 → 1258, issues: 0 → 1&lt;/li&gt;
+&lt;li&gt;win4r/ClawTeam-OpenClaw: stars: 1029 → 1044, forks: 223 → 228, prs: 2 → 1&lt;/li&gt;
+&lt;li&gt;195440/nof1.ai: forks: 191 → 190&lt;/li&gt;
+&lt;li&gt;microclaw/microclaw: stars: 629 → 630&lt;/li&gt;
+&lt;li&gt;fastclaw-ai/fastclaw: stars: 469 → 472&lt;/li&gt;
+&lt;li&gt;freddy-schuetz/n8n-claw: stars: 351 → 357, forks: 65 → 67, commits: 390 → 398&lt;/li&gt;
+&lt;li&gt;grinev/opencode-telegram-bot: stars: 350 → 361, forks: 68 → 70, issues: 6 → 7&lt;/li&gt;
+&lt;li&gt;SimonSchubert/Kai: stars: 371 → 377, forks: 41 → 42, issues: 41 → 42, commits: 692 → 715&lt;/li&gt;
+&lt;li&gt;Natfii/ZeroClaw-Android: stars: 272 → 274&lt;/li&gt;
+&lt;li&gt;aws-samples/remote-swe-agents: stars: 229 → 230&lt;/li&gt;
+&lt;li&gt;tang-vu/ContribAI: stars: 209 → 216, forks: 81 → 84, prs: 0 → 2, commits: 206 → 215, loc: 68743 → 69286&lt;/li&gt;
+&lt;li&gt;swarmclawai/swarmclaw: commits: 332 → 333, loc: 292978 → 291050&lt;/li&gt;
+&lt;li&gt;princezuda/safeclaw: stars: 122 → 124&lt;/li&gt;
+&lt;li&gt;openlegion-ai/openlegion: issues: 2 → 1, prs: 4 → 5, commits: 1091 → 1131, loc: 76659 → 84957&lt;/li&gt;
+&lt;li&gt;ApeCodeAI/nanoclaw-py: stars: 81 → 82&lt;/li&gt;
+&lt;li&gt;zachblume/autospec: forks: 7 → 8, prs: 8 → 9, commits: 201 → 202&lt;/li&gt;
+&lt;li&gt;puremachinery/carapace: issues: 13 → 12, prs: 1 → 2, commits: 747 → 756, loc: 159928 → 160088&lt;/li&gt;
+&lt;li&gt;adolfousier/socialcrabs: stars: 44 → 46&lt;/li&gt;
+&lt;li&gt;mutonby/viraloop: stars: 43 → 44, forks: 7 → 8&lt;/li&gt;
+&lt;li&gt;Dr-Lv/clawdboz: stars: 18 → 19&lt;/li&gt;
+&lt;li&gt;lupin4/wintermolt: commits: 17 → 19, loc: 15466 → 15470&lt;/li&gt;
+&lt;li&gt;Kxrbx/Clawlet: stars: 13 → 14&lt;/li&gt;
+&lt;li&gt;peaktwilight/pwnkit: issues: 17 → 8, commits: 418 → 470, loc: 52735 → 65840&lt;/li&gt;
+&lt;li&gt;jddunn/wunderland: commits: 544 → 545&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>clawclaw update report 2026-04-05 — 39 project(s) with stats changes</title>
     <link href="https://kv-chiu.github.io/clawclaw" />
