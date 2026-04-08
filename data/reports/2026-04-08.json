@@ -11,32 +11,32 @@
           {
             "field": "stars",
             "old": 349316,
-            "new": 351396
+            "new": 351548
           },
           {
             "field": "forks",
             "old": 69989,
-            "new": 70690
+            "new": 70755
           },
           {
             "field": "issues",
             "old": 10615,
-            "new": 11100
+            "new": 11118
           },
           {
             "field": "prs",
             "old": 6395,
-            "new": 6455
+            "new": 6428
           },
           {
             "field": "commits",
             "old": 27455,
-            "new": 29027
+            "new": 29076
           },
           {
             "field": "loc",
             "old": 1929577,
-            "new": 2003374
+            "new": 2004874
           }
         ]
       },
@@ -46,22 +46,22 @@
           {
             "field": "stars",
             "old": 42882,
-            "new": 42977
+            "new": 42981
           },
           {
             "field": "forks",
             "old": 4142,
-            "new": 4156
+            "new": 4157
           },
           {
             "field": "issues",
             "old": 1191,
-            "new": 1194
+            "new": 1195
           },
           {
             "field": "prs",
             "old": 278,
-            "new": 279
+            "new": 281
           }
         ]
       },
@@ -71,22 +71,22 @@
           {
             "field": "stars",
             "old": 38091,
-            "new": 38431
+            "new": 38455
           },
           {
             "field": "forks",
             "old": 6614,
-            "new": 6695
+            "new": 6698
           },
           {
             "field": "issues",
             "old": 376,
-            "new": 395
+            "new": 394
           },
           {
             "field": "prs",
             "old": 526,
-            "new": 528
+            "new": 533
           },
           {
             "field": "commits",
@@ -106,12 +106,12 @@
           {
             "field": "stars",
             "old": 37137,
-            "new": 37394
+            "new": 37420
           },
           {
             "field": "forks",
             "old": 3673,
-            "new": 3715
+            "new": 3717
           },
           {
             "field": "prs",
@@ -136,12 +136,12 @@
           {
             "field": "stars",
             "old": 29083,
-            "new": 29295
+            "new": 29310
           },
           {
             "field": "forks",
             "old": 1960,
-            "new": 1977
+            "new": 1978
           },
           {
             "field": "issues",
@@ -156,12 +156,12 @@
           {
             "field": "commits",
             "old": 4436,
-            "new": 4453
+            "new": 4455
           },
           {
             "field": "loc",
             "old": 146392,
-            "new": 147957
+            "new": 147891
           }
         ]
       },
@@ -171,32 +171,32 @@
           {
             "field": "stars",
             "old": 26794,
-            "new": 32902
+            "new": 33814
           },
           {
             "field": "forks",
             "old": 3507,
-            "new": 4236
+            "new": 4325
           },
           {
             "field": "issues",
             "old": 647,
-            "new": 779
+            "new": 791
           },
           {
             "field": "prs",
             "old": 1057,
-            "new": 1217
+            "new": 1233
           },
           {
             "field": "commits",
             "old": 3316,
-            "new": 3472
+            "new": 3476
           },
           {
             "field": "loc",
             "old": 293705,
-            "new": 305410
+            "new": 306262
           }
         ]
       },
@@ -206,12 +206,12 @@
           {
             "field": "stars",
             "old": 26603,
-            "new": 26833
+            "new": 26844
           },
           {
             "field": "forks",
             "old": 10830,
-            "new": 11145
+            "new": 11165
           },
           {
             "field": "issues",
@@ -221,7 +221,7 @@
           {
             "field": "prs",
             "old": 423,
-            "new": 430
+            "new": 431
           },
           {
             "field": "commits",
@@ -236,12 +236,12 @@
           {
             "field": "stars",
             "old": 11465,
-            "new": 11526
+            "new": 11527
           },
           {
             "field": "forks",
             "old": 1313,
-            "new": 1322
+            "new": 1323
           },
           {
             "field": "issues",
@@ -271,22 +271,22 @@
           {
             "field": "stars",
             "old": 4314,
-            "new": 4529
+            "new": 4549
           },
           {
             "field": "forks",
             "old": 375,
-            "new": 394
+            "new": 399
           },
           {
             "field": "issues",
             "old": 90,
-            "new": 104
+            "new": 105
           },
           {
             "field": "prs",
             "old": 85,
-            "new": 108
+            "new": 109
           },
           {
             "field": "commits",
@@ -301,7 +301,7 @@
           {
             "field": "stars",
             "old": 1258,
-            "new": 1265
+            "new": 1266
           },
           {
             "field": "forks",
@@ -331,7 +331,7 @@
           {
             "field": "stars",
             "old": 1044,
-            "new": 1077
+            "new": 1078
           },
           {
             "field": "forks",
@@ -366,7 +366,7 @@
           {
             "field": "stars",
             "old": 630,
-            "new": 635
+            "new": 636
           },
           {
             "field": "forks",
@@ -381,7 +381,7 @@
           {
             "field": "stars",
             "old": 472,
-            "new": 495
+            "new": 515
           },
           {
             "field": "forks",
@@ -406,7 +406,7 @@
           {
             "field": "stars",
             "old": 377,
-            "new": 404
+            "new": 406
           },
           {
             "field": "forks",
@@ -446,7 +446,7 @@
           {
             "field": "stars",
             "old": 357,
-            "new": 362
+            "new": 363
           },
           {
             "field": "forks",
@@ -562,6 +562,11 @@
             "field": "forks",
             "old": 107,
             "new": 106
+          },
+          {
+            "field": "stars",
+            "old": 139,
+            "new": 140
           }
         ]
       },
@@ -611,7 +616,7 @@
           {
             "field": "stars",
             "old": 82,
-            "new": 94
+            "new": 96
           },
           {
             "field": "forks",
@@ -626,17 +631,17 @@
           {
             "field": "prs",
             "old": 5,
-            "new": 3
+            "new": 2
           },
           {
             "field": "commits",
             "old": 1131,
-            "new": 1161
+            "new": 1163
           },
           {
             "field": "loc",
             "old": 84957,
-            "new": 85879
+            "new": 85930
           }
         ]
       },
@@ -696,7 +701,7 @@
           {
             "field": "issues",
             "old": 12,
-            "new": 14
+            "new": 13
           },
           {
             "field": "prs",
@@ -706,12 +711,12 @@
           {
             "field": "commits",
             "old": 756,
-            "new": 791
+            "new": 798
           },
           {
             "field": "loc",
             "old": 160088,
-            "new": 159624
+            "new": 160580
           }
         ]
       },
@@ -916,12 +921,27 @@
           {
             "field": "commits",
             "old": 11,
-            "new": 12
+            "new": 13
           },
           {
             "field": "loc",
             "old": 589,
-            "new": 559
+            "new": 555
+          }
+        ]
+      },
+      {
+        "repo": "mohamed-elkholy95/Pythinker",
+        "changes": [
+          {
+            "field": "commits",
+            "old": 1779,
+            "new": 1797
+          },
+          {
+            "field": "loc",
+            "old": 486134,
+            "new": 486175
           }
         ]
       }
@@ -931,130 +951,130 @@
     {
       "repo": "openclaw/openclaw",
       "language": "TypeScript",
-      "stars": 351396,
-      "forks": 70690,
-      "issues": 11100,
-      "prs": 6455,
-      "commits": 29027,
-      "loc": 2003374,
+      "stars": 351548,
+      "forks": 70755,
+      "issues": 11118,
+      "prs": 6428,
+      "commits": 29076,
+      "loc": 2004874,
       "highlights": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
       "tags": ["Original Claw"],
-      "updated_at": "2026-04-08T04:03:28.854Z"
+      "updated_at": "2026-04-08T07:03:47.378Z"
     },
     {
       "repo": "Aider-AI/aider",
       "language": "Python",
-      "stars": 42977,
-      "forks": 4156,
-      "issues": 1194,
-      "prs": 279,
+      "stars": 42981,
+      "forks": 4157,
+      "issues": 1195,
+      "prs": 281,
       "commits": 13119,
       "loc": 75171,
-      "updated_at": "2026-04-08T04:03:30.620Z",
+      "updated_at": "2026-04-08T07:03:49.929Z",
       "highlights": "AI pair programming in your terminal",
       "tags": ["Lightweight", "Auditable"]
     },
     {
       "repo": "HKUDS/nanobot",
       "language": "Python",
-      "stars": 38431,
-      "forks": 6695,
-      "issues": 395,
-      "prs": 528,
+      "stars": 38455,
+      "forks": 6698,
+      "issues": 394,
+      "prs": 533,
       "commits": 1773,
       "loc": 42242,
       "highlights": "🐈 nanobot: The Ultra-Lightweight OpenClaw",
       "tags": ["Lightweight", "Fast"],
-      "updated_at": "2026-04-08T04:03:31.849Z"
+      "updated_at": "2026-04-08T07:03:51.751Z"
     },
     {
       "repo": "moeru-ai/airi",
       "language": "TypeScript",
-      "stars": 37394,
-      "forks": 3715,
+      "stars": 37420,
+      "forks": 3717,
       "issues": 63,
       "prs": 68,
       "commits": 3473,
       "loc": 204287,
-      "updated_at": "2026-04-08T04:03:40.305Z",
+      "updated_at": "2026-04-08T07:04:01.036Z",
       "highlights": "💖🧸 Self-hosted AI waifu companion with voice chat, Minecraft & Factorio support",
       "tags": ["Isolated"]
     },
     {
       "repo": "AstrBotDevs/AstrBot",
       "language": "Python",
-      "stars": 29295,
-      "forks": 1977,
+      "stars": 29310,
+      "forks": 1978,
       "issues": 792,
       "prs": 177,
-      "commits": 4453,
-      "loc": 147957,
-      "updated_at": "2026-04-08T04:03:41.373Z",
+      "commits": 4455,
+      "loc": 147891,
+      "updated_at": "2026-04-08T07:04:02.702Z",
       "highlights": "✨ Open-source AI chatbot for IM platforms with LLM and plugin support",
       "tags": ["Office Assistant"]
     },
     {
       "repo": "NousResearch/hermes-agent",
       "language": "Python",
-      "stars": 32902,
-      "forks": 4236,
-      "issues": 779,
-      "prs": 1217,
-      "commits": 3472,
-      "loc": 305410,
-      "updated_at": "2026-04-08T04:03:42.961Z",
+      "stars": 33814,
+      "forks": 4325,
+      "issues": 791,
+      "prs": 1233,
+      "commits": 3476,
+      "loc": 306262,
+      "updated_at": "2026-04-08T07:04:04.831Z",
       "highlights": "⚕ Self-improving AI agent that learns and grows with you",
       "tags": ["Lightweight", "Isolated"]
     },
     {
       "repo": "qwibitai/nanoclaw",
       "language": "TypeScript",
-      "stars": 26833,
-      "forks": 11145,
+      "stars": 26844,
+      "forks": 11165,
       "issues": 187,
-      "prs": 430,
+      "prs": 431,
       "commits": 685,
       "loc": 15748,
-      "updated_at": "2026-04-08T04:03:43.672Z",
+      "updated_at": "2026-04-08T07:04:06.168Z",
       "highlights": "🔒 AI assistant running secure agents in containers for WhatsApp, Telegram, Discord",
       "tags": ["Lightweight", "Secure", "Isolated"]
     },
     {
       "repo": "nearai/ironclaw",
       "language": "Rust",
-      "stars": 11526,
-      "forks": 1322,
+      "stars": 11527,
+      "forks": 1323,
       "issues": 375,
       "prs": 176,
       "commits": 963,
       "loc": 336808,
-      "updated_at": "2026-04-08T04:03:45.277Z",
+      "updated_at": "2026-04-08T07:04:08.574Z",
       "highlights": "🔒 Privacy-first Rust AI assistant with WASM sandbox and local encrypted storage",
       "tags": ["Secure", "Auditable", "Isolated"]
     },
     {
       "repo": "chenhg5/cc-connect",
       "language": "Go",
-      "stars": 4529,
-      "forks": 394,
-      "issues": 104,
-      "prs": 108,
+      "stars": 4549,
+      "forks": 399,
+      "issues": 105,
+      "prs": 109,
       "commits": 583,
       "loc": 87452,
-      "updated_at": "2026-04-08T04:03:46.019Z",
+      "updated_at": "2026-04-08T07:04:09.907Z",
       "highlights": "Bridge AI coding agents (Claude, Cursor, Gemini) to chat apps (Slack, Telegram, Discord)",
       "tags": ["Office Assistant", "Lightweight"]
     },
     {
       "repo": "poco-ai/poco-claw",
       "language": "TypeScript",
-      "stars": 1265,
+      "stars": 1266,
       "forks": 120,
       "issues": 1,
       "prs": 0,
       "commits": 935,
       "loc": 151685,
-      "updated_at": "2026-04-08T04:03:47.107Z",
+      "updated_at": "2026-04-08T07:04:11.666Z",
       "highlights": "A safer, more beautiful OpenClaw alternative with Claude Code agent, sandbox, and IM support",
       "tags": ["Isolated", "Secure", "Office Assistant"]
     },
@@ -1067,20 +1087,20 @@
       "prs": 2,
       "commits": 22,
       "loc": 9752,
-      "updated_at": "2026-04-08T04:03:47.968Z",
+      "updated_at": "2026-04-08T07:04:13.453Z",
       "highlights": "🤖 24/7 AI assistant for messaging platforms using Claude with tool access",
       "tags": ["Secure", "Office Assistant"]
     },
     {
       "repo": "win4r/ClawTeam-OpenClaw",
       "language": "Python",
-      "stars": 1077,
+      "stars": 1078,
       "forks": 236,
       "issues": 3,
       "prs": 1,
       "commits": 114,
       "loc": 15147,
-      "updated_at": "2026-04-08T04:03:48.711Z",
+      "updated_at": "2026-04-08T07:04:14.773Z",
       "highlights": "Multi-agent swarm coordination for CLI coding agents with OpenClaw as default",
       "tags": ["Lightweight", "Isolated"]
     },
@@ -1093,20 +1113,20 @@
       "prs": 0,
       "commits": 170,
       "loc": 28475,
-      "updated_at": "2026-04-08T04:03:49.269Z",
+      "updated_at": "2026-04-08T07:04:15.672Z",
       "highlights": "⚡ Autonomous AI trading agent for cryptocurrency markets using LLMs",
       "tags": ["Lightweight", "Fast"]
     },
     {
       "repo": "microclaw/microclaw",
       "language": "Rust",
-      "stars": 635,
+      "stars": 636,
       "forks": 116,
       "issues": 2,
       "prs": 2,
       "commits": 972,
       "loc": 108684,
-      "updated_at": "2026-04-08T04:03:49.991Z",
+      "updated_at": "2026-04-08T07:04:16.974Z",
       "highlights": "🦀An agentic AI chat assistant built with Rust for multiple platforms",
       "tags": ["Secure", "Isolated", "Office Assistant"]
     },
@@ -1119,33 +1139,33 @@
       "prs": 1,
       "commits": 24,
       "loc": 16863,
-      "updated_at": "2026-04-08T04:03:50.933Z",
+      "updated_at": "2026-04-08T07:04:18.558Z",
       "highlights": "⭐ AI agent that turns GitHub repositories into autonomous task-solving tools",
       "tags": []
     },
     {
       "repo": "fastclaw-ai/fastclaw",
       "language": "Go",
-      "stars": 495,
+      "stars": 515,
       "forks": 69,
       "issues": 9,
       "prs": 3,
       "commits": 53,
       "loc": 28108,
-      "updated_at": "2026-04-08T04:03:51.413Z",
+      "updated_at": "2026-04-08T07:04:19.382Z",
       "highlights": "⚡ Self-hosted AI Agent framework in Go connecting LLMs to chat platforms",
       "tags": ["Lightweight", "Fast"]
     },
     {
       "repo": "SimonSchubert/Kai",
       "language": "Kotlin",
-      "stars": 404,
+      "stars": 406,
       "forks": 47,
       "issues": 46,
       "prs": 0,
       "commits": 741,
       "loc": 0,
-      "updated_at": "2026-04-08T04:03:51.573Z",
+      "updated_at": "2026-04-08T07:04:19.586Z",
       "highlights": "Open-source AI assistant with persistent memory on mobile & desktop",
       "tags": ["Secure"]
     },
@@ -1158,20 +1178,20 @@
       "prs": 2,
       "commits": 167,
       "loc": 34292,
-      "updated_at": "2026-04-08T04:03:52.265Z",
+      "updated_at": "2026-04-08T07:04:20.868Z",
       "highlights": "🤖 Control OpenCode AI coding from Telegram, run scheduled tasks locally",
       "tags": ["Lightweight", "Secure", "Isolated"]
     },
     {
       "repo": "freddy-schuetz/n8n-claw",
       "language": "Shell",
-      "stars": 362,
+      "stars": 363,
       "forks": 71,
       "issues": 2,
       "prs": 1,
       "commits": 420,
       "loc": 9210,
-      "updated_at": "2026-04-08T04:03:52.695Z",
+      "updated_at": "2026-04-08T07:04:21.678Z",
       "highlights": "🤖 Self-hosted n8n AI agent with Telegram, memory, tasks, and MCP builder",
       "tags": ["Secure", "Isolated", "Office Assistant"]
     },
@@ -1184,7 +1204,7 @@
       "prs": 0,
       "commits": 20,
       "loc": 20358,
-      "updated_at": "2026-04-08T04:03:54.230Z",
+      "updated_at": "2026-04-08T07:04:23.930Z",
       "highlights": "✨ Cross-platform personal assistant linking mobile QQ and Windows PC",
       "tags": ["Office Assistant", "Auditable", "Secure"]
     },
@@ -1197,7 +1217,7 @@
       "prs": 0,
       "commits": 20,
       "loc": 20358,
-      "updated_at": "2026-04-08T04:03:55.642Z",
+      "updated_at": "2026-04-08T07:04:25.882Z",
       "highlights": "Cross-platform personal assistant bridging mobile QQ and Windows PC",
       "tags": ["Secure", "Auditable", "Office Assistant"]
     },
@@ -1223,7 +1243,7 @@
       "prs": 0,
       "commits": 1,
       "loc": 0,
-      "updated_at": "2026-04-08T04:03:56.284Z",
+      "updated_at": "2026-04-08T07:04:27.209Z",
       "highlights": "🤖 Android app to run AI agents 24/7 with Rust core, 25+ providers",
       "tags": ["Secure", "Fast", "Lightweight"]
     },
@@ -1236,7 +1256,7 @@
       "prs": 4,
       "commits": 327,
       "loc": 48861,
-      "updated_at": "2026-04-08T04:03:56.979Z",
+      "updated_at": "2026-04-08T07:04:28.416Z",
       "highlights": "Autonomous SWE agent running on AWS with web UI and Slack integration",
       "tags": ["Isolated"]
     },
@@ -1249,7 +1269,7 @@
       "prs": 0,
       "commits": 244,
       "loc": 74771,
-      "updated_at": "2026-04-08T04:03:57.587Z",
+      "updated_at": "2026-04-08T07:04:29.426Z",
       "highlights": "🤖 AI Agent that automatically finds, fixes, and submits PRs to GitHub repos",
       "tags": ["Fast", "Secure"]
     },
@@ -1262,7 +1282,7 @@
       "prs": 0,
       "commits": 355,
       "loc": 279210,
-      "updated_at": "2026-04-08T04:03:58.769Z",
+      "updated_at": "2026-04-08T07:04:31.196Z",
       "highlights": "Self-hosted AI agent orchestration dashboard with OpenClaw",
       "tags": ["Auditable", "Isolated"]
     },
@@ -1275,7 +1295,7 @@
       "prs": 1,
       "commits": 136,
       "loc": 27434,
-      "updated_at": "2026-04-08T04:03:59.314Z",
+      "updated_at": "2026-04-08T07:04:32.103Z",
       "highlights": "轻量级国产AI助手框架，支持DeepSeek/豆包/Qwen等模型和QQ/飞书/钉钉/企微",
       "tags": ["Lightweight", "Office Assistant"]
     },
@@ -1288,20 +1308,20 @@
       "prs": 0,
       "commits": 60,
       "loc": 328555,
-      "updated_at": "2026-04-08T04:04:00.507Z",
+      "updated_at": "2026-04-08T07:04:33.834Z",
       "highlights": "Open-source VS Code AI agent for data analytics and coding with multi-model support",
       "tags": []
     },
     {
       "repo": "essamamdani/openclaw-coolify",
       "language": "Shell",
-      "stars": 139,
+      "stars": 140,
       "forks": 106,
       "issues": 12,
       "prs": 2,
       "commits": 177,
       "loc": 4113,
-      "updated_at": "2026-04-08T04:04:01.290Z",
+      "updated_at": "2026-04-08T07:04:35.178Z",
       "highlights": "🦞 Open AI assistant that works with WhatsApp, Telegram, Discord, Slack, Teams",
       "tags": ["Isolated", "Office Assistant"]
     },
@@ -1314,7 +1334,7 @@
       "prs": 0,
       "commits": 116,
       "loc": 19748,
-      "updated_at": "2026-04-08T04:04:01.763Z",
+      "updated_at": "2026-04-08T07:04:35.971Z",
       "highlights": "Free AI assistant without LLM, uses ML, works offline on any machine 🐾",
       "tags": ["Lightweight", "Fast", "Secure"]
     },
@@ -1327,7 +1347,7 @@
       "prs": 0,
       "commits": 10,
       "loc": 4748,
-      "updated_at": "2026-04-08T04:04:02.281Z",
+      "updated_at": "2026-04-08T07:04:36.921Z",
       "highlights": "🦞 Lightweight AI assistant with Telegram/Feishu support, built with TypeScript",
       "tags": ["Lightweight"]
     },
@@ -1340,7 +1360,7 @@
       "prs": 2,
       "commits": 50,
       "loc": 7614,
-      "updated_at": "2026-04-08T04:04:02.665Z",
+      "updated_at": "2026-04-08T07:04:37.605Z",
       "highlights": "🤖 Self-hosted AI agent in Go (~15MB), runs shell commands and web browser.",
       "tags": ["Lightweight", "Secure", "Isolated"]
     },
@@ -1353,20 +1373,20 @@
       "prs": 0,
       "commits": 47,
       "loc": 12703,
-      "updated_at": "2026-04-08T04:04:03.791Z",
+      "updated_at": "2026-04-08T07:04:39.313Z",
       "highlights": "Self-hosted AI agent gateway in Go, single binary, low memory, fast startup.",
       "tags": ["Lightweight", "Fast"]
     },
     {
       "repo": "ApeCodeAI/nanoclaw-py",
       "language": "Python",
-      "stars": 94,
+      "stars": 96,
       "forks": 22,
       "issues": 1,
       "prs": 0,
       "commits": 2,
       "loc": 684,
-      "updated_at": "2026-04-08T04:04:04.173Z",
+      "updated_at": "2026-04-08T07:04:39.876Z",
       "highlights": "Minimal AI agent in ~500 Python lines powered by Claude Code via Telegram with file/command/web/s...",
       "tags": ["Lightweight", "Office Assistant"]
     },
@@ -1376,10 +1396,10 @@
       "stars": 81,
       "forks": 11,
       "issues": 1,
-      "prs": 3,
-      "commits": 1161,
-      "loc": 85879,
-      "updated_at": "2026-04-08T04:04:04.912Z",
+      "prs": 2,
+      "commits": 1163,
+      "loc": 85930,
+      "updated_at": "2026-04-08T07:04:40.986Z",
       "highlights": "A Docker-isolated AI agent fleet platform with multi-LLM support and built-in cost controls.",
       "tags": ["Secure", "Isolated", "Auditable"]
     },
@@ -1392,7 +1412,7 @@
       "prs": 0,
       "commits": 7,
       "loc": 5801,
-      "updated_at": "2026-04-08T04:04:05.272Z",
+      "updated_at": "2026-04-08T07:04:41.554Z",
       "highlights": "Telegram bot for AI conversations using Pi coding agent",
       "tags": ["Lightweight", "Secure"]
     },
@@ -1405,7 +1425,7 @@
       "prs": 9,
       "commits": 202,
       "loc": 19850,
-      "updated_at": "2026-04-08T04:04:05.687Z",
+      "updated_at": "2026-04-08T07:04:42.284Z",
       "highlights": "🧪 AI agent that autonomously tests web apps and saves specs as E2E test code",
       "tags": ["Lightweight", "Fast", "Auditable"]
     },
@@ -1418,7 +1438,7 @@
       "prs": 0,
       "commits": 23,
       "loc": 5831,
-      "updated_at": "2026-04-08T04:04:06.019Z",
+      "updated_at": "2026-04-08T07:04:42.894Z",
       "highlights": "Ultra-lightweight secure AI assistant, ~3K lines, 2-min setup, inspired by OpenClaw 🦀",
       "tags": ["Lightweight", "Secure", "Isolated"]
     },
@@ -1431,7 +1451,7 @@
       "prs": 0,
       "commits": 5,
       "loc": 15300,
-      "updated_at": "2026-04-08T04:04:06.676Z",
+      "updated_at": "2026-04-08T07:04:43.962Z",
       "highlights": "⚡ Nanocode: 9K LOC Claude Code clone retaining ~90% capability",
       "tags": ["Lightweight"]
     },
@@ -1444,7 +1464,7 @@
       "prs": 0,
       "commits": 60,
       "loc": 12506,
-      "updated_at": "2026-04-08T04:04:07.061Z",
+      "updated_at": "2026-04-08T07:04:44.631Z",
       "highlights": "🦀 Web automation tool for Instagram, Twitter/X & LinkedIn with human-like behavior simulation",
       "tags": ["Secure"]
     },
@@ -1457,7 +1477,7 @@
       "prs": 0,
       "commits": 11,
       "loc": 1790,
-      "updated_at": "2026-04-08T04:04:07.406Z",
+      "updated_at": "2026-04-08T07:04:45.196Z",
       "highlights": "🔄 AI tool that auto-generates viral carousels from any website URL",
       "tags": ["Auditable"]
     },
@@ -1466,11 +1486,11 @@
       "language": "Rust",
       "stars": 42,
       "forks": 5,
-      "issues": 14,
+      "issues": 13,
       "prs": 1,
-      "commits": 791,
-      "loc": 159624,
-      "updated_at": "2026-04-08T04:04:08.258Z",
+      "commits": 798,
+      "loc": 160580,
+      "updated_at": "2026-04-08T07:04:46.497Z",
       "highlights": "🔒 Secure Rust AI assistant with multi-channel support and signed WASM plugins",
       "tags": ["Secure", "Isolated"]
     },
@@ -1483,7 +1503,7 @@
       "prs": 0,
       "commits": 95,
       "loc": 49943,
-      "updated_at": "2026-04-08T04:04:08.992Z",
+      "updated_at": "2026-04-08T07:04:47.965Z",
       "highlights": "🦀 Rust AI agent connecting Telegram, Discord, Slack, Feishu and web UI.",
       "tags": ["Office Assistant"]
     },
@@ -1496,7 +1516,7 @@
       "prs": 0,
       "commits": 329,
       "loc": 117396,
-      "updated_at": "2026-04-08T04:04:12.107Z",
+      "updated_at": "2026-04-08T07:04:51.649Z",
       "highlights": "AI agent that builds zero-human businesses, ships code, and grows audiences locally.",
       "tags": ["Secure", "Isolated"]
     },
@@ -1509,7 +1529,7 @@
       "prs": 0,
       "commits": 303,
       "loc": 9942,
-      "updated_at": "2026-04-08T04:04:12.573Z",
+      "updated_at": "2026-04-08T07:04:52.574Z",
       "highlights": "🦅 Chat bot bridging Matrix/Nostr to pi coding agent via RPC",
       "tags": ["Isolated", "Office Assistant", "Lightweight"]
     },
@@ -1522,7 +1542,7 @@
       "prs": 0,
       "commits": 244,
       "loc": 39012,
-      "updated_at": "2026-04-08T04:04:13.396Z",
+      "updated_at": "2026-04-08T07:04:53.894Z",
       "highlights": "🦞 Lightweight mobile control framework with multi-agent orchestration",
       "tags": ["Lightweight", "Office Assistant"]
     },
@@ -1535,7 +1555,7 @@
       "prs": 0,
       "commits": 2,
       "loc": 0,
-      "updated_at": "2026-04-08T04:04:13.704Z",
+      "updated_at": "2026-04-08T07:04:54.416Z",
       "highlights": "🐈 Nanobot: Ultra-lightweight AI agent (~4K LOC) for Android/Termux with Telegram support",
       "tags": ["Lightweight", "Isolated"]
     },
@@ -1548,7 +1568,7 @@
       "prs": 3,
       "commits": 2,
       "loc": 540012,
-      "updated_at": "2026-04-08T04:04:15.125Z",
+      "updated_at": "2026-04-08T07:04:56.465Z",
       "highlights": "OpenClaw fork with integrated Composio plugin for easy tool authentication",
       "tags": ["Secure", "Office Assistant"]
     },
@@ -1561,7 +1581,7 @@
       "prs": 0,
       "commits": 84,
       "loc": 135824,
-      "updated_at": "2026-04-08T04:04:16.022Z",
+      "updated_at": "2026-04-08T07:04:58.110Z",
       "highlights": "OSA: local AI agent that classifies signals & routes to optimal models. Elixir/OTP + Rust.",
       "tags": ["Secure", "Auditable", "Isolated"]
     },
@@ -1574,7 +1594,7 @@
       "prs": 1,
       "commits": 105,
       "loc": 22051,
-      "updated_at": "2026-04-08T04:04:16.686Z",
+      "updated_at": "2026-04-08T07:04:59.242Z",
       "highlights": "Open-source AI agent with MCP UI, app builder, A2A, multi-provider chat",
       "tags": ["Office Assistant"]
     },
@@ -1587,7 +1607,7 @@
       "prs": 1,
       "commits": 336,
       "loc": 83887,
-      "updated_at": "2026-04-08T04:04:17.591Z",
+      "updated_at": "2026-04-08T07:05:00.883Z",
       "highlights": "Claude Code autonomous agent plugin with auto learning, 40+ linters, OWASP security",
       "tags": ["Secure", "Auditable", "Fast"]
     },
@@ -1600,7 +1620,7 @@
       "prs": 0,
       "commits": 2,
       "loc": 2664,
-      "updated_at": "2026-04-08T04:04:17.925Z",
+      "updated_at": "2026-04-08T07:05:01.454Z",
       "highlights": ".NET AI assistant with multi-LLM support, built-in tools, and messaging integrations",
       "tags": ["Lightweight", "Fast", "Secure"]
     },
@@ -1613,7 +1633,7 @@
       "prs": 1,
       "commits": 72,
       "loc": 8046,
-      "updated_at": "2026-04-08T04:04:18.585Z",
+      "updated_at": "2026-04-08T07:05:02.794Z",
       "highlights": "🤖 飞书机器人，基于Kimi Code CLI的代码助手",
       "tags": ["Office Assistant", "Lightweight"]
     },
@@ -1626,7 +1646,7 @@
       "prs": 0,
       "commits": 10865,
       "loc": 694832,
-      "updated_at": "2026-04-08T04:04:21.239Z",
+      "updated_at": "2026-04-08T07:05:06.345Z",
       "highlights": "🦞 Multi-tenant fork of OpenClaw AI assistant",
       "tags": ["Secure", "Isolated"]
     },
@@ -1639,7 +1659,7 @@
       "prs": 0,
       "commits": 22,
       "loc": 16612,
-      "updated_at": "2026-04-08T04:04:22.000Z",
+      "updated_at": "2026-04-08T07:05:07.555Z",
       "highlights": "AI agent CLI in Zig: 3MB binary, no runtime, Claude/Ollama/OpenAI backends.",
       "tags": ["Lightweight", "Fast"]
     },
@@ -1652,7 +1672,7 @@
       "prs": 0,
       "commits": 12,
       "loc": 21568,
-      "updated_at": "2026-04-08T04:04:22.443Z",
+      "updated_at": "2026-04-08T07:05:08.348Z",
       "highlights": "⚡ Elixir/OTP AI agent CLI with swarm orchestration, 30 tools, and live terminal display",
       "tags": ["Secure", "Auditable", "Isolated"]
     },
@@ -1665,7 +1685,7 @@
       "prs": 0,
       "commits": 69,
       "loc": 10762,
-      "updated_at": "2026-04-08T04:04:23.166Z",
+      "updated_at": "2026-04-08T07:05:09.609Z",
       "highlights": "🦞 Lightweight Telegram AI agent with memory and multi-provider LLM routing",
       "tags": ["Lightweight"]
     },
@@ -1678,7 +1698,7 @@
       "prs": 0,
       "commits": 16,
       "loc": 1490,
-      "updated_at": "2026-04-08T04:04:23.610Z",
+      "updated_at": "2026-04-08T07:05:10.309Z",
       "highlights": "🤖 Claude Code on VPS controlled from Telegram with voice & files",
       "tags": ["Lightweight", "Office Assistant"]
     },
@@ -1691,7 +1711,7 @@
       "prs": 0,
       "commits": 13,
       "loc": 68631,
-      "updated_at": "2026-04-08T04:04:24.504Z",
+      "updated_at": "2026-04-08T07:05:11.606Z",
       "highlights": "⚡ MCP server bringing Claude's skill engine to any agent",
       "tags": ["Lightweight", "Fast", "Isolated"]
     },
@@ -1704,7 +1724,7 @@
       "prs": 0,
       "commits": 165,
       "loc": 41875,
-      "updated_at": "2026-04-08T04:04:25.071Z",
+      "updated_at": "2026-04-08T07:05:12.516Z",
       "highlights": "🌸 Lightweight AI agent framework with identity awareness, 2-minute local setup",
       "tags": ["Lightweight", "Secure", "Isolated"]
     },
@@ -1717,7 +1737,7 @@
       "prs": 0,
       "commits": 12,
       "loc": 0,
-      "updated_at": "2026-04-08T04:04:25.427Z",
+      "updated_at": "2026-04-08T07:05:13.005Z",
       "highlights": "🦀 AI agent workspace with file-based identity for Agor multiplayer canvas",
       "tags": ["Auditable", "Lightweight"]
     },
@@ -1730,7 +1750,7 @@
       "prs": 0,
       "commits": 7,
       "loc": 427,
-      "updated_at": "2026-04-08T04:04:25.855Z",
+      "updated_at": "2026-04-08T07:05:13.860Z",
       "highlights": "🦀 Mobile AI agent framework. Runs on phone, no server needed.",
       "tags": ["Lightweight", "Isolated"]
     },
@@ -1743,7 +1763,7 @@
       "prs": 0,
       "commits": 14,
       "loc": 5968,
-      "updated_at": "2026-04-08T04:04:26.350Z",
+      "updated_at": "2026-04-08T07:05:14.898Z",
       "highlights": "BSC-native AI agent for Chinese platforms with built-in Binance skills and crypto trading tools",
       "tags": ["Fast"]
     },
@@ -1756,7 +1776,7 @@
       "prs": 0,
       "commits": 4,
       "loc": 725,
-      "updated_at": "2026-04-08T04:04:26.679Z",
+      "updated_at": "2026-04-08T07:05:15.559Z",
       "highlights": "🤖 AI Telegram bot with Gmail, Drive, Sheets & Python execution via Docker & n8n",
       "tags": ["Office Assistant", "Isolated"]
     },
@@ -1769,7 +1789,7 @@
       "prs": 0,
       "commits": 45,
       "loc": 56157,
-      "updated_at": "2026-04-08T04:04:27.258Z",
+      "updated_at": "2026-04-08T07:05:16.835Z",
       "highlights": "🛡️ Self-healing AI dev team that autonomously fixes production bugs",
       "tags": ["Auditable", "Isolated"]
     },
@@ -1782,7 +1802,7 @@
       "prs": 0,
       "commits": 7,
       "loc": 1107,
-      "updated_at": "2026-04-08T04:04:27.499Z",
+      "updated_at": "2026-04-08T07:05:17.310Z",
       "highlights": "🤖 cl0w: Local AI agent via Telegram with MCP tools & persona system",
       "tags": ["Lightweight", "Secure"]
     },
@@ -1795,7 +1815,7 @@
       "prs": 0,
       "commits": 3822,
       "loc": 2706,
-      "updated_at": "2026-04-08T04:04:28.097Z",
+      "updated_at": "2026-04-08T07:05:18.458Z",
       "highlights": "🦗 Multi-platform desktop agent controllable via WhatsApp, Telegram & Slack",
       "tags": ["Secure", "Isolated"]
     },
@@ -1808,7 +1828,7 @@
       "prs": 0,
       "commits": 4,
       "loc": 666673,
-      "updated_at": "2026-04-08T04:04:29.560Z",
+      "updated_at": "2026-04-08T07:05:20.629Z",
       "highlights": "Browser automation tool for free AI platform access via session capture",
       "tags": ["Isolated"]
     },
@@ -1821,7 +1841,7 @@
       "prs": 0,
       "commits": 13,
       "loc": 95382,
-      "updated_at": "2026-04-08T04:04:30.271Z",
+      "updated_at": "2026-04-08T07:05:21.745Z",
       "highlights": "🧞 AI coding agent with multi-agent system, runs locally with Ollama",
       "tags": ["Isolated", "Fast", "Secure"]
     },
@@ -1834,7 +1854,7 @@
       "prs": 0,
       "commits": 1014,
       "loc": 59439,
-      "updated_at": "2026-04-08T04:04:30.912Z",
+      "updated_at": "2026-04-08T07:05:22.788Z",
       "highlights": "🐙 Modular containerized AI assistant for WhatsApp with memory and scheduled tasks.",
       "tags": ["Secure", "Isolated"]
     },
@@ -1847,7 +1867,7 @@
       "prs": 0,
       "commits": 13,
       "loc": 48100,
-      "updated_at": "2026-04-08T04:04:31.419Z",
+      "updated_at": "2026-04-08T07:05:23.811Z",
       "highlights": "🤖 AutoDev: autonomous AI coding agent for issue resolution, tests, CI fixes",
       "tags": []
     },
@@ -1860,7 +1880,7 @@
       "prs": 0,
       "commits": 13,
       "loc": 48100,
-      "updated_at": "2026-04-08T04:04:31.960Z",
+      "updated_at": "2026-04-08T07:05:24.821Z",
       "highlights": "🤖 AI coding agent that auto-resolves GitHub issues, generates tests, fixes CI",
       "tags": ["Office Assistant", "Isolated"]
     },
@@ -1873,7 +1893,7 @@
       "prs": 0,
       "commits": 132,
       "loc": 40753,
-      "updated_at": "2026-04-08T04:04:32.388Z",
+      "updated_at": "2026-04-08T07:05:25.652Z",
       "highlights": "Decentralized P2P research platform for autonomous AI agents with IPFS archiving",
       "tags": ["Fast", "Auditable"]
     },
@@ -1886,7 +1906,7 @@
       "prs": 0,
       "commits": 25,
       "loc": 38282,
-      "updated_at": "2026-04-08T04:04:32.854Z",
+      "updated_at": "2026-04-08T07:05:26.587Z",
       "highlights": "Free AI IDE with autonomous agents, Monaco editor, terminal, and 16 themes.",
       "tags": ["Secure", "Fast"]
     },
@@ -1899,7 +1919,7 @@
       "prs": 0,
       "commits": 31,
       "loc": 21162,
-      "updated_at": "2026-04-08T04:04:33.344Z",
+      "updated_at": "2026-04-08T07:05:27.601Z",
       "highlights": "🔒 Security-first personal AI agent with 19 skills, 10 channels, 100+ LLM providers",
       "tags": ["Secure", "Isolated", "Office Assistant"]
     },
@@ -1912,7 +1932,7 @@
       "prs": 0,
       "commits": 11,
       "loc": 1376,
-      "updated_at": "2026-04-08T04:04:33.597Z",
+      "updated_at": "2026-04-08T07:05:28.131Z",
       "highlights": "🧠 Autonomous SWE agent with Qodo Aware for code analysis and issue solving",
       "tags": []
     },
@@ -1925,7 +1945,7 @@
       "prs": 0,
       "commits": 19,
       "loc": 2030,
-      "updated_at": "2026-04-08T04:04:33.895Z",
+      "updated_at": "2026-04-08T07:05:28.650Z",
       "highlights": "🔨 AI agent that iteratively improves skills by mutating, testing, and keeping fixes.",
       "tags": ["Auditable", "Isolated"]
     },
@@ -1938,7 +1958,7 @@
       "prs": 0,
       "commits": 573,
       "loc": 65493,
-      "updated_at": "2026-04-08T04:04:34.566Z",
+      "updated_at": "2026-04-08T07:05:29.966Z",
       "highlights": "AI autonomous pentester that finds and verifies vulnerabilities in code, npm, and LLM endpoints",
       "tags": ["Fast", "Auditable"]
     },
@@ -1951,7 +1971,7 @@
       "prs": 0,
       "commits": 7,
       "loc": 568005,
-      "updated_at": "2026-04-08T04:04:35.787Z",
+      "updated_at": "2026-04-08T07:05:31.784Z",
       "highlights": "🦞 Personal AI assistant for WhatsApp, Telegram, Discord, and messaging apps",
       "tags": ["Office Assistant", "Fast", "Secure"]
     },
@@ -1964,7 +1984,7 @@
       "prs": 0,
       "commits": 606,
       "loc": 100130,
-      "updated_at": "2026-04-08T04:04:36.540Z",
+      "updated_at": "2026-04-08T07:05:33.070Z",
       "highlights": "Bio-inspired AI agent with memory, dreams, self-reflection, 7 providers, 9 channels",
       "tags": ["Lightweight", "Fast"]
     },
@@ -1977,7 +1997,7 @@
       "prs": 0,
       "commits": 59,
       "loc": 28205,
-      "updated_at": "2026-04-08T04:04:36.946Z",
+      "updated_at": "2026-04-08T07:05:33.982Z",
       "highlights": "🤖 Self-hostable AI agent platform with Claude SDK + LiteLLM for 15+ providers",
       "tags": ["Lightweight", "Secure"]
     },
@@ -1990,7 +2010,7 @@
       "prs": 0,
       "commits": 72,
       "loc": 3825,
-      "updated_at": "2026-04-08T04:04:37.278Z",
+      "updated_at": "2026-04-08T07:05:34.545Z",
       "highlights": "🦞 Personal AI assistant built entirely in Bash with Telegram/CLI support",
       "tags": ["Lightweight", "Isolated"]
     },
@@ -2003,7 +2023,7 @@
       "prs": 1,
       "commits": 290,
       "loc": 38119,
-      "updated_at": "2026-04-08T04:04:37.691Z",
+      "updated_at": "2026-04-08T07:05:35.359Z",
       "highlights": "Multi-agent AI coding platform deployed to Slack, WhatsApp, Telegram and Discord.",
       "tags": ["Auditable"]
     },
@@ -2016,7 +2036,7 @@
       "prs": 0,
       "commits": 4,
       "loc": 0,
-      "updated_at": "2026-04-08T04:04:38.020Z",
+      "updated_at": "2026-04-08T07:05:36.070Z",
       "highlights": "🧠 AI contrarian advisor that debates your decisions using mental models",
       "tags": ["Auditable"]
     },
@@ -2029,7 +2049,7 @@
       "prs": 0,
       "commits": 3,
       "loc": 2144,
-      "updated_at": "2026-04-08T04:04:38.269Z",
+      "updated_at": "2026-04-08T07:05:36.518Z",
       "highlights": "🔌 Routes OpenClaw agents through Claude Code via OpenAI-compatible HTTP server",
       "tags": ["Auditable", "Lightweight"]
     },
@@ -2042,7 +2062,7 @@
       "prs": 0,
       "commits": 71,
       "loc": 6647,
-      "updated_at": "2026-04-08T04:04:38.746Z",
+      "updated_at": "2026-04-08T07:05:37.391Z",
       "highlights": "🐙 Multi-agent AI system in tmux with CLI orchestration and self-healing",
       "tags": ["Isolated"]
     },
@@ -2055,7 +2075,7 @@
       "prs": 0,
       "commits": 25,
       "loc": 11595,
-      "updated_at": "2026-04-08T04:04:39.058Z",
+      "updated_at": "2026-04-08T07:05:37.978Z",
       "highlights": "🍴 Time-travel debugger for AI agents that records calls and lets you rewind/fork with different ...",
       "tags": ["Auditable"]
     },
@@ -2068,7 +2088,7 @@
       "prs": 0,
       "commits": 116,
       "loc": 41689,
-      "updated_at": "2026-04-08T04:04:39.523Z",
+      "updated_at": "2026-04-08T07:05:38.774Z",
       "highlights": "Autonomous multi-agent framework for full software development lifecycle automation.",
       "tags": ["Auditable"]
     },
@@ -2081,7 +2101,7 @@
       "prs": 0,
       "commits": 2,
       "loc": 138,
-      "updated_at": "2026-04-08T04:04:39.823Z",
+      "updated_at": "2026-04-08T07:05:39.223Z",
       "highlights": "🤖 AI browser automation skill via CLI Playwright and Python autonomous agent",
       "tags": ["Isolated"]
     },
@@ -2094,7 +2114,7 @@
       "prs": 0,
       "commits": 173,
       "loc": 4416,
-      "updated_at": "2026-04-08T04:04:40.112Z",
+      "updated_at": "2026-04-08T07:05:39.760Z",
       "highlights": "Rust Discord AI with vector memory, multi-LLM support, and sandboxed tools",
       "tags": ["Lightweight", "Isolated", "Secure"]
     },
@@ -2107,7 +2127,7 @@
       "prs": 0,
       "commits": 164,
       "loc": 19316,
-      "updated_at": "2026-04-08T04:04:40.482Z",
+      "updated_at": "2026-04-08T07:05:40.474Z",
       "highlights": "🤖 Control Claude Code from your phone via chat apps with live dashboard & monitoring",
       "tags": ["Fast"]
     },
@@ -2120,7 +2140,7 @@
       "prs": 0,
       "commits": 1,
       "loc": 0,
-      "updated_at": "2026-04-08T04:04:40.708Z",
+      "updated_at": "2026-04-08T07:05:40.909Z",
       "highlights": "🦀 Rust remake of OpenClaw for autonomous safety AI on $10 hardware",
       "tags": ["Lightweight", "Fast", "Secure"]
     },
@@ -2133,7 +2153,7 @@
       "prs": 0,
       "commits": 10,
       "loc": 1660,
-      "updated_at": "2026-04-08T04:04:40.965Z",
+      "updated_at": "2026-04-08T07:05:41.358Z",
       "highlights": "🛠️ AI CLI toolkit to explain code, review PRs, and generate specs",
       "tags": ["Lightweight"]
     },
@@ -2146,7 +2166,7 @@
       "prs": 0,
       "commits": 269,
       "loc": 54040,
-      "updated_at": "2026-04-08T04:04:41.499Z",
+      "updated_at": "2026-04-08T07:05:42.171Z",
       "highlights": "Rust-based agentic AI platform for reliable multi-agent task execution",
       "tags": ["Fast", "Secure", "Isolated"]
     },
@@ -2159,7 +2179,7 @@
       "prs": 0,
       "commits": 9130,
       "loc": 613809,
-      "updated_at": "2026-04-08T04:04:43.554Z",
+      "updated_at": "2026-04-08T07:05:44.878Z",
       "highlights": "🤖 Bio-inspired AI assistant with memory, reflection and adaptive instincts",
       "tags": ["Office Assistant"]
     },
@@ -2172,7 +2192,7 @@
       "prs": 0,
       "commits": 367,
       "loc": 0,
-      "updated_at": "2026-04-08T04:04:43.801Z",
+      "updated_at": "2026-04-08T07:05:45.332Z",
       "highlights": "🦞 LocalClaw: Minimal agentic framework for local AI with Ollama",
       "tags": ["Lightweight", "Isolated"]
     },
@@ -2185,7 +2205,7 @@
       "prs": 0,
       "commits": 4,
       "loc": 10127,
-      "updated_at": "2026-04-08T04:04:44.100Z",
+      "updated_at": "2026-04-08T07:05:45.913Z",
       "highlights": "A lightweight Bun/TS agent framework for learning and prototyping",
       "tags": ["Lightweight"]
     },
@@ -2198,7 +2218,7 @@
       "prs": 0,
       "commits": 7,
       "loc": 1513,
-      "updated_at": "2026-04-08T04:04:44.360Z",
+      "updated_at": "2026-04-08T07:05:46.356Z",
       "highlights": "Simple AI assistant bot with skills system, WhatsApp/Telegram support",
       "tags": ["Lightweight"]
     },
@@ -2211,7 +2231,7 @@
       "prs": 0,
       "commits": 3,
       "loc": 14582,
-      "updated_at": "2026-04-08T04:04:44.673Z",
+      "updated_at": "2026-04-08T07:05:46.927Z",
       "highlights": "🤖 Telegram AI assistant with memory, skills & agent-browser by Steel Labs",
       "tags": ["Lightweight"]
     },
@@ -2224,7 +2244,7 @@
       "prs": 4,
       "commits": 8787,
       "loc": 403048,
-      "updated_at": "2026-04-08T04:04:46.543Z",
+      "updated_at": "2026-04-08T07:05:49.439Z",
       "highlights": "Personal AI assistant gateway with GTK GUI and Ollama integration",
       "tags": ["Secure", "Auditable", "Lightweight"]
     },
@@ -2237,7 +2257,7 @@
       "prs": 0,
       "commits": 135,
       "loc": 22798,
-      "updated_at": "2026-04-08T04:04:46.972Z",
+      "updated_at": "2026-04-08T07:05:50.172Z",
       "highlights": "High-performance Rust AI assistant runtime with WebSocket control for multi-channel agent orchest...",
       "tags": ["Fast", "Secure", "Isolated"]
     },
@@ -2250,7 +2270,7 @@
       "prs": 0,
       "commits": 12,
       "loc": 4783,
-      "updated_at": "2026-04-08T04:04:47.293Z",
+      "updated_at": "2026-04-08T07:05:50.674Z",
       "highlights": "Markdown即Agent的动态蜂群引擎，Worker用后即焚",
       "tags": ["Isolated", "Auditable", "Secure"]
     },
@@ -2263,7 +2283,7 @@
       "prs": 0,
       "commits": 546,
       "loc": 108411,
-      "updated_at": "2026-04-08T04:04:48.059Z",
+      "updated_at": "2026-04-08T07:05:52.059Z",
       "highlights": "AI agent framework with HEXACO personalities, RAG, and prompt injection defenses.",
       "tags": ["Secure", "Auditable"]
     },
@@ -2276,7 +2296,7 @@
       "prs": 0,
       "commits": 126,
       "loc": 20595,
-      "updated_at": "2026-04-08T04:04:48.428Z",
+      "updated_at": "2026-04-08T07:05:52.725Z",
       "highlights": "Lean Go AI agent with LLM backends (LM Studio, OpenRouter, Codex), ~22k lines.",
       "tags": ["Lightweight", "Isolated", "Secure"]
     },
@@ -2287,9 +2307,9 @@
       "forks": 3,
       "issues": 0,
       "prs": 9,
-      "commits": 1779,
-      "loc": 486134,
-      "updated_at": "2026-04-08T04:04:50.240Z",
+      "commits": 1797,
+      "loc": 486175,
+      "updated_at": "2026-04-08T07:05:55.352Z",
       "highlights": "🤖 AI agent with 43+ tools for web browsing, coding, and autonomous research.",
       "tags": ["Isolated"]
     },
@@ -2302,7 +2322,7 @@
       "prs": 1,
       "commits": 174,
       "loc": 43675,
-      "updated_at": "2026-04-08T04:04:50.897Z",
+      "updated_at": "2026-04-08T07:05:56.469Z",
       "highlights": "🧬 Hub of 128+ autonomous AI agents for research, coding, data analysis, and automation.",
       "tags": []
     },
@@ -2315,7 +2335,7 @@
       "prs": 0,
       "commits": 24,
       "loc": 4014,
-      "updated_at": "2026-04-08T04:04:51.367Z",
+      "updated_at": "2026-04-08T07:05:57.176Z",
       "highlights": "Telegram-controlled desktop AI agent powered by local Ollama LLM",
       "tags": ["Secure", "Isolated"]
     },
@@ -2341,7 +2361,7 @@
       "prs": 0,
       "commits": 17,
       "loc": 13491,
-      "updated_at": "2026-04-08T04:04:51.804Z",
+      "updated_at": "2026-04-08T07:05:58.008Z",
       "highlights": "🤖 Lightweight self-hosted AI assistant in Go with Telegram/CLI support",
       "tags": ["Lightweight", "Isolated", "Secure"]
     },
@@ -2354,7 +2374,7 @@
       "prs": 0,
       "commits": 8801,
       "loc": 582667,
-      "updated_at": "2026-04-08T04:04:53.954Z",
+      "updated_at": "2026-04-08T07:06:00.727Z",
       "highlights": "Hardened OpenClaw fork blocking prompt injection, steganography, and RCE.",
       "tags": ["Secure", "Auditable"]
     },
@@ -2367,7 +2387,7 @@
       "prs": 0,
       "commits": 1,
       "loc": 6960,
-      "updated_at": "2026-04-08T04:04:54.251Z",
+      "updated_at": "2026-04-08T07:06:01.266Z",
       "highlights": "🍝 AI-powered code review bot for GitHub PRs using GPT-4o with agentic tool-use",
       "tags": ["Fast", "Auditable"]
     },
@@ -2380,7 +2400,7 @@
       "prs": 1,
       "commits": 8372,
       "loc": 379065,
-      "updated_at": "2026-04-08T04:04:55.696Z",
+      "updated_at": "2026-04-08T07:06:03.238Z",
       "highlights": "🐊 Telegram-first personal AI assistant with Gateway control for self-hosted VPS",
       "tags": ["Lightweight", "Secure"]
     },
@@ -2393,7 +2413,7 @@
       "prs": 10,
       "commits": 15961,
       "loc": 957736,
-      "updated_at": "2026-04-08T04:04:58.133Z",
+      "updated_at": "2026-04-08T07:06:06.469Z",
       "highlights": "📦 XClaw is an AI assistant fork for Telegram with OpenAI/Gemini integration",
       "tags": ["Lightweight", "Fast", "Secure"]
     },
@@ -2406,7 +2426,7 @@
       "prs": 3,
       "commits": 16716,
       "loc": 976940,
-      "updated_at": "2026-04-08T04:05:01.872Z",
+      "updated_at": "2026-04-08T07:06:10.745Z",
       "highlights": "🦞 OpenClaw adapted for Android/Termux - runs AI-agent workflows on any Android phone",
       "tags": ["Lightweight", "Isolated"]
     },
@@ -2432,7 +2452,7 @@
       "prs": 0,
       "commits": 3,
       "loc": 3239,
-      "updated_at": "2026-04-08T04:05:02.234Z",
+      "updated_at": "2026-04-08T07:06:11.550Z",
       "highlights": "🔌 Chrome extension that auto-attaches OpenClaw to tabs via CDP relay server",
       "tags": ["Fast"]
     },
@@ -2445,7 +2465,7 @@
       "prs": 0,
       "commits": 12117,
       "loc": 778147,
-      "updated_at": "2026-04-08T04:05:04.100Z",
+      "updated_at": "2026-04-08T07:06:13.797Z",
       "highlights": "🦞 Personal AI assistant for messaging platforms that runs locally on your devices.",
       "tags": ["Fast", "Isolated", "Office Assistant"]
     },
@@ -2458,7 +2478,7 @@
       "prs": 0,
       "commits": 64,
       "loc": 30769,
-      "updated_at": "2026-04-08T04:05:05.444Z",
+      "updated_at": "2026-04-08T07:06:15.810Z",
       "highlights": "🌑 AI cognitive architecture with perception, memory and learning on consumer hardware",
       "tags": ["Lightweight", "Auditable"]
     },
@@ -2471,7 +2491,7 @@
       "prs": 0,
       "commits": 311,
       "loc": 89431,
-      "updated_at": "2026-04-08T04:05:06.481Z",
+      "updated_at": "2026-04-08T07:06:17.350Z",
       "highlights": "Four-tier AI agent architecture for Claude Code with 27 specialized agents",
       "tags": ["Secure", "Auditable"]
     },
@@ -2484,7 +2504,7 @@
       "prs": 0,
       "commits": 6,
       "loc": 0,
-      "updated_at": "2026-04-08T04:05:06.933Z",
+      "updated_at": "2026-04-08T07:06:18.014Z",
       "highlights": "AI-agent framework for code generation, prototyping, and IP protection.",
       "tags": ["Secure", "Auditable", "Isolated"]
     },
@@ -2497,7 +2517,7 @@
       "prs": 0,
       "commits": 6,
       "loc": 0,
-      "updated_at": "2026-04-08T04:05:07.192Z",
+      "updated_at": "2026-04-08T07:06:18.484Z",
       "highlights": "🤖 AI-agent framework for autonomous code generation and IP protection",
       "tags": ["Secure", "Auditable"]
     },
@@ -2510,7 +2530,7 @@
       "prs": 0,
       "commits": 105,
       "loc": 76156,
-      "updated_at": "2026-04-08T04:05:09.902Z",
+      "updated_at": "2026-04-08T07:06:22.013Z",
       "highlights": "AI agent creates custom household apps from natural language conversations",
       "tags": ["Isolated", "Office Assistant", "Secure"]
     },
@@ -2523,7 +2543,7 @@
       "prs": 0,
       "commits": 11,
       "loc": 4557,
-      "updated_at": "2026-04-08T04:05:10.253Z",
+      "updated_at": "2026-04-08T07:06:22.630Z",
       "highlights": "Open-source autonomous AI agent framework with CEO orchestrators, mesh networks, and Mission Cont...",
       "tags": ["Auditable"]
     },
@@ -2536,7 +2556,7 @@
       "prs": 0,
       "commits": 140,
       "loc": 22448,
-      "updated_at": "2026-04-08T04:05:10.700Z",
+      "updated_at": "2026-04-08T07:06:23.464Z",
       "highlights": "Your personal AI familiar with 30+ autonomous agents, dashboard, and semantic memory.",
       "tags": ["Office Assistant", "Isolated"]
     },
@@ -2549,7 +2569,7 @@
       "prs": 0,
       "commits": 22,
       "loc": 18539,
-      "updated_at": "2026-04-08T04:05:11.193Z",
+      "updated_at": "2026-04-08T07:06:24.463Z",
       "highlights": "🚀 Open-source AI orchestrator: 8 agents, Vision-to-Code, 100% free on Groq",
       "tags": ["Fast", "Secure", "Auditable"]
     },
@@ -2562,7 +2582,7 @@
       "prs": 0,
       "commits": 413,
       "loc": 39433,
-      "updated_at": "2026-04-08T04:05:11.619Z",
+      "updated_at": "2026-04-08T07:06:25.148Z",
       "highlights": "Rust CLI for running autonomous AI coding agents locally with file/shell access",
       "tags": ["Lightweight", "Fast", "Isolated"]
     },
@@ -2575,7 +2595,7 @@
       "prs": 0,
       "commits": 2,
       "loc": 8183,
-      "updated_at": "2026-04-08T04:05:11.901Z",
+      "updated_at": "2026-04-08T07:06:25.649Z",
       "highlights": "AI agent that writes, tests, and integrates its own code, evolving autonomously",
       "tags": ["Isolated", "Fast", "Auditable"]
     },
@@ -2588,7 +2608,7 @@
       "prs": 30,
       "commits": 24,
       "loc": 799,
-      "updated_at": "2026-04-08T04:05:12.155Z",
+      "updated_at": "2026-04-08T07:06:26.056Z",
       "highlights": "🩹 AI pipeline auto-fixes CI failures using Gemini and creates PRs",
       "tags": ["Auditable"]
     },
@@ -2601,7 +2621,7 @@
       "prs": 0,
       "commits": 8,
       "loc": 857,
-      "updated_at": "2026-04-08T04:05:12.958Z",
+      "updated_at": "2026-04-08T07:06:27.440Z",
       "highlights": "A tiny open-source reproduction of OpenDevin's CodeActAgent for autonomous coding",
       "tags": ["Lightweight"]
     },
@@ -2614,7 +2634,7 @@
       "prs": 0,
       "commits": 8,
       "loc": 2954,
-      "updated_at": "2026-04-08T04:05:13.246Z",
+      "updated_at": "2026-04-08T07:06:27.965Z",
       "highlights": "🤖 AI SWE agent with vLLM, RAG & autonomous coding for K3s",
       "tags": ["Fast", "Lightweight", "Isolated"]
     },
@@ -2627,7 +2647,7 @@
       "prs": 0,
       "commits": 230,
       "loc": 42211,
-      "updated_at": "2026-04-08T04:05:13.773Z",
+      "updated_at": "2026-04-08T07:06:28.960Z",
       "highlights": "🤖 Self-hosted autonomous SWE agent on AWS with web UI and Slack integration",
       "tags": ["Lightweight", "Isolated"]
     },
@@ -2640,7 +2660,7 @@
       "prs": 0,
       "commits": 2,
       "loc": 182,
-      "updated_at": "2026-04-08T04:05:14.035Z",
+      "updated_at": "2026-04-08T07:06:29.493Z",
       "highlights": "🤖 Multi-agent framework using OpenInterpreter with MCP for local execution.",
       "tags": ["Lightweight", "Secure", "Isolated"]
     },
@@ -2653,7 +2673,7 @@
       "prs": 0,
       "commits": 3,
       "loc": 129,
-      "updated_at": "2026-04-08T04:05:14.276Z",
+      "updated_at": "2026-04-08T07:06:29.926Z",
       "highlights": "🤖 AI code assistant using RAG + ReAct with local Mistral & CodeLlama for API PDF parsing and gen...",
       "tags": ["Secure", "Isolated"]
     },
@@ -2666,7 +2686,7 @@
       "prs": 0,
       "commits": 1,
       "loc": 549,
-      "updated_at": "2026-04-08T04:05:14.601Z",
+      "updated_at": "2026-04-08T07:06:30.399Z",
       "highlights": "Agentic AI assistant handling multi-step queries with calculator and translation tools",
       "tags": ["Office Assistant"]
     },
@@ -2679,7 +2699,7 @@
       "prs": 0,
       "commits": 40,
       "loc": 7621,
-      "updated_at": "2026-04-08T04:05:16.800Z",
+      "updated_at": "2026-04-08T07:06:33.304Z",
       "highlights": "🤖 AI agent that builds web apps from prompts using LangGraph",
       "tags": []
     },
@@ -2692,7 +2712,7 @@
       "prs": 0,
       "commits": 5,
       "loc": 2669,
-      "updated_at": "2026-04-08T04:05:17.100Z",
+      "updated_at": "2026-04-08T07:06:33.940Z",
       "highlights": "🤖 AI software engineer that builds projects from natural language",
       "tags": ["Auditable"]
     },
@@ -2705,7 +2725,7 @@
       "prs": 0,
       "commits": 6,
       "loc": 12290,
-      "updated_at": "2026-04-08T04:05:17.464Z",
+      "updated_at": "2026-04-08T07:06:34.546Z",
       "highlights": "👻 Autonomous AI agent for coding, reasoning, and self-correction with memory systems",
       "tags": ["Isolated"]
     },
@@ -2718,7 +2738,7 @@
       "prs": 0,
       "commits": 2,
       "loc": 17220,
-      "updated_at": "2026-04-08T04:05:17.773Z",
+      "updated_at": "2026-04-08T07:06:35.121Z",
       "highlights": "🤖 Voice AI assistant with autonomous tasks and safe code execution",
       "tags": ["Office Assistant", "Secure", "Auditable"]
     },
@@ -2731,7 +2751,7 @@
       "prs": 0,
       "commits": 7228,
       "loc": 310147,
-      "updated_at": "2026-04-08T04:05:18.908Z",
+      "updated_at": "2026-04-08T07:06:36.652Z",
       "highlights": "Open-source VS Code AI agent for data analytics and coding",
       "tags": ["Lightweight", "Fast"]
     },
@@ -2744,7 +2764,7 @@
       "prs": 0,
       "commits": 14,
       "loc": 2306,
-      "updated_at": "2026-04-08T04:05:19.168Z",
+      "updated_at": "2026-04-08T07:06:37.146Z",
       "highlights": "🤖 Autonomous AI dev agent: Jira → code → GitHub PRs",
       "tags": ["Auditable"]
     },
@@ -2757,7 +2777,7 @@
       "prs": 0,
       "commits": 69,
       "loc": 1054,
-      "updated_at": "2026-04-08T04:05:19.426Z",
+      "updated_at": "2026-04-08T07:06:37.641Z",
       "highlights": "🤖 Autonomous open-source QA pipeline for AI apps: Phoenix, DeepEval, Langfuse, Playwright, Claud...",
       "tags": ["Auditable"]
     },
@@ -2770,7 +2790,7 @@
       "prs": 0,
       "commits": 21,
       "loc": 193,
-      "updated_at": "2026-04-08T04:05:19.672Z",
+      "updated_at": "2026-04-08T07:06:38.079Z",
       "highlights": "🤖 Autonomous AI assistant using Gemini API with memory and tool use.",
       "tags": ["Lightweight"]
     },
@@ -2783,7 +2803,7 @@
       "prs": 0,
       "commits": 18,
       "loc": 8593,
-      "updated_at": "2026-04-08T04:05:20.025Z",
+      "updated_at": "2026-04-08T07:06:38.853Z",
       "highlights": "🐳 Docker-isolated autonomous AI code agents - 100% local, free & open source",
       "tags": ["Isolated", "Secure", "Fast"]
     },
@@ -2796,7 +2816,7 @@
       "prs": 0,
       "commits": 2,
       "loc": 712,
-      "updated_at": "2026-04-08T04:05:20.295Z",
+      "updated_at": "2026-04-08T07:06:39.321Z",
       "highlights": "🤖 Eliminates AI agent permission prompts with smart safety guardrails",
       "tags": ["Fast", "Secure", "Auditable"]
     },
@@ -2809,7 +2829,7 @@
       "prs": 0,
       "commits": 10,
       "loc": 1229,
-      "updated_at": "2026-04-08T04:05:20.563Z",
+      "updated_at": "2026-04-08T07:06:40.045Z",
       "highlights": "AI agent fixes GitHub issues via LangGraph, Cline, CodeRabbit, deployed to Vercel",
       "tags": []
     },
@@ -2822,7 +2842,7 @@
       "prs": 0,
       "commits": 1,
       "loc": 0,
-      "updated_at": "2026-04-08T04:05:20.780Z",
+      "updated_at": "2026-04-08T07:06:40.508Z",
       "highlights": "🤖 Zen++ is an AI coding agent for VS Code with Groq and Together AI support.",
       "tags": ["Fast"]
     },
@@ -2835,7 +2855,7 @@
       "prs": 0,
       "commits": 3,
       "loc": 297,
-      "updated_at": "2026-04-08T04:05:21.051Z",
+      "updated_at": "2026-04-08T07:06:41.057Z",
       "highlights": "VS Code extension for Kimi K2 AI coding assistance",
       "tags": ["Lightweight", "Fast"]
     },
@@ -2848,7 +2868,7 @@
       "prs": 0,
       "commits": 3,
       "loc": 2984,
-      "updated_at": "2026-04-08T04:05:21.317Z",
+      "updated_at": "2026-04-08T07:06:41.554Z",
       "highlights": "🤖 Multi-agent AI system that autonomously builds, tests, debugs & improves code",
       "tags": ["Isolated", "Auditable"]
     },
@@ -2859,9 +2879,9 @@
       "forks": 0,
       "issues": 0,
       "prs": 0,
-      "commits": 12,
-      "loc": 559,
-      "updated_at": "2026-04-08T04:05:21.574Z",
+      "commits": 13,
+      "loc": 555,
+      "updated_at": "2026-04-08T07:06:41.991Z",
       "highlights": "AI sandbox where autonomous agents act as software engineers with tools to build, debug, test, an...",
       "tags": ["Isolated", "Auditable"]
     }
