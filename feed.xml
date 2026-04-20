@@ -7,12 +7,19 @@
   <id>https://github.com/kv-chiu/clawclaw</id>
   <updated>2026-04-20T00:00:00Z</updated>
   <entry>
-    <title>clawclaw update report 2026-04-20 — 34 project(s) with stats changes</title>
+    <title>clawclaw discover report 2026-04-20 — 4 new project(s), 34 project(s) with stats changes</title>
     <link href="https://kv-chiu.github.io/clawclaw" />
     <id>https://github.com/kv-chiu/clawclaw/report/2026-04-20</id>
     <updated>2026-04-20T00:00:00Z</updated>
-    <summary>34 project(s) with stats changes</summary>
-    <content type="html">&lt;p&gt;Total projects: 154&lt;/p&gt;
+    <summary>4 new project(s), 34 project(s) with stats changes</summary>
+    <content type="html">&lt;p&gt;Total projects: 158&lt;/p&gt;
+&lt;h3&gt;New Projects (4)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/TheAmericanMaker/bobiverse-openclaw"&gt;TheAmericanMaker/bobiverse-openclaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/distrihub/distri"&gt;distrihub/distri&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/levomm/osx01"&gt;levomm/osx01&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/wahajahmed010/open-source-contributor"&gt;wahajahmed010/open-source-contributor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Stats Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;openclaw/openclaw: stars: 360191 → 360800, forks: 73405 → 73589, issues: 12491 → 12489, prs: 6701 → 6682, commits: 32385 → 32472, loc: 2238182 → 2252342&lt;/li&gt;
