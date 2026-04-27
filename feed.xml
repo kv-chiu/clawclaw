@@ -7,12 +7,22 @@
   <id>https://github.com/kv-chiu/clawclaw</id>
   <updated>2026-04-27T00:00:00Z</updated>
   <entry>
-    <title>clawclaw update report 2026-04-27 — 39 project(s) with stats changes</title>
+    <title>clawclaw discover report 2026-04-27 — 7 new project(s), 39 project(s) with stats changes</title>
     <link href="https://kv-chiu.github.io/clawclaw" />
     <id>https://github.com/kv-chiu/clawclaw/report/2026-04-27</id>
     <updated>2026-04-27T00:00:00Z</updated>
-    <summary>39 project(s) with stats changes</summary>
-    <content type="html">&lt;p&gt;Total projects: 158&lt;/p&gt;
+    <summary>7 new project(s), 39 project(s) with stats changes</summary>
+    <content type="html">&lt;p&gt;Total projects: 165&lt;/p&gt;
+&lt;h3&gt;New Projects (7)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/win4r/lossless-claw-enhanced"&gt;win4r/lossless-claw-enhanced&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/clinchcc/openclaw-watchdog"&gt;clinchcc/openclaw-watchdog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Helms-AI/openclaw-mcp-server"&gt;Helms-AI/openclaw-mcp-server&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/techjarves/OpenClaude-Multi-Platform"&gt;techjarves/OpenClaude-Multi-Platform&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/anahata-os/anahata-asi"&gt;anahata-os/anahata-asi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/cubaseuser123/The-Swiss-Army-Knife-AI-Project"&gt;cubaseuser123/The-Swiss-Army-Knife-AI-Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Huskyauto/VisionClaw-Agent-Public-Release"&gt;Huskyauto/VisionClaw-Agent-Public-Release&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Stats Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;openclaw/openclaw: stars: 364042 → 364986, forks: 74551 → 74739, issues: 4160 → 3597, prs: 3837 → 3511, commits: 36028 → 36629&lt;/li&gt;
