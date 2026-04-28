@@ -5,7 +5,55 @@
   <link href="https://kv-chiu.github.io/clawclaw/feed.xml" rel="self" />
   <link href="https://github.com/kv-chiu/clawclaw" />
   <id>https://github.com/kv-chiu/clawclaw</id>
-  <updated>2026-04-27T00:00:00Z</updated>
+  <updated>2026-04-28T00:00:00Z</updated>
+  <entry>
+    <title>clawclaw update report 2026-04-28 — 37 project(s) with stats changes</title>
+    <link href="https://kv-chiu.github.io/clawclaw" />
+    <id>https://github.com/kv-chiu/clawclaw/report/2026-04-28</id>
+    <updated>2026-04-28T00:00:00Z</updated>
+    <summary>37 project(s) with stats changes</summary>
+    <content type="html">&lt;p&gt;Total projects: 165&lt;/p&gt;
+&lt;h3&gt;Stats Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;openclaw/openclaw: stars: 364986 → 365522, forks: 74739 → 74898, issues: 3597 → 3555, prs: 3511 → 3476, commits: 36629 → 37575&lt;/li&gt;
+&lt;li&gt;NousResearch/hermes-agent: stars: 119231 → 121438, forks: 17695 → 18069, issues: 2470 → 2550, prs: 4361 → 4336, commits: 6200 → 6333, loc: 552181 → 565543&lt;/li&gt;
+&lt;li&gt;Aider-AI/aider: stars: 43992 → 44042, forks: 4304 → 4312, issues: 1214 → 1216, prs: 287 → 286&lt;/li&gt;
+&lt;li&gt;HKUDS/nanobot: stars: 40995 → 41110, forks: 7197 → 7210, issues: 307 → 299, prs: 579 → 578, commits: 2189 → 2221, loc: 81145 → 82902&lt;/li&gt;
+&lt;li&gt;moeru-ai/airi: stars: 38676 → 38697, forks: 3912 → 3913, issues: 74 → 77, prs: 65 → 70, commits: 3652 → 3664, loc: 266155 → 268985&lt;/li&gt;
+&lt;li&gt;AstrBotDevs/AstrBot: stars: 30767 → 30862, forks: 2108 → 2115, issues: 842 → 847, prs: 206 → 208, commits: 4561 → 4570, loc: 158029 → 160735&lt;/li&gt;
+&lt;li&gt;qwibitai/nanoclaw: stars: 28176 → 28268, forks: 12666 → 12685, issues: 249 → 253, prs: 517 → 527&lt;/li&gt;
+&lt;li&gt;nearai/ironclaw: stars: 12032 → 12043, forks: 1389 → 1390, prs: 204 → 218, commits: 1306 → 1318, loc: 486066 → 492987&lt;/li&gt;
+&lt;li&gt;chenhg5/cc-connect: stars: 6239 → 6524, forks: 585 → 612, issues: 140 → 148, prs: 146 → 151, commits: 818 → 819, loc: 121986 → 121988&lt;/li&gt;
+&lt;li&gt;win4r/ClawTeam-OpenClaw: stars: 1326 → 1331&lt;/li&gt;
+&lt;li&gt;poco-ai/poco-claw: stars: 1295 → 1297&lt;/li&gt;
+&lt;li&gt;microclaw/microclaw: stars: 673 → 674, forks: 120 → 121&lt;/li&gt;
+&lt;li&gt;195440/nof1.ai: stars: 660 → 659&lt;/li&gt;
+&lt;li&gt;SimonSchubert/Kai: stars: 635 → 642, forks: 83 → 84, issues: 61 → 62, commits: 949 → 963&lt;/li&gt;
+&lt;li&gt;mindsdb/anton: stars: 633 → 638, prs: 6 → 7, commits: 1023 → 1029&lt;/li&gt;
+&lt;li&gt;SafeRL-Lab/cheetahclaws: stars: 613 → 618, forks: 227 → 229, commits: 487 → 489, loc: 47990 → 47944&lt;/li&gt;
+&lt;li&gt;fastclaw-ai/fastclaw: commits: 66 → 97, loc: 40708 → 39765&lt;/li&gt;
+&lt;li&gt;win4r/lossless-claw-enhanced: stars: 541 → 542, issues: 0 → 2&lt;/li&gt;
+&lt;li&gt;grinev/opencode-telegram-bot: stars: 536 → 540, prs: 5 → 4&lt;/li&gt;
+&lt;li&gt;swarmclawai/swarmclaw: stars: 408 → 409, commits: 425 → 426, loc: 300580 → 301442&lt;/li&gt;
+&lt;li&gt;freddy-schuetz/n8n-claw: stars: 405 → 406&lt;/li&gt;
+&lt;li&gt;princezuda/safeclaw: issues: 1 → 0, commits: 116 → 117&lt;/li&gt;
+&lt;li&gt;tang-vu/ContribAI: prs: 3 → 0, commits: 257 → 263, loc: 75838 → 76354&lt;/li&gt;
+&lt;li&gt;ApeCodeAI/nanoclaw-py: stars: 146 → 148, forks: 30 → 31&lt;/li&gt;
+&lt;li&gt;openlegion-ai/openlegion: stars: 89 → 90, forks: 14 → 15, prs: 8 → 4, commits: 1278 → 1316, loc: 115288 → 124790&lt;/li&gt;
+&lt;li&gt;sausheong/goclaw: stars: 87 → 88&lt;/li&gt;
+&lt;li&gt;htlin222/mini-claw: stars: 83 → 82&lt;/li&gt;
+&lt;li&gt;Lyt060814/nanocode: stars: 70 → 71&lt;/li&gt;
+&lt;li&gt;mutonby/viraloop: stars: 50 → 51&lt;/li&gt;
+&lt;li&gt;puremachinery/carapace: commits: 983 → 988&lt;/li&gt;
+&lt;li&gt;elophanto/EloPhanto: stars: 43 → 44, commits: 339 → 340, loc: 118829 → 119057&lt;/li&gt;
+&lt;li&gt;pinpox/opencrow: stars: 39 → 40&lt;/li&gt;
+&lt;li&gt;IPADS-SAI/MobiClaw: stars: 38 → 39&lt;/li&gt;
+&lt;li&gt;peaktwilight/pwnkit: stars: 21 → 22, prs: 0 → 1&lt;/li&gt;
+&lt;li&gt;ge4sis/cl0w: stars: 13 → 14&lt;/li&gt;
+&lt;li&gt;GodModeAI2025/skill-forge: stars: 12 → 13&lt;/li&gt;
+&lt;li&gt;Huskyauto/VisionClaw-Agent-Public-Release: loc: 222701 → 226156&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>clawclaw discover report 2026-04-27 — 7 new project(s), 39 project(s) with stats changes</title>
     <link href="https://kv-chiu.github.io/clawclaw" />
@@ -1563,62 +1611,6 @@
 &lt;li&gt;Quinnod345/oneiro-oca: commits: 53 → 64, loc: 24677 → 30769&lt;/li&gt;
 &lt;li&gt;tang-vu/ContribAI: stars: 182 → 187, forks: 70 → 76, commits: 125 → 130, loc: 42673 → 43210&lt;/li&gt;
 &lt;li&gt;bedda-tech/familiar: commits: 126 → 131, loc: 21537 → 22163&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>clawclaw update report 2026-03-28 — 45 project(s) with stats changes</title>
-    <link href="https://kv-chiu.github.io/clawclaw" />
-    <id>https://github.com/kv-chiu/clawclaw/report/2026-03-28</id>
-    <updated>2026-03-28T00:00:00Z</updated>
-    <summary>45 project(s) with stats changes</summary>
-    <content type="html">&lt;p&gt;Total projects: 129&lt;/p&gt;
-&lt;h3&gt;Stats Changes&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;openclaw/openclaw: stars: 337784 → 338833, forks: 66276 → 66640, issues: 9464 → 9630, prs: 6330 → 6375, commits: 22524 → 23191, loc: 1562070 → 1605143&lt;/li&gt;
-&lt;li&gt;Aider-AI/aider: stars: 42426 → 42459, forks: 4075 → 4083, issues: 1187 → 1186&lt;/li&gt;
-&lt;li&gt;HKUDS/nanobot: stars: 36533 → 36658, forks: 6266 → 6296, issues: 326 → 336, prs: 522 → 521, commits: 1470 → 1485, loc: 27561 → 28432&lt;/li&gt;
-&lt;li&gt;moeru-ai/airi: stars: 35763 → 35917, forks: 3553 → 3572, issues: 55 → 58, prs: 62 → 64, commits: 3172 → 3261, loc: 163636 → 186989&lt;/li&gt;
-&lt;li&gt;AstrBotDevs/AstrBot: stars: 27675 → 27862, forks: 1870 → 1879, issues: 748 → 760, prs: 172 → 175, commits: 4380 → 4383, loc: 143318 → 143698&lt;/li&gt;
-&lt;li&gt;qwibitai/nanoclaw: stars: 25660 → 25751, forks: 9040 → 9249, issues: 157 → 163, prs: 390 → 391, commits: 533 → 567, loc: 15448 → 15179&lt;/li&gt;
-&lt;li&gt;nearai/ironclaw: stars: 10974 → 11018, forks: 1238 → 1247, issues: 274 → 272, prs: 113 → 122, commits: 820 → 825, loc: 258444 → 259980&lt;/li&gt;
-&lt;li&gt;NousResearch/hermes-agent: stars: 13992 → 14754, forks: 1688 → 1776, issues: 296 → 326, prs: 505 → 573, commits: 2739 → 2767, loc: 230757 → 233811&lt;/li&gt;
-&lt;li&gt;chenhg5/cc-connect: stars: 3237 → 3337, forks: 284 → 288, prs: 40 → 36, commits: 525 → 535, loc: 76671 → 79212&lt;/li&gt;
-&lt;li&gt;ComposioHQ/secure-openclaw: stars: 1322 → 1324, forks: 201 → 203&lt;/li&gt;
-&lt;li&gt;poco-ai/poco-claw: stars: 1225 → 1229, forks: 111 → 112&lt;/li&gt;
-&lt;li&gt;195440/nof1.ai: stars: 631 → 633, forks: 190 → 191&lt;/li&gt;
-&lt;li&gt;microclaw/microclaw: stars: 615 → 597, forks: 112 → 113&lt;/li&gt;
-&lt;li&gt;win4r/ClawTeam-OpenClaw: stars: 810 → 832, forks: 176 → 180, commits: 55 → 63, loc: 7178 → 7543&lt;/li&gt;
-&lt;li&gt;lekt9/openclaw-foundry: stars: 321 → 325&lt;/li&gt;
-&lt;li&gt;freddy-schuetz/n8n-claw: stars: 310 → 315, commits: 279 → 296, loc: 7398 → 7580&lt;/li&gt;
-&lt;li&gt;Natfii/ZeroClaw-Android: stars: 261 → 262&lt;/li&gt;
-&lt;li&gt;SimonSchubert/Kai: stars: 277 → 283, forks: 31 → 32, issues: 39 → 41&lt;/li&gt;
-&lt;li&gt;grinev/opencode-telegram-bot: stars: 286 → 296, forks: 50 → 52&lt;/li&gt;
-&lt;li&gt;swarmclawai/swarmclaw: stars: 177 → 178, forks: 28 → 29&lt;/li&gt;
-&lt;li&gt;aspasskiy/GoGogot: stars: 121 → 122&lt;/li&gt;
-&lt;li&gt;essamamdani/openclaw-coolify: stars: 138 → 139&lt;/li&gt;
-&lt;li&gt;princezuda/safeclaw: stars: 118 → 119&lt;/li&gt;
-&lt;li&gt;sausheong/goclaw: stars: 80 → 81&lt;/li&gt;
-&lt;li&gt;openlegion-ai/openlegion: stars: 77 → 78, forks: 7 → 9, commits: 1031 → 1038, loc: 72867 → 72912&lt;/li&gt;
-&lt;li&gt;htlin222/mini-claw: commits: 5 → 7&lt;/li&gt;
-&lt;li&gt;ApeCodeAI/nanoclaw-py: stars: 48 → 49&lt;/li&gt;
-&lt;li&gt;puremachinery/carapace: prs: 3 → 4&lt;/li&gt;
-&lt;li&gt;adolfousier/socialcrabs: stars: 35 → 36&lt;/li&gt;
-&lt;li&gt;rayclaw/rayclaw: forks: 5 → 6&lt;/li&gt;
-&lt;li&gt;pinpox/opencrow: stars: 28 → 29, forks: 4 → 5, prs: 0 → 2&lt;/li&gt;
-&lt;li&gt;AbuZar-Ansarii/NanoBot-Android: stars: 25 → 26&lt;/li&gt;
-&lt;li&gt;IPADS-SAI/MobiClaw: prs: 1 → 0, commits: 242 → 244, loc: 38989 → 39012&lt;/li&gt;
-&lt;li&gt;Miosa-osa/OSA: stars: 22 → 24, forks: 12 → 13&lt;/li&gt;
-&lt;li&gt;fastclaw-ai/fastclaw: stars: 299 → 379, forks: 36 → 45, issues: 3 → 5&lt;/li&gt;
-&lt;li&gt;Array-Ventures/coworker: stars: 18 → 20, forks: 7 → 8&lt;/li&gt;
-&lt;li&gt;Aisht669/NetClaw: stars: 17 → 19&lt;/li&gt;
-&lt;li&gt;HenryZ838978/pocketclaw: stars: 11 → 12&lt;/li&gt;
-&lt;li&gt;meso4444/chat-agent-matrix: stars: 3 → 4, forks: 0 → 1&lt;/li&gt;
-&lt;li&gt;jddunn/wunderland: commits: 420 → 444, loc: 96841 → 99542&lt;/li&gt;
-&lt;li&gt;arosstale/openclaw-contributor-skill: prs: 0 → 1&lt;/li&gt;
-&lt;li&gt;Quinnod345/oneiro-oca: commits: 46 → 53, loc: 21466 → 24677&lt;/li&gt;
-&lt;li&gt;tang-vu/ContribAI: stars: 167 → 182, forks: 64 → 70, commits: 99 → 125, loc: 16371 → 42673&lt;/li&gt;
-&lt;li&gt;bedda-tech/familiar: commits: 119 → 126, loc: 21437 → 21537&lt;/li&gt;
-&lt;li&gt;automatedreturns/avery-autodev: stars: 4 → 9, forks: 1 → 4&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
 </feed>
