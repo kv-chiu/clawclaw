@@ -7,12 +7,18 @@
   <id>https://github.com/kv-chiu/clawclaw</id>
   <updated>2026-05-11T00:00:00Z</updated>
   <entry>
-    <title>clawclaw update report 2026-05-11 — 35 project(s) with stats changes</title>
+    <title>clawclaw discover report 2026-05-11 — 3 new project(s), 35 project(s) with stats changes</title>
     <link href="https://kv-chiu.github.io/clawclaw" />
     <id>https://github.com/kv-chiu/clawclaw/report/2026-05-11</id>
     <updated>2026-05-11T00:00:00Z</updated>
-    <summary>35 project(s) with stats changes</summary>
-    <content type="html">&lt;p&gt;Total projects: 176&lt;/p&gt;
+    <summary>3 new project(s), 35 project(s) with stats changes</summary>
+    <content type="html">&lt;p&gt;Total projects: 179&lt;/p&gt;
+&lt;h3&gt;New Projects (3)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/bensenescu/downy"&gt;bensenescu/downy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/api-evangelist/cline"&gt;api-evangelist/cline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Cohhuy/mimo-swe-agent"&gt;Cohhuy/mimo-swe-agent&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Stats Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;openclaw/openclaw: stars: 370333 → 370700, forks: 76501 → 76605, issues: 3836 → 3782, prs: 3752 → 3721, commits: 44882 → 46403&lt;/li&gt;

@@ -1,9 +1,13 @@
 {
   "date": "2026-05-11",
-  "type": "update",
+  "type": "discover",
   "summary": {
-    "total_projects": 176,
-    "new_projects": [],
+    "total_projects": 179,
+    "new_projects": [
+      "bensenescu/downy",
+      "api-evangelist/cline",
+      "Cohhuy/mimo-swe-agent"
+    ],
     "stats_changes": [
       {
         "repo": "openclaw/openclaw",
@@ -1111,6 +1115,19 @@
       "tags": ["Isolated"]
     },
     {
+      "repo": "bensenescu/downy",
+      "language": "TypeScript",
+      "stars": 182,
+      "forks": 26,
+      "issues": 1,
+      "prs": 0,
+      "commits": 168,
+      "loc": 29451,
+      "updated_at": "2026-05-11T11:37:38.294Z",
+      "highlights": "Multi-agent workspace on Cloudflare with custom agents and tools.",
+      "tags": ["Isolated", "Secure"]
+    },
+    {
       "repo": "oujingzhou/openmozi",
       "language": "TypeScript",
       "stars": 180,
@@ -1254,19 +1271,6 @@
       "tags": ["Lightweight", "Secure", "Isolated"]
     },
     {
-      "repo": "zachblume/autospec",
-      "language": "TypeScript",
-      "stars": 59,
-      "forks": 9,
-      "issues": 13,
-      "prs": 8,
-      "commits": 202,
-      "loc": 19850,
-      "updated_at": "2026-05-11T08:53:36.371Z",
-      "highlights": "🧪 AI agent that autonomously tests web apps and saves specs as E2E test code",
-      "tags": ["Lightweight", "Fast", "Auditable"]
-    },
-    {
       "repo": "adolfousier/socialcrabs",
       "language": "TypeScript",
       "stars": 63,
@@ -1280,17 +1284,17 @@
       "tags": ["Secure"]
     },
     {
-      "repo": "mutonby/viraloop",
-      "language": "JavaScript",
-      "stars": 54,
-      "forks": 10,
-      "issues": 0,
-      "prs": 0,
-      "commits": 11,
-      "loc": 1790,
-      "updated_at": "2026-05-11T08:53:38.025Z",
-      "highlights": "🔄 AI tool that auto-generates viral carousels from any website URL",
-      "tags": ["Auditable"]
+      "repo": "zachblume/autospec",
+      "language": "TypeScript",
+      "stars": 59,
+      "forks": 9,
+      "issues": 13,
+      "prs": 8,
+      "commits": 202,
+      "loc": 19850,
+      "updated_at": "2026-05-11T08:53:36.371Z",
+      "highlights": "🧪 AI agent that autonomously tests web apps and saves specs as E2E test code",
+      "tags": ["Lightweight", "Fast", "Auditable"]
     },
     {
       "repo": "elophanto/EloPhanto",
@@ -1304,6 +1308,19 @@
       "updated_at": "2026-05-11T08:53:41.193Z",
       "highlights": "AI agent that builds zero-human businesses, ships code, and grows audiences locally.",
       "tags": ["Secure", "Isolated"]
+    },
+    {
+      "repo": "mutonby/viraloop",
+      "language": "JavaScript",
+      "stars": 54,
+      "forks": 10,
+      "issues": 0,
+      "prs": 0,
+      "commits": 11,
+      "loc": 1790,
+      "updated_at": "2026-05-11T08:53:38.025Z",
+      "highlights": "🔄 AI tool that auto-generates viral carousels from any website URL",
+      "tags": ["Auditable"]
     },
     {
       "repo": "rayclaw/rayclaw",
@@ -1436,30 +1453,17 @@
       "tags": ["Lightweight", "Fast"]
     },
     {
-      "repo": "clinchcc/openclaw-watchdog",
-      "language": "JavaScript",
-      "stars": 23,
+      "repo": "codespar/codespar",
+      "language": "TypeScript",
+      "stars": 27,
       "forks": 5,
       "issues": 0,
-      "prs": 0,
-      "commits": 64,
-      "loc": 2040,
-      "updated_at": "2026-05-11T08:53:52.406Z",
-      "highlights": "Gateway watchdog with auto-restart, rollback, and multi-channel notifications",
-      "tags": ["Auditable", "Secure"]
-    },
-    {
-      "repo": "bejranonda/LLM-Autonomous-Agent-Plugin-for-Claude",
-      "language": "Python",
-      "stars": 22,
-      "forks": 13,
-      "issues": 0,
-      "prs": 0,
-      "commits": 346,
-      "loc": 25566,
-      "updated_at": "2026-05-11T08:53:53.445Z",
-      "highlights": "Claude Code autonomous agent plugin with auto learning, 40+ linters, OWASP security",
-      "tags": ["Secure", "Auditable", "Fast"]
+      "prs": 1,
+      "commits": 314,
+      "loc": 34682,
+      "updated_at": "2026-05-11T08:53:58.962Z",
+      "highlights": "Multi-agent AI coding platform deployed to Slack, WhatsApp, Telegram and Discord.",
+      "tags": ["Auditable"]
     },
     {
       "repo": "neul-labs/openclawMU",
@@ -1473,6 +1477,19 @@
       "updated_at": "2026-05-11T08:53:56.433Z",
       "highlights": "🦞 Multi-tenant fork of OpenClaw AI assistant",
       "tags": ["Secure", "Isolated"]
+    },
+    {
+      "repo": "clinchcc/openclaw-watchdog",
+      "language": "JavaScript",
+      "stars": 23,
+      "forks": 5,
+      "issues": 0,
+      "prs": 0,
+      "commits": 64,
+      "loc": 2040,
+      "updated_at": "2026-05-11T08:53:52.406Z",
+      "highlights": "Gateway watchdog with auto-restart, rollback, and multi-channel notifications",
+      "tags": ["Auditable", "Secure"]
     },
     {
       "repo": "peaktwilight/pwnkit",
@@ -1501,17 +1518,17 @@
       "tags": ["Lightweight", "Isolated"]
     },
     {
-      "repo": "codespar/codespar",
-      "language": "TypeScript",
-      "stars": 27,
-      "forks": 5,
+      "repo": "bejranonda/LLM-Autonomous-Agent-Plugin-for-Claude",
+      "language": "Python",
+      "stars": 22,
+      "forks": 13,
       "issues": 0,
-      "prs": 1,
-      "commits": 314,
-      "loc": 34682,
-      "updated_at": "2026-05-11T08:53:58.962Z",
-      "highlights": "Multi-agent AI coding platform deployed to Slack, WhatsApp, Telegram and Discord.",
-      "tags": ["Auditable"]
+      "prs": 0,
+      "commits": 346,
+      "loc": 25566,
+      "updated_at": "2026-05-11T08:53:53.445Z",
+      "highlights": "Claude Code autonomous agent plugin with auto learning, 40+ linters, OWASP security",
+      "tags": ["Secure", "Auditable", "Fast"]
     },
     {
       "repo": "Dr-Lv/clawdboz",
@@ -1592,19 +1609,6 @@
       "tags": ["Auditable", "Lightweight"]
     },
     {
-      "repo": "dream-syz/openclaw-zero-token",
-      "language": "TypeScript",
-      "stars": 16,
-      "forks": 4,
-      "issues": 0,
-      "prs": 0,
-      "commits": 4,
-      "loc": 666673,
-      "updated_at": "2026-05-11T08:54:04.794Z",
-      "highlights": "Browser automation tool for free AI platform access via session capture",
-      "tags": ["Isolated"]
-    },
-    {
       "repo": "anahata-os/anahata-asi",
       "language": "Java",
       "stars": 18,
@@ -1616,6 +1620,19 @@
       "updated_at": "2026-05-11T08:54:06.644Z",
       "highlights": "🧘 Pure Java AGI/ASI container with JIT execution and context management",
       "tags": ["Auditable", "Isolated"]
+    },
+    {
+      "repo": "dream-syz/openclaw-zero-token",
+      "language": "TypeScript",
+      "stars": 16,
+      "forks": 4,
+      "issues": 0,
+      "prs": 0,
+      "commits": 4,
+      "loc": 666673,
+      "updated_at": "2026-05-11T08:54:04.794Z",
+      "highlights": "Browser automation tool for free AI platform access via session capture",
+      "tags": ["Isolated"]
     },
     {
       "repo": "yogesharc/babyclaw",
@@ -1735,6 +1752,19 @@
       "tags": ["Lightweight", "Isolated"]
     },
     {
+      "repo": "Foxemsx/Artemis",
+      "language": "TypeScript",
+      "stars": 12,
+      "forks": 2,
+      "issues": 0,
+      "prs": 0,
+      "commits": 27,
+      "loc": 38387,
+      "updated_at": "2026-05-11T08:54:18.350Z",
+      "highlights": "Free AI IDE with autonomous agents, Monaco editor, terminal, and 16 themes.",
+      "tags": ["Secure", "Fast"]
+    },
+    {
       "repo": "ArtemisAI/SWE-Squad",
       "language": "Python",
       "stars": 11,
@@ -1746,6 +1776,45 @@
       "updated_at": "2026-05-11T08:54:14.900Z",
       "highlights": "🛡️ Self-healing AI dev team that autonomously fixes production bugs",
       "tags": ["Auditable", "Isolated"]
+    },
+    {
+      "repo": "tashfeenahmed/scallopbot",
+      "language": "TypeScript",
+      "stars": 11,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 620,
+      "loc": 100772,
+      "updated_at": "2026-05-11T08:54:20.064Z",
+      "highlights": "Bio-inspired AI agent with memory, dreams, self-reflection, 7 providers, 9 channels",
+      "tags": ["Lightweight", "Fast"]
+    },
+    {
+      "repo": "Deepank308/hermes-swe-agent",
+      "language": "TypeScript",
+      "stars": 11,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 2,
+      "loc": 7801,
+      "updated_at": "2026-05-11T08:54:20.665Z",
+      "highlights": "Autonomous AI coding agent that turns Linear tickets into PRs with EC2 dev environments and live ...",
+      "tags": ["Auditable", "Isolated"]
+    },
+    {
+      "repo": "just-claw-it/n8n-to-claw",
+      "language": "TypeScript",
+      "stars": 11,
+      "forks": 1,
+      "issues": 0,
+      "prs": 0,
+      "commits": 13,
+      "loc": 15335,
+      "updated_at": "2026-05-11T08:54:21.326Z",
+      "highlights": "CLI converting n8n workflow JSON to OpenClaw skills via LLM",
+      "tags": ["Lightweight"]
     },
     {
       "repo": "Sherin-SEF-AI/code-genie",
@@ -1787,19 +1856,6 @@
       "tags": ["Fast", "Auditable"]
     },
     {
-      "repo": "Foxemsx/Artemis",
-      "language": "TypeScript",
-      "stars": 12,
-      "forks": 2,
-      "issues": 0,
-      "prs": 0,
-      "commits": 27,
-      "loc": 38387,
-      "updated_at": "2026-05-11T08:54:18.350Z",
-      "highlights": "Free AI IDE with autonomous agents, Monaco editor, terminal, and 16 themes.",
-      "tags": ["Secure", "Fast"]
-    },
-    {
       "repo": "san-techie21/gulama-bot",
       "language": "Python",
       "stars": 10,
@@ -1811,45 +1867,6 @@
       "updated_at": "2026-05-11T08:54:19.118Z",
       "highlights": "🔒 Security-first personal AI agent with 19 skills, 10 channels, 100+ LLM providers",
       "tags": ["Secure", "Isolated", "Office Assistant"]
-    },
-    {
-      "repo": "tashfeenahmed/scallopbot",
-      "language": "TypeScript",
-      "stars": 11,
-      "forks": 0,
-      "issues": 0,
-      "prs": 0,
-      "commits": 620,
-      "loc": 100772,
-      "updated_at": "2026-05-11T08:54:20.064Z",
-      "highlights": "Bio-inspired AI agent with memory, dreams, self-reflection, 7 providers, 9 channels",
-      "tags": ["Lightweight", "Fast"]
-    },
-    {
-      "repo": "Deepank308/hermes-swe-agent",
-      "language": "TypeScript",
-      "stars": 11,
-      "forks": 0,
-      "issues": 0,
-      "prs": 0,
-      "commits": 2,
-      "loc": 7801,
-      "updated_at": "2026-05-11T08:54:20.665Z",
-      "highlights": "Autonomous AI coding agent that turns Linear tickets into PRs with EC2 dev environments and live ...",
-      "tags": ["Auditable", "Isolated"]
-    },
-    {
-      "repo": "just-claw-it/n8n-to-claw",
-      "language": "TypeScript",
-      "stars": 11,
-      "forks": 1,
-      "issues": 0,
-      "prs": 0,
-      "commits": 13,
-      "loc": 15335,
-      "updated_at": "2026-05-11T08:54:21.326Z",
-      "highlights": "CLI converting n8n workflow JSON to OpenClaw skills via LLM",
-      "tags": ["Lightweight"]
     },
     {
       "repo": "automatedreturns/avery-autodev",
@@ -2008,19 +2025,6 @@
       "tags": ["Secure", "Isolated"]
     },
     {
-      "repo": "0xD-Fabio/openclaw-claude-code-adapter",
-      "language": "Python",
-      "stars": 4,
-      "forks": 0,
-      "issues": 0,
-      "prs": 0,
-      "commits": 3,
-      "loc": 2144,
-      "updated_at": "2026-05-11T08:54:31.867Z",
-      "highlights": "🔌 Routes OpenClaw agents through Claude Code via OpenAI-compatible HTTP server",
-      "tags": ["Auditable", "Lightweight"]
-    },
-    {
       "repo": "meso4444/chat-agent-matrix",
       "language": "Python",
       "stars": 5,
@@ -2097,6 +2101,19 @@
       "updated_at": "2026-05-11T08:54:35.577Z",
       "highlights": "🤖 Control Claude Code from your phone via chat apps with live dashboard & monitoring",
       "tags": ["Fast"]
+    },
+    {
+      "repo": "0xD-Fabio/openclaw-claude-code-adapter",
+      "language": "Python",
+      "stars": 4,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 3,
+      "loc": 2144,
+      "updated_at": "2026-05-11T08:54:31.867Z",
+      "highlights": "🔌 Routes OpenClaw agents through Claude Code via OpenAI-compatible HTTP server",
+      "tags": ["Auditable", "Lightweight"]
     },
     {
       "repo": "RustClawBot/rustclaw",
@@ -2955,6 +2972,32 @@
       "updated_at": "2026-05-11T08:56:57.282Z",
       "highlights": "Local offline voice assistant with dual-brain AI for speech and shell commands",
       "tags": ["Fast", "Secure", "Isolated"]
+    },
+    {
+      "repo": "api-evangelist/cline",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 2,
+      "loc": 253,
+      "updated_at": "2026-05-11T11:37:52.433Z",
+      "highlights": "Cline: open-source AI coding agent for VS Code",
+      "tags": ["Lightweight", "Auditable"]
+    },
+    {
+      "repo": "Cohhuy/mimo-swe-agent",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "prs": 0,
+      "commits": 1,
+      "loc": 4773,
+      "updated_at": "2026-05-11T11:38:17.329Z",
+      "highlights": "🤖 Autonomous SWE-Agent reads GitHub issues → writes code → runs tests → creates PRs",
+      "tags": ["Auditable"]
     }
   ]
 }
