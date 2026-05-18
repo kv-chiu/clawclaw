@@ -7,12 +7,23 @@
   <id>https://github.com/kv-chiu/clawclaw</id>
   <updated>2026-05-18T00:00:00Z</updated>
   <entry>
-    <title>clawclaw update report 2026-05-18 — 38 project(s) with stats changes</title>
+    <title>clawclaw discover report 2026-05-18 — 8 new project(s), 38 project(s) with stats changes</title>
     <link href="https://kv-chiu.github.io/clawclaw" />
     <id>https://github.com/kv-chiu/clawclaw/report/2026-05-18</id>
     <updated>2026-05-18T00:00:00Z</updated>
-    <summary>38 project(s) with stats changes</summary>
-    <content type="html">&lt;p&gt;Total projects: 179&lt;/p&gt;
+    <summary>8 new project(s), 38 project(s) with stats changes</summary>
+    <content type="html">&lt;p&gt;Total projects: 187&lt;/p&gt;
+&lt;h3&gt;New Projects (8)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/nanocoai/nanoclaw"&gt;nanocoai/nanoclaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/temurkhan13/openclaw-skill-vetter-mcp"&gt;temurkhan13/openclaw-skill-vetter-mcp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/unbrowse-ai/unbrowse"&gt;unbrowse-ai/unbrowse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/wangd237/swe-agent"&gt;wangd237/swe-agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/maruakshay/miii-cli"&gt;maruakshay/miii-cli&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/HackWidMaddy/OpenCodex"&gt;HackWidMaddy/OpenCodex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/oumaima-benha/AI-software-engineer-agent"&gt;oumaima-benha/AI-software-engineer-agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/mubtakir/Agent-Majnoon"&gt;mubtakir/Agent-Majnoon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Stats Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;openclaw/openclaw: stars: 372508 → 372827, forks: 77201 → 77302, issues: 3481 → 3535, prs: 3440 → 3498, commits: 50437 → 50774&lt;/li&gt;
