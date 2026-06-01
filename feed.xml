@@ -7,12 +7,22 @@
   <id>https://github.com/kv-chiu/clawclaw</id>
   <updated>2026-06-01T00:00:00Z</updated>
   <entry>
-    <title>clawclaw update report 2026-06-01 — 46 project(s) with stats changes</title>
+    <title>clawclaw discover report 2026-06-01 — 7 new project(s), 46 project(s) with stats changes</title>
     <link href="https://kv-chiu.github.io/clawclaw" />
     <id>https://github.com/kv-chiu/clawclaw/report/2026-06-01</id>
     <updated>2026-06-01T00:00:00Z</updated>
-    <summary>46 project(s) with stats changes</summary>
-    <content type="html">&lt;p&gt;Total projects: 192&lt;/p&gt;
+    <summary>7 new project(s), 46 project(s) with stats changes</summary>
+    <content type="html">&lt;p&gt;Total projects: 199&lt;/p&gt;
+&lt;h3&gt;New Projects (7)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/AaronZ345/codebase-argus"&gt;AaronZ345/codebase-argus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ChaceLcq/Openclaw-Android"&gt;ChaceLcq/Openclaw-Android&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/vostride/agent-qa"&gt;vostride/agent-qa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Kingdaddy007/my-os"&gt;Kingdaddy007/my-os&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/tocodex-ai/tocodex-community"&gt;tocodex-ai/tocodex-community&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/skywalker-labs/roo-code"&gt;skywalker-labs/roo-code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/mithun-27/AI-Software-Engineer-Agent"&gt;mithun-27/AI-Software-Engineer-Agent&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Stats Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;openclaw/openclaw: stars: 375752 → 375972, forks: 78437 → 78513, issues: 4001 → 3891, prs: 3075 → 3030, commits: 55196 → 55950&lt;/li&gt;
