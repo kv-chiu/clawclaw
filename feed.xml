@@ -7,12 +7,20 @@
   <id>https://github.com/kv-chiu/clawclaw</id>
   <updated>2026-06-08T00:00:00Z</updated>
   <entry>
-    <title>clawclaw update report 2026-06-08 — 32 project(s) with stats changes</title>
+    <title>clawclaw discover report 2026-06-08 — 5 new project(s), 32 project(s) with stats changes</title>
     <link href="https://kv-chiu.github.io/clawclaw" />
     <id>https://github.com/kv-chiu/clawclaw/report/2026-06-08</id>
     <updated>2026-06-08T00:00:00Z</updated>
-    <summary>32 project(s) with stats changes</summary>
-    <content type="html">&lt;p&gt;Total projects: 199&lt;/p&gt;
+    <summary>5 new project(s), 32 project(s) with stats changes</summary>
+    <content type="html">&lt;p&gt;Total projects: 204&lt;/p&gt;
+&lt;h3&gt;New Projects (5)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/1001WillsStudio/AuroraCoder"&gt;1001WillsStudio/AuroraCoder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/alexandremourin/patch"&gt;alexandremourin/patch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/itsjwill/BillyClaw"&gt;itsjwill/BillyClaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/pioneerdotai/pioneer"&gt;pioneerdotai/pioneer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/lewisyoung0914/cc-connect-pro"&gt;lewisyoung0914/cc-connect-pro&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Stats Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;openclaw/openclaw: stars: 377338 → 377532, forks: 78882 → 78931, issues: 4188 → 4225, prs: 3635 → 3690, commits: 57940 → 58017&lt;/li&gt;
