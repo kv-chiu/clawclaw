@@ -7,12 +7,21 @@
   <id>https://github.com/kv-chiu/clawclaw</id>
   <updated>2026-06-15T00:00:00Z</updated>
   <entry>
-    <title>clawclaw update report 2026-06-15 — 42 project(s) with stats changes</title>
+    <title>clawclaw discover report 2026-06-15 — 6 new project(s), 42 project(s) with stats changes</title>
     <link href="https://kv-chiu.github.io/clawclaw" />
     <id>https://github.com/kv-chiu/clawclaw/report/2026-06-15</id>
     <updated>2026-06-15T00:00:00Z</updated>
-    <summary>42 project(s) with stats changes</summary>
-    <content type="html">&lt;p&gt;Total projects: 204&lt;/p&gt;
+    <summary>6 new project(s), 42 project(s) with stats changes</summary>
+    <content type="html">&lt;p&gt;Total projects: 210&lt;/p&gt;
+&lt;h3&gt;New Projects (6)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/LightHaru/agentbrain"&gt;LightHaru/agentbrain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/andrehuang/claude-claw"&gt;andrehuang/claude-claw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/phuetz/code-buddy"&gt;phuetz/code-buddy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/noelpuig/claude-explains"&gt;noelpuig/claude-explains&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Cudane/Crosire"&gt;Cudane/Crosire&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jaggerjack61/Harness"&gt;jaggerjack61/Harness&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Stats Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;openclaw/openclaw: stars: 378617 → 378794, forks: 79183 → 79245, issues: 3784 → 3377, prs: 3464 → 3085, commits: 58829 → 58963&lt;/li&gt;
