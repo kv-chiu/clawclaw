@@ -7,12 +7,16 @@
   <id>https://github.com/kv-chiu/clawclaw</id>
   <updated>2026-07-06T00:00:00Z</updated>
   <entry>
-    <title>clawclaw update report 2026-07-06 — 37 project(s) with stats changes</title>
+    <title>clawclaw discover report 2026-07-06 — 1 new project(s), 37 project(s) with stats changes</title>
     <link href="https://kv-chiu.github.io/clawclaw" />
     <id>https://github.com/kv-chiu/clawclaw/report/2026-07-06</id>
     <updated>2026-07-06T00:00:00Z</updated>
-    <summary>37 project(s) with stats changes</summary>
-    <content type="html">&lt;p&gt;Total projects: 210&lt;/p&gt;
+    <summary>1 new project(s), 37 project(s) with stats changes</summary>
+    <content type="html">&lt;p&gt;Total projects: 211&lt;/p&gt;
+&lt;h3&gt;New Projects (1)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/TharukshiDiyunugala/agentic-ai-engineering-system"&gt;TharukshiDiyunugala/agentic-ai-engineering-system&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Stats Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;openclaw/openclaw: stars: 381786 → 381892, forks: 80051 → 80104, issues: 3593 → 3504, prs: 3426 → 2917, commits: 64130 → 64584&lt;/li&gt;
