@@ -7,12 +7,33 @@
   <id>https://github.com/kv-chiu/clawclaw</id>
   <updated>2026-07-13T00:00:00Z</updated>
   <entry>
-    <title>clawclaw update report 2026-07-13 — 41 project(s) with stats changes</title>
+    <title>clawclaw discover report 2026-07-13 — 18 new project(s), 41 project(s) with stats changes</title>
     <link href="https://kv-chiu.github.io/clawclaw" />
     <id>https://github.com/kv-chiu/clawclaw/report/2026-07-13</id>
     <updated>2026-07-13T00:00:00Z</updated>
-    <summary>41 project(s) with stats changes</summary>
-    <content type="html">&lt;p&gt;Total projects: 211&lt;/p&gt;
+    <summary>18 new project(s), 41 project(s) with stats changes</summary>
+    <content type="html">&lt;p&gt;Total projects: 229&lt;/p&gt;
+&lt;h3&gt;New Projects (18)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/swarmclawai/swarmvault"&gt;swarmclawai/swarmvault&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/darkamenosa/openzca"&gt;darkamenosa/openzca&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/composio-community/openclaw-composio"&gt;composio-community/openclaw-composio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/VisionaireLabs/Visionaire"&gt;VisionaireLabs/Visionaire&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/composio-community/secure-openclaw"&gt;composio-community/secure-openclaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/spinabot/brigade"&gt;spinabot/brigade&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/OpenAnalystInc/OpenAnalyst-public"&gt;OpenAnalystInc/OpenAnalyst-public&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/sumitsingh4411/repo-agent"&gt;sumitsingh4411/repo-agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/issachar-vin/dem"&gt;issachar-vin/dem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/rafaelcastro7/Rain"&gt;rafaelcastro7/Rain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jmstajim/NanoTeams"&gt;jmstajim/NanoTeams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/app-vitals/shipwright"&gt;app-vitals/shipwright&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/IamNishant51/Custom-PI"&gt;IamNishant51/Custom-PI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/realrobotteam/fibonacci-AI-coding-agent"&gt;realrobotteam/fibonacci-AI-coding-agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/gaurav0107/superhuman"&gt;gaurav0107/superhuman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/appssemble/agenhood"&gt;appssemble/agenhood&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Nagraj-13/OpenCode-CLI"&gt;Nagraj-13/OpenCode-CLI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Jia-520-only/Miya"&gt;Jia-520-only/Miya&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Stats Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;openclaw/openclaw: stars: 382644 → 382759, forks: 80305 → 80334, issues: 3595 → 3691, prs: 2814 → 2721, commits: 66834 → 67628&lt;/li&gt;
