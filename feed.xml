@@ -7,12 +7,24 @@
   <id>https://github.com/kv-chiu/clawclaw</id>
   <updated>2026-07-20T00:00:00Z</updated>
   <entry>
-    <title>clawclaw update report 2026-07-20 — 35 project(s) with stats changes</title>
+    <title>clawclaw discover report 2026-07-20 — 9 new project(s), 35 project(s) with stats changes</title>
     <link href="https://kv-chiu.github.io/clawclaw" />
     <id>https://github.com/kv-chiu/clawclaw/report/2026-07-20</id>
     <updated>2026-07-20T00:00:00Z</updated>
-    <summary>35 project(s) with stats changes</summary>
-    <content type="html">&lt;p&gt;Total projects: 229&lt;/p&gt;
+    <summary>9 new project(s), 35 project(s) with stats changes</summary>
+    <content type="html">&lt;p&gt;Total projects: 238&lt;/p&gt;
+&lt;h3&gt;New Projects (9)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/thiagovarela/clankie"&gt;thiagovarela/clankie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant"&gt;Natively-AI-assistant/natively-cluely-ai-assistant&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/owainlewis/push"&gt;owainlewis/push&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/azukaar/plurality"&gt;azukaar/plurality&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Suren878/matrixclaw"&gt;Suren878/matrixclaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/formulahendry/wechat-acp"&gt;formulahendry/wechat-acp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Kivitas/CLI-CODER"&gt;Kivitas/CLI-CODER&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/larrymargerum01/OpenHands"&gt;larrymargerum01/OpenHands&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/thomasnrs/Lumi_Agent"&gt;thomasnrs/Lumi_Agent&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Stats Changes&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;openclaw/openclaw: stars: 383430 → 383533, forks: 80536 → 80563, issues: 3879 → 3895, prs: 2981 → 3029, commits: 70635 → 70852&lt;/li&gt;
