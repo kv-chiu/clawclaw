@@ -1,4 +1,787 @@
 {
+  "date": "2026-08-17",
+  "type": "update",
+  "summary": {
+    "total_projects": 238,
+    "new_projects": [],
+    "stats_changes": [
+      {
+        "repo": "openclaw/openclaw",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 386424,
+            "new": 386504
+          },
+          {
+            "field": "forks",
+            "old": 81210,
+            "new": 81216
+          },
+          {
+            "field": "issues",
+            "old": 3386,
+            "new": 3399
+          },
+          {
+            "field": "prs",
+            "old": 2147,
+            "new": 2187
+          },
+          {
+            "field": "commits",
+            "old": 79706,
+            "new": 80101
+          }
+        ]
+      },
+      {
+        "repo": "NousResearch/hermes-agent",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 231175,
+            "new": 231650
+          },
+          {
+            "field": "forks",
+            "old": 45933,
+            "new": 46090
+          },
+          {
+            "field": "issues",
+            "old": 10855,
+            "new": 10888
+          },
+          {
+            "field": "prs",
+            "old": 21466,
+            "new": 21599
+          },
+          {
+            "field": "commits",
+            "old": 23016,
+            "new": 23327
+          }
+        ]
+      },
+      {
+        "repo": "Aider-AI/aider",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 48253,
+            "new": 48276
+          },
+          {
+            "field": "forks",
+            "old": 4845,
+            "new": 4850
+          },
+          {
+            "field": "issues",
+            "old": 1337,
+            "new": 1340
+          },
+          {
+            "field": "prs",
+            "old": 464,
+            "new": 466
+          }
+        ]
+      },
+      {
+        "repo": "HKUDS/nanobot",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 47049,
+            "new": 47075
+          },
+          {
+            "field": "forks",
+            "old": 8310,
+            "new": 8318
+          },
+          {
+            "field": "issues",
+            "old": 197,
+            "new": 194
+          },
+          {
+            "field": "prs",
+            "old": 510,
+            "new": 512
+          },
+          {
+            "field": "commits",
+            "old": 3975,
+            "new": 3979
+          },
+          {
+            "field": "loc",
+            "old": 328195,
+            "new": 328539
+          }
+        ]
+      },
+      {
+        "repo": "moeru-ai/airi",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 47936,
+            "new": 47967
+          },
+          {
+            "field": "forks",
+            "old": 4754,
+            "new": 4756
+          },
+          {
+            "field": "prs",
+            "old": 109,
+            "new": 108
+          },
+          {
+            "field": "commits",
+            "old": 4219,
+            "new": 4224
+          }
+        ]
+      },
+      {
+        "repo": "AstrBotDevs/AstrBot",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 39229,
+            "new": 39271
+          },
+          {
+            "field": "forks",
+            "old": 2801,
+            "new": 2800
+          }
+        ]
+      },
+      {
+        "repo": "nanocoai/nanoclaw",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 30512,
+            "new": 30524
+          },
+          {
+            "field": "forks",
+            "old": 12858,
+            "new": 12854
+          },
+          {
+            "field": "issues",
+            "old": 317,
+            "new": 316
+          },
+          {
+            "field": "prs",
+            "old": 582,
+            "new": 568
+          },
+          {
+            "field": "commits",
+            "old": 2359,
+            "new": 2420
+          },
+          {
+            "field": "loc",
+            "old": 60854,
+            "new": 66909
+          }
+        ]
+      },
+      {
+        "repo": "qwibitai/nanoclaw",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 30512,
+            "new": 30524
+          },
+          {
+            "field": "forks",
+            "old": 12858,
+            "new": 12854
+          },
+          {
+            "field": "issues",
+            "old": 317,
+            "new": 316
+          },
+          {
+            "field": "prs",
+            "old": 582,
+            "new": 568
+          },
+          {
+            "field": "commits",
+            "old": 2359,
+            "new": 2420
+          },
+          {
+            "field": "loc",
+            "old": 60854,
+            "new": 66909
+          }
+        ]
+      },
+      {
+        "repo": "chenhg5/cc-connect",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 14966,
+            "new": 14993
+          },
+          {
+            "field": "forks",
+            "old": 1459,
+            "new": 1464
+          },
+          {
+            "field": "issues",
+            "old": 250,
+            "new": 246
+          },
+          {
+            "field": "prs",
+            "old": 284,
+            "new": 289
+          },
+          {
+            "field": "commits",
+            "old": 1191,
+            "new": 1197
+          },
+          {
+            "field": "loc",
+            "old": 189706,
+            "new": 190980
+          }
+        ]
+      },
+      {
+        "repo": "nearai/ironclaw",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 12604,
+            "new": 12603
+          },
+          {
+            "field": "issues",
+            "old": 1270,
+            "new": 1276
+          },
+          {
+            "field": "prs",
+            "old": 229,
+            "new": 230
+          },
+          {
+            "field": "commits",
+            "old": 3918,
+            "new": 3919
+          }
+        ]
+      },
+      {
+        "repo": "1186258278/OpenClawChineseTranslation",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 3812,
+            "new": 3813
+          }
+        ]
+      },
+      {
+        "repo": "Natively-AI-assistant/natively-cluely-ai-assistant",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 2244,
+            "new": 2258
+          },
+          {
+            "field": "forks",
+            "old": 506,
+            "new": 511
+          },
+          {
+            "field": "issues",
+            "old": 41,
+            "new": 42
+          },
+          {
+            "field": "commits",
+            "old": 2588,
+            "new": 2708
+          }
+        ]
+      },
+      {
+        "repo": "win4r/ClawTeam-OpenClaw",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 1437,
+            "new": 1439
+          }
+        ]
+      },
+      {
+        "repo": "poco-ai/poco-claw",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 1349,
+            "new": 1350
+          }
+        ]
+      },
+      {
+        "repo": "fastclaw-ai/fastclaw",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 1283,
+            "new": 1285
+          },
+          {
+            "field": "forks",
+            "old": 212,
+            "new": 214
+          }
+        ]
+      },
+      {
+        "repo": "ComposioHQ/secure-openclaw",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 1189,
+            "new": 1190
+          }
+        ]
+      },
+      {
+        "repo": "composio-community/secure-openclaw",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 1189,
+            "new": 1190
+          }
+        ]
+      },
+      {
+        "repo": "SimonSchubert/Kai",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 1170,
+            "new": 1172
+          }
+        ]
+      },
+      {
+        "repo": "grinev/opencode-telegram-bot",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 1037,
+            "new": 1043
+          },
+          {
+            "field": "forks",
+            "old": 179,
+            "new": 180
+          }
+        ]
+      },
+      {
+        "repo": "formulahendry/wechat-acp",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 811,
+            "new": 812
+          }
+        ]
+      },
+      {
+        "repo": "SafeRL-Lab/cheetahclaws",
+        "changes": [
+          {
+            "field": "forks",
+            "old": 269,
+            "new": 268
+          },
+          {
+            "field": "prs",
+            "old": 13,
+            "new": 12
+          },
+          {
+            "field": "commits",
+            "old": 784,
+            "new": 792
+          },
+          {
+            "field": "loc",
+            "old": 115333,
+            "new": 116237
+          }
+        ]
+      },
+      {
+        "repo": "microclaw/microclaw",
+        "changes": [
+          {
+            "field": "commits",
+            "old": 1131,
+            "new": 1132
+          },
+          {
+            "field": "loc",
+            "old": 175801,
+            "new": 175443
+          }
+        ]
+      },
+      {
+        "repo": "mindsdb/anton",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 740,
+            "new": 739
+          },
+          {
+            "field": "prs",
+            "old": 15,
+            "new": 14
+          },
+          {
+            "field": "commits",
+            "old": 1464,
+            "new": 1465
+          },
+          {
+            "field": "loc",
+            "old": 79475,
+            "new": 85898
+          }
+        ]
+      },
+      {
+        "repo": "spinabot/brigade",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 2708,
+            "new": 2743
+          }
+        ]
+      },
+      {
+        "repo": "vostride/agent-qa",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 792,
+            "new": 864
+          }
+        ]
+      },
+      {
+        "repo": "elophanto/EloPhanto",
+        "changes": [
+          {
+            "field": "commits",
+            "old": 643,
+            "new": 675
+          },
+          {
+            "field": "loc",
+            "old": 205461,
+            "new": 212913
+          }
+        ]
+      },
+      {
+        "repo": "owainlewis/push",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 174,
+            "new": 175
+          }
+        ]
+      },
+      {
+        "repo": "Miosa-osa/OSA",
+        "changes": [
+          {
+            "field": "issues",
+            "old": 0,
+            "new": 1
+          },
+          {
+            "field": "prs",
+            "old": 4,
+            "new": 1
+          },
+          {
+            "field": "commits",
+            "old": 682,
+            "new": 765
+          },
+          {
+            "field": "loc",
+            "old": 450467,
+            "new": 431469
+          }
+        ]
+      },
+      {
+        "repo": "HenryZ838978/pocketclaw",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 33,
+            "new": 34
+          }
+        ]
+      },
+      {
+        "repo": "Jia-520-only/Miya",
+        "changes": [
+          {
+            "field": "loc",
+            "old": 0,
+            "new": 548675
+          }
+        ]
+      },
+      {
+        "repo": "codespar/codespar",
+        "changes": [
+          {
+            "field": "prs",
+            "old": 0,
+            "new": 1
+          }
+        ]
+      },
+      {
+        "repo": "phuetz/code-buddy",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 32,
+            "new": 33
+          },
+          {
+            "field": "loc",
+            "old": 0,
+            "new": 1649291
+          }
+        ]
+      },
+      {
+        "repo": "anahata-os/anahata-asi",
+        "changes": [
+          {
+            "field": "commits",
+            "old": 1777,
+            "new": 1800
+          },
+          {
+            "field": "loc",
+            "old": 75445,
+            "new": 75899
+          }
+        ]
+      },
+      {
+        "repo": "Foxemsx/Artemis",
+        "changes": [
+          {
+            "field": "issues",
+            "old": 1,
+            "new": 2
+          }
+        ]
+      },
+      {
+        "repo": "1001WillsStudio/AuroraCoder",
+        "changes": [
+          {
+            "field": "prs",
+            "old": 9,
+            "new": 10
+          }
+        ]
+      },
+      {
+        "repo": "jmstajim/NanoTeams",
+        "changes": [
+          {
+            "field": "commits",
+            "old": 99,
+            "new": 100
+          },
+          {
+            "field": "loc",
+            "old": 290624,
+            "new": 291692
+          }
+        ]
+      },
+      {
+        "repo": "crypdick/pynchy",
+        "changes": [
+          {
+            "field": "prs",
+            "old": 1,
+            "new": 0
+          },
+          {
+            "field": "commits",
+            "old": 3859,
+            "new": 3906
+          },
+          {
+            "field": "loc",
+            "old": 242871,
+            "new": 245642
+          }
+        ]
+      },
+      {
+        "repo": "LightHaru/agentbrain",
+        "changes": [
+          {
+            "field": "forks",
+            "old": 101,
+            "new": 100
+          }
+        ]
+      },
+      {
+        "repo": "app-vitals/shipwright",
+        "changes": [
+          {
+            "field": "prs",
+            "old": 1,
+            "new": 0
+          },
+          {
+            "field": "commits",
+            "old": 2254,
+            "new": 2256
+          }
+        ]
+      },
+      {
+        "repo": "pioneerdotai/pioneer",
+        "changes": [
+          {
+            "field": "commits",
+            "old": 873,
+            "new": 879
+          },
+          {
+            "field": "loc",
+            "old": 1192663,
+            "new": 1195013
+          }
+        ]
+      },
+      {
+        "repo": "larrymargerum01/OpenHands",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 6,
+            "new": 5
+          }
+        ]
+      },
+      {
+        "repo": "Quinnod345/oneiro-oca",
+        "changes": [
+          {
+            "field": "loc",
+            "old": 2093558,
+            "new": 0
+          }
+        ]
+      },
+      {
+        "repo": "bedda-tech/familiar",
+        "changes": [
+          {
+            "field": "stars",
+            "old": 2,
+            "new": 3
+          },
+          {
+            "field": "issues",
+            "old": 9,
+            "new": 8
+          },
+          {
+            "field": "commits",
+            "old": 1627,
+            "new": 1646
+          },
+          {
+            "field": "loc",
+            "old": 122788,
+            "new": 123514
+          }
+        ]
+      },
+      {
+        "repo": "api-evangelist/aider",
+        "changes": [
+          {
+            "field": "commits",
+            "old": 26,
+            "new": 27
+          }
+        ]
+      },
+      {
+        "repo": "api-evangelist/openhands",
+        "changes": [
+          {
+            "field": "commits",
+            "old": 18,
+            "new": 19
+          },
+          {
+            "field": "loc",
+            "old": 17394,
+            "new": 17395
+          }
+        ]
+      }
+    ]
+  },
   "projects": [
     {
       "repo": "openclaw/openclaw",
